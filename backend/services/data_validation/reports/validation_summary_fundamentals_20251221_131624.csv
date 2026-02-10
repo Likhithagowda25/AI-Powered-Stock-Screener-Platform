@@ -1,0 +1,4 @@
+Ticker,Issue Type,Severity,Affected Period,Field,Count,Percentage,Action,Message
+POWERGRID.NS,missing_important,MEDIUM,N/A,total_assets,3,60.0,flag,Missing important field 'total_assets' in 3/5 records
+POWERGRID.NS,missing_important,MEDIUM,N/A,total_debt,3,60.0,flag,Missing important field 'total_debt' in 3/5 records
+POWERGRID.NS,missing_important,MEDIUM,N/A,free_cash_flow,5,100.0,flag,Missing important field 'free_cash_flow' in 5/5 records

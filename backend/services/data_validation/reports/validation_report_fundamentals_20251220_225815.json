@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-12-20T22:58:15.992423",
+  "data_type": "fundamentals",
+  "total_records": 7,
+  "clean_records": 0,
+  "skipped_records": 7,
+  "total_issues": 6,
+  "severity_breakdown": {
+    "critical": 2,
+    "high": 0,
+    "medium": 4,
+    "low": 0
+  },
+  "skipped_tickers": [
+    "ICICIBANK.NS"
+  ],
+  "flagged_count": 4,
+  "issues": [
+    {
+      "ticker": "ICICIBANK.NS",
+      "field": "revenue",
+      "issue_type": "missing_mandatory",
+      "severity": "CRITICAL",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "skip",
+      "message": "Missing mandatory field 'revenue' in 2/7 records"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "field": "net_income",
+      "issue_type": "missing_mandatory",
+      "severity": "CRITICAL",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "skip",
+      "message": "Missing mandatory field 'net_income' in 2/7 records"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "field": "ebitda",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "7",
+      "total_records": 7,
+      "percentage": 100.0,
+      "action": "flag",
+      "message": "Missing important field 'ebitda' in 7/7 records"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "field": "total_assets",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "flag",
+      "message": "Missing important field 'total_assets' in 2/7 records"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "field": "total_debt",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "flag",
+      "message": "Missing important field 'total_debt' in 2/7 records"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "field": "free_cash_flow",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "7",
+      "total_records": 7,
+      "percentage": 100.0,
+      "action": "flag",
+      "message": "Missing important field 'free_cash_flow' in 7/7 records"
+    }
+  ]
+}

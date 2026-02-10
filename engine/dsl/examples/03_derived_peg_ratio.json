@@ -1,0 +1,34 @@
+{
+  "description": "Undervalued stocks using PEG ratio",
+  "natural_language": "Find stocks with PEG ratio < 1 indicating potential undervaluation",
+  "category": "derived_metrics",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "peg_ratio",
+          "operator": "<",
+          "value": 1
+        },
+        {
+          "field": "pe_ratio",
+          "operator": "between",
+          "value": [5, 25]
+        },
+        {
+          "field": "eps_growth",
+          "operator": ">",
+          "value": 10
+        }
+      ]
+    },
+    "meta": {
+      "sector": "IT"
+    },
+    "sort": {
+      "field": "peg_ratio",
+      "order": "asc"
+    },
+    "limit": 20
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "total_stocks": 1,
+    "average_quality_score": 64.7,
+    "min_quality_score": 64.7,
+    "max_quality_score": 64.7,
+    "stocks_above_80_percent": 0,
+    "stocks_below_50_percent": 0,
+    "timestamp": "2026-01-23T18:06:55.968219"
+  },
+  "missing_field_counts": {
+    "peg_ratio": 1,
+    "roe": 1,
+    "roa": 1,
+    "dividend_yield": 1,
+    "operating_margin": 1,
+    "current_ratio": 1,
+    "name": 0,
+    "sector": 0,
+    "industry": 0,
+    "market_cap": 0,
+    "current_price": 0,
+    "pe_ratio": 0,
+    "pb_ratio": 0,
+    "debt_to_equity": 0,
+    "revenue": 0,
+    "net_income": 0,
+    "eps": 0
+  },
+  "worst_stocks": [
+    {
+      "ticker": "BORANA.NS",
+      "total_fields": 17,
+      "populated_fields": 11,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-23T18:06:32.065398",
+      "quality_score": 64.7
+    }
+  ],
+  "best_stocks": [
+    {
+      "ticker": "BORANA.NS",
+      "total_fields": 17,
+      "populated_fields": 11,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-23T18:06:32.065398",
+      "quality_score": 64.7
+    }
+  ],
+  "stocks_needing_fallback": [
+    "BORANA.NS"
+  ],
+  "generated_at": "2026-01-23T18:06:55.968824"
+}

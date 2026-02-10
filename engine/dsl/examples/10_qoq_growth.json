@@ -1,0 +1,38 @@
+{
+  "description": "Quarter-over-quarter growth analysis",
+  "natural_language": "Find stocks with increasing EPS quarter-over-quarter for last 6 quarters",
+  "category": "qoq_analysis",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "eps",
+          "operator": "increasing",
+          "period": {
+            "type": "quarter_over_quarter",
+            "n": 6,
+            "aggregation": "trend"
+          },
+          "trend_config": {
+            "direction": "increasing",
+            "min_periods": 6,
+            "consecutive": true
+          }
+        },
+        {
+          "field": "pe_ratio",
+          "operator": "between",
+          "value": [8, 22]
+        }
+      ]
+    },
+    "meta": {
+      "exchange": "NSE"
+    },
+    "sort": {
+      "field": "eps_growth",
+      "order": "desc"
+    },
+    "limit": 25
+  }
+}

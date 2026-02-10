@@ -1,0 +1,407 @@
+{
+  "summary": {
+    "total_stocks": 10,
+    "average_quality_score": 68.8,
+    "min_quality_score": 11.8,
+    "max_quality_score": 82.4,
+    "stocks_above_80_percent": 2,
+    "stocks_below_50_percent": 1,
+    "timestamp": "2026-01-22T20:40:38.423745"
+  },
+  "missing_field_counts": {
+    "peg_ratio": 10,
+    "operating_margin": 10,
+    "current_ratio": 10,
+    "dividend_yield": 4,
+    "pe_ratio": 3,
+    "roe": 3,
+    "roa": 3,
+    "debt_to_equity": 3,
+    "sector": 1,
+    "industry": 1,
+    "market_cap": 1,
+    "pb_ratio": 1,
+    "revenue": 1,
+    "net_income": 1,
+    "eps": 1,
+    "name": 0,
+    "current_price": 0
+  },
+  "worst_stocks": [
+    {
+      "ticker": "3PLAND.NS",
+      "total_fields": 17,
+      "populated_fields": 2,
+      "missing_fields": [
+        "sector",
+        "industry",
+        "market_cap",
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:06.945854",
+      "quality_score": 11.8
+    },
+    {
+      "ticker": "5PAISA.NS",
+      "total_fields": 17,
+      "populated_fields": 11,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:14.706494",
+      "quality_score": 64.7
+    },
+    {
+      "ticker": "21STCENMGM.NS",
+      "total_fields": 17,
+      "populated_fields": 12,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "debt_to_equity",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:39:43.044641",
+      "quality_score": 70.6
+    },
+    {
+      "ticker": "360ONE.NS",
+      "total_fields": 17,
+      "populated_fields": 12,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:39:50.610554",
+      "quality_score": 70.6
+    },
+    {
+      "ticker": "3IINFOLTD.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "peg_ratio",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:00.231866",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "63MOONS.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:22.393640",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "A2ZINFRA.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "peg_ratio",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:32.936546",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "AAATECH.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "peg_ratio",
+        "debt_to_equity",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:38.320689",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "20MICRONS.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T20:39:38.204917",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "3MINDIA.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T20:40:01.044128",
+      "quality_score": 82.4
+    }
+  ],
+  "best_stocks": [
+    {
+      "ticker": "20MICRONS.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T20:39:38.204917",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "3MINDIA.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T20:40:01.044128",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "3IINFOLTD.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "peg_ratio",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:00.231866",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "63MOONS.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:22.393640",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "A2ZINFRA.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "peg_ratio",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:32.936546",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "AAATECH.NS",
+      "total_fields": 17,
+      "populated_fields": 13,
+      "missing_fields": [
+        "peg_ratio",
+        "debt_to_equity",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:38.320689",
+      "quality_score": 76.5
+    },
+    {
+      "ticker": "21STCENMGM.NS",
+      "total_fields": 17,
+      "populated_fields": 12,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "debt_to_equity",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:39:43.044641",
+      "quality_score": 70.6
+    },
+    {
+      "ticker": "360ONE.NS",
+      "total_fields": 17,
+      "populated_fields": 12,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:39:50.610554",
+      "quality_score": 70.6
+    },
+    {
+      "ticker": "5PAISA.NS",
+      "total_fields": 17,
+      "populated_fields": 11,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:14.706494",
+      "quality_score": 64.7
+    },
+    {
+      "ticker": "3PLAND.NS",
+      "total_fields": 17,
+      "populated_fields": 2,
+      "missing_fields": [
+        "sector",
+        "industry",
+        "market_cap",
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T20:40:06.945854",
+      "quality_score": 11.8
+    }
+  ],
+  "stocks_needing_fallback": [
+    "21STCENMGM.NS",
+    "360ONE.NS",
+    "3IINFOLTD.NS",
+    "3PLAND.NS",
+    "5PAISA.NS",
+    "63MOONS.NS",
+    "A2ZINFRA.NS",
+    "AAATECH.NS"
+  ],
+  "generated_at": "2026-01-22T20:40:38.425761"
+}

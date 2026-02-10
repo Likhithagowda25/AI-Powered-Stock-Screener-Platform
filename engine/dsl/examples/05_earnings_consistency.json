@@ -1,0 +1,34 @@
+{
+  "description": "Stable earners with high consistency score",
+  "natural_language": "Find stocks with highly consistent earnings over time",
+  "category": "derived_metrics",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "earnings_consistency_score",
+          "operator": ">",
+          "value": 0.7
+        },
+        {
+          "field": "net_profit",
+          "operator": ">",
+          "value": 100,
+          "period": {
+            "type": "last_n_quarters",
+            "n": 12,
+            "aggregation": "avg"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "market_cap_category": "Large Cap"
+    },
+    "sort": {
+      "field": "earnings_consistency_score",
+      "order": "desc"
+    },
+    "limit": 15
+  }
+}

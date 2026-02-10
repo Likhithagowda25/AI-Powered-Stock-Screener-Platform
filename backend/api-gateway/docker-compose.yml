@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  api-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stock-screener-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=development
+    env_file:
+      - .env.dev
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    networks:
+      - stock-screener-network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: stock-screener-db
+    environment:
+      POSTGRES_DB: stock_screener
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 25101974
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - stock-screener-network
+
+volumes:
+  postgres_data:
+
+networks:
+  stock-screener-network:
+    driver: bridge

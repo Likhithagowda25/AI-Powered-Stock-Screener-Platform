@@ -1,0 +1,3 @@
+2025-12-20 10:12:49.263640: Raw data saved for HDFCBANK.NS at data/raw/fundamentals\HDFCBANK.NS_raw.csv
+2025-12-20 10:12:49.378425: Normalized CSV saved for HDFCBANK.NS at data/processed/fundamentals\HDFCBANK.NS_normalized.csv
+2025-12-20 10:12:49.388666: Fetching raw data for ICICIBANK.NS from Yahoo Finance...

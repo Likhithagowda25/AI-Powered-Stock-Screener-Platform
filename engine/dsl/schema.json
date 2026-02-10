@@ -1,0 +1,369 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://stock-screener.example.com/schemas/dsl/v1.0.0",
+  "title": "Stock Screener DSL Schema",
+  "description": "JSON Schema for validating stock screening rule DSL queries",
+  "type": "object",
+  "required": ["filter"],
+  "properties": {
+    "filter": {
+      "description": "The main filter logic containing conditions",
+      "$ref": "#/definitions/logicalExpression"
+    },
+    "meta": {
+      "description": "Metadata filters for sector, exchange, etc.",
+      "$ref": "#/definitions/metadataFilters"
+    },
+    "limit": {
+      "description": "Maximum number of results to return",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 100
+    },
+    "sort": {
+      "description": "Sorting criteria",
+      "$ref": "#/definitions/sortCriteria"
+    }
+  },
+  "additionalProperties": false,
+  
+  "definitions": {
+    "logicalExpression": {
+      "type": "object",
+      "oneOf": [
+        {
+          "required": ["and"],
+          "properties": {
+            "and": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "oneOf": [
+                  { "$ref": "#/definitions/condition" },
+                  { "$ref": "#/definitions/logicalExpression" }
+                ]
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "required": ["or"],
+          "properties": {
+            "or": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "oneOf": [
+                  { "$ref": "#/definitions/condition" },
+                  { "$ref": "#/definitions/logicalExpression" }
+                ]
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "required": ["not"],
+          "properties": {
+            "not": {
+              "oneOf": [
+                { "$ref": "#/definitions/condition" },
+                { "$ref": "#/definitions/logicalExpression" }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    
+    "condition": {
+      "type": "object",
+      "required": ["field", "operator"],
+      "properties": {
+        "field": {
+          "type": "string",
+          "description": "Financial metric field name",
+          "enum": [
+            "pe_ratio",
+            "peg_ratio",
+            "price_to_book",
+            "price_to_sales",
+            "ev_to_ebitda",
+            "net_profit",
+            "ebitda",
+            "roe",
+            "roa",
+            "operating_margin",
+            "net_margin",
+            "revenue_growth_yoy",
+            "earnings_growth_yoy",
+            "eps_growth",
+            "eps_cagr",
+            "revenue_cagr",
+            "total_debt",
+            "free_cash_flow",
+            "debt_to_equity",
+            "debt_to_fcf",
+            "fcf_margin",
+            "current_ratio",
+            "quick_ratio",
+            "promoter_holding",
+            "institutional_holding",
+            "market_cap",
+            "volume",
+            "dividend_yield",
+            "payout_ratio",
+            "earnings_yield",
+            "fcf_yield",
+            "price_change_from_52w_high",
+            "price_change_from_52w_low",
+            "beta",
+            "revenue",
+            "gross_profit",
+            "operating_profit",
+            "earnings_consistency_score",
+            "trend_direction"
+          ]
+        },
+        "operator": {
+          "type": "string",
+          "description": "Comparison operator",
+          "enum": ["<", ">", "<=", ">=", "=", "!=", "between", "in", "exists", "not_in", "increasing", "decreasing", "stable"]
+        },
+        "value": {
+          "description": "Comparison value (type depends on operator)",
+          "oneOf": [
+            { "type": "number" },
+            { "type": "string" },
+            { "type": "boolean" },
+            { "type": "null" },
+            {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          ]
+        },
+        "period": {
+          "description": "Time-window specification for historical queries",
+          "$ref": "#/definitions/periodSpecification"
+        },
+        "null_handling": {
+          "description": "How to handle null/missing values",
+          "$ref": "#/definitions/nullHandling"
+        },
+        "trend_config": {
+          "description": "Configuration for trend analysis",
+          "$ref": "#/definitions/trendConfig"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operator": { "const": "between" }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "array",
+                "items": { "type": "number" },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operator": { "const": "in" }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "array",
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operator": { "const": "exists" }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    
+    "periodSpecification": {
+      "type": "object",
+      "required": ["type", "n", "aggregation"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["last_n_quarters", "last_n_years", "trailing_12_months", "year_over_year", "quarter_over_quarter"],
+          "description": "Type of time period"
+        },
+        "n": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20,
+          "description": "Number of periods"
+        },
+        "aggregation": {
+          "type": "string",
+          "enum": ["all", "any", "avg", "sum", "min", "max", "count", "trend"],
+          "description": "How to aggregate values across periods"
+        },
+        "comparison": {
+          "type": "string",
+          "enum": ["absolute", "percentage_change", "growth_rate"],
+          "description": "Type of comparison for period-over-period analysis"
+        }
+      },
+      "additionalProperties": false
+    },
+    
+    "nullHandling": {
+      "type": "object",
+      "required": ["strategy"],
+      "properties": {
+        "strategy": {
+          "type": "string",
+          "enum": ["exclude", "fail", "use_latest", "use_default", "interpolate"],
+          "description": "How to handle null or missing values"
+        },
+        "default_value": {
+          "type": "number",
+          "description": "Default value to use when strategy is 'use_default'"
+        },
+        "allow_partial_data": {
+          "type": "boolean",
+          "description": "Allow condition to pass with partial data availability",
+          "default": false
+        }
+      },
+      "additionalProperties": false
+    },
+    
+    "trendConfig": {
+      "type": "object",
+      "required": ["direction", "min_periods"],
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": ["increasing", "decreasing", "stable", "any"],
+          "description": "Expected trend direction"
+        },
+        "min_periods": {
+          "type": "integer",
+          "minimum": 2,
+          "description": "Minimum number of consecutive periods for trend"
+        },
+        "tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Tolerance percentage for 'stable' trend",
+          "default": 5
+        },
+        "consecutive": {
+          "type": "boolean",
+          "description": "Require consecutive periods without breaks",
+          "default": true
+        }
+      },
+      "additionalProperties": false
+    },
+    
+    "metadataFilters": {
+      "type": "object",
+      "properties": {
+        "sector": {
+          "type": "string",
+          "description": "Industry sector",
+          "examples": ["IT", "Pharma", "Auto", "Finance", "FMCG", "Energy"]
+        },
+        "exchange": {
+          "type": "string",
+          "description": "Stock exchange",
+          "enum": ["NSE", "BSE", "NYSE", "NASDAQ"]
+        },
+        "market_cap_category": {
+          "type": "string",
+          "description": "Market capitalization category",
+          "enum": ["Large Cap", "Mid Cap", "Small Cap", "Micro Cap"]
+        },
+        "index": {
+          "type": "string",
+          "description": "Index membership",
+          "examples": ["NIFTY50", "SENSEX", "NIFTY500", "S&P500"]
+        },
+        "market_cap_range": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Minimum market cap in millions"
+            },
+            "max": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Maximum market cap in millions"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    
+    "sortCriteria": {
+      "type": "object",
+      "required": ["field", "order"],
+      "properties": {
+        "field": {
+          "type": "string",
+          "description": "Field to sort by",
+          "enum": [
+            "pe_ratio",
+            "market_cap",
+            "roe",
+            "revenue_growth_yoy",
+            "dividend_yield",
+            "net_profit",
+            "debt_to_equity"
+          ]
+        },
+        "order": {
+          "type": "string",
+          "enum": ["asc", "desc"],
+          "description": "Sort order"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

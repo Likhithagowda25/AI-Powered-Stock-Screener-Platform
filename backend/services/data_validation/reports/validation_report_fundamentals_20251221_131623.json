@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-12-21T13:16:23.998090",
+  "data_type": "fundamentals",
+  "total_records": 7,
+  "clean_records": 0,
+  "skipped_records": 7,
+  "total_issues": 6,
+  "severity_breakdown": {
+    "critical": 2,
+    "high": 0,
+    "medium": 4,
+    "low": 0
+  },
+  "skipped_tickers": [
+    "HINDALCO.NS"
+  ],
+  "flagged_count": 4,
+  "issues": [
+    {
+      "ticker": "HINDALCO.NS",
+      "field": "revenue",
+      "issue_type": "missing_mandatory",
+      "severity": "CRITICAL",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "skip",
+      "message": "Missing mandatory field 'revenue' in 2/7 records"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "field": "net_income",
+      "issue_type": "missing_mandatory",
+      "severity": "CRITICAL",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "skip",
+      "message": "Missing mandatory field 'net_income' in 2/7 records"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "field": "ebitda",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "2",
+      "total_records": 7,
+      "percentage": 28.57142857142857,
+      "action": "flag",
+      "message": "Missing important field 'ebitda' in 2/7 records"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "field": "total_assets",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "3",
+      "total_records": 7,
+      "percentage": 42.857142857142854,
+      "action": "flag",
+      "message": "Missing important field 'total_assets' in 3/7 records"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "field": "total_debt",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "3",
+      "total_records": 7,
+      "percentage": 42.857142857142854,
+      "action": "flag",
+      "message": "Missing important field 'total_debt' in 3/7 records"
+    },
+    {
+      "ticker": "HINDALCO.NS",
+      "field": "free_cash_flow",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "7",
+      "total_records": 7,
+      "percentage": 100.0,
+      "action": "flag",
+      "message": "Missing important field 'free_cash_flow' in 7/7 records"
+    }
+  ]
+}

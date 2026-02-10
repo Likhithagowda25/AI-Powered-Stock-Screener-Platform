@@ -1,0 +1,564 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stock Screener Field Catalog",
+  "description": "Complete catalog of all financial metrics available for screening",
+  "version": "1.0.0",
+  "last_updated": "2025-12-22",
+  
+  "categories": {
+    "valuation": {
+      "name": "Valuation Metrics",
+      "description": "Price-based valuation ratios",
+      "fields": {
+        "pe_ratio": {
+          "name": "Price to Earnings Ratio",
+          "description": "Current stock price divided by earnings per share",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "max_value": 1000,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "pe_ratio",
+          "calculation": "price / eps",
+          "typical_range": [5, 50],
+          "interpretation": {
+            "low": "Undervalued or low growth expectations",
+            "high": "Overvalued or high growth expectations"
+          }
+        },
+        "peg_ratio": {
+          "name": "PEG Ratio",
+          "description": "PE ratio divided by earnings growth rate",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "max_value": 100,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["pe_ratio", "eps_growth"],
+          "calculation": "pe_ratio / eps_growth",
+          "typical_range": [0.5, 3],
+          "interpretation": {
+            "low": "< 1 indicates potential undervaluation",
+            "high": "> 2 may indicate overvaluation"
+          }
+        },
+        "price_to_book": {
+          "name": "Price to Book Ratio",
+          "description": "Market price per share divided by book value per share",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "price_to_book",
+          "typical_range": [0.5, 5]
+        },
+        "price_to_sales": {
+          "name": "Price to Sales Ratio",
+          "description": "Market cap divided by total revenue",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "price_to_sales",
+          "typical_range": [0.5, 10]
+        },
+        "ev_to_ebitda": {
+          "name": "EV to EBITDA",
+          "description": "Enterprise value divided by EBITDA",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["market_cap", "total_debt", "ebitda"],
+          "typical_range": [5, 20]
+        }
+      }
+    },
+    
+    "profitability": {
+      "name": "Profitability Metrics",
+      "description": "Measures of company profitability",
+      "fields": {
+        "net_profit": {
+          "name": "Net Profit",
+          "description": "Bottom-line profit after all expenses",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": false,
+          "database_column": "net_profit",
+          "quarterly": true,
+          "annual": true
+        },
+        "ebitda": {
+          "name": "EBITDA",
+          "description": "Earnings Before Interest, Taxes, Depreciation & Amortization",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": false,
+          "database_column": "ebitda",
+          "quarterly": true,
+          "annual": true
+        },
+        "roe": {
+          "name": "Return on Equity",
+          "description": "Net income divided by shareholder equity",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": -100,
+          "max_value": 200,
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["net_profit", "shareholder_equity"],
+          "calculation": "(net_profit / shareholder_equity) * 100",
+          "typical_range": [10, 25],
+          "interpretation": {
+            "excellent": "> 20%",
+            "good": "15-20%",
+            "average": "10-15%",
+            "poor": "< 10%"
+          }
+        },
+        "roa": {
+          "name": "Return on Assets",
+          "description": "Net income divided by total assets",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": -100,
+          "max_value": 100,
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["net_profit", "total_assets"],
+          "typical_range": [5, 15]
+        },
+        "operating_margin": {
+          "name": "Operating Profit Margin",
+          "description": "Operating profit as percentage of revenue",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": -100,
+          "max_value": 100,
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["operating_profit", "revenue"],
+          "typical_range": [10, 30]
+        },
+        "net_margin": {
+          "name": "Net Profit Margin",
+          "description": "Net profit as percentage of revenue",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": -100,
+          "max_value": 100,
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["net_profit", "revenue"],
+          "typical_range": [5, 20]
+        }
+      }
+    },
+    
+    "growth": {
+      "name": "Growth Metrics",
+      "description": "Year-over-year growth rates",
+      "fields": {
+        "revenue_growth_yoy": {
+          "name": "Revenue Growth YoY",
+          "description": "Year-over-year revenue growth rate",
+          "type": "number",
+          "unit": "percentage",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["revenue"],
+          "calculation": "((current_revenue - previous_revenue) / previous_revenue) * 100",
+          "typical_range": [-20, 50]
+        },
+        "earnings_growth_yoy": {
+          "name": "Earnings Growth YoY",
+          "description": "Year-over-year earnings growth rate",
+          "type": "number",
+          "unit": "percentage",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["net_profit"],
+          "typical_range": [-30, 50]
+        },
+        "eps_growth": {
+          "name": "EPS Growth",
+          "description": "Earnings per share growth rate",
+          "type": "number",
+          "unit": "percentage",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["eps"],
+          "typical_range": [-30, 50]
+        }
+      }
+    },
+    
+    "balance_sheet": {
+      "name": "Balance Sheet Metrics",
+      "description": "Financial position and leverage",
+      "fields": {
+        "total_debt": {
+          "name": "Total Debt",
+          "description": "Sum of short-term and long-term debt",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "total_debt"
+        },
+        "free_cash_flow": {
+          "name": "Free Cash Flow",
+          "description": "Operating cash flow minus capital expenditures",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["operating_cash_flow", "capex"],
+          "quarterly": true,
+          "annual": true
+        },
+        "debt_to_equity": {
+          "name": "Debt to Equity Ratio",
+          "description": "Total debt divided by shareholder equity",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["total_debt", "shareholder_equity"],
+          "typical_range": [0, 2],
+          "interpretation": {
+            "low": "< 0.5 - Conservative leverage",
+            "moderate": "0.5-1.5 - Balanced",
+            "high": "> 1.5 - Aggressive leverage"
+          }
+        },
+        "debt_to_fcf": {
+          "name": "Debt to Free Cash Flow",
+          "description": "Years to pay off debt with current FCF",
+          "type": "number",
+          "unit": "years",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["total_debt", "free_cash_flow"],
+          "typical_range": [0, 10]
+        },
+        "current_ratio": {
+          "name": "Current Ratio",
+          "description": "Current assets divided by current liabilities",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["current_assets", "current_liabilities"],
+          "typical_range": [1, 3],
+          "interpretation": {
+            "healthy": "> 1.5",
+            "caution": "< 1"
+          }
+        },
+        "quick_ratio": {
+          "name": "Quick Ratio",
+          "description": "Liquid assets divided by current liabilities",
+          "type": "number",
+          "unit": "ratio",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["current_assets", "inventory", "current_liabilities"],
+          "typical_range": [0.5, 2]
+        }
+      }
+    },
+    
+    "ownership": {
+      "name": "Ownership Metrics",
+      "description": "Shareholding patterns",
+      "fields": {
+        "promoter_holding": {
+          "name": "Promoter Holding",
+          "description": "Percentage held by company promoters",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": 0,
+          "max_value": 100,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "promoter_holding",
+          "typical_range": [30, 75]
+        },
+        "institutional_holding": {
+          "name": "Institutional Holding",
+          "description": "Percentage held by institutions",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": 0,
+          "max_value": 100,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "institutional_holding",
+          "typical_range": [10, 50]
+        }
+      }
+    },
+    
+    "market": {
+      "name": "Market Metrics",
+      "description": "Market-related metrics",
+      "fields": {
+        "market_cap": {
+          "name": "Market Capitalization",
+          "description": "Total market value of company",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "market_cap"
+        },
+        "volume": {
+          "name": "Trading Volume",
+          "description": "Number of shares traded",
+          "type": "number",
+          "unit": "shares",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "volume"
+        },
+        "dividend_yield": {
+          "name": "Dividend Yield",
+          "description": "Annual dividend as percentage of price",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": 0,
+          "max_value": 20,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["dividend_per_share", "price"],
+          "typical_range": [0, 5]
+        },
+        "payout_ratio": {
+          "name": "Dividend Payout Ratio",
+          "description": "Dividends as percentage of earnings",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": 0,
+          "max_value": 100,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["dividend_per_share", "eps"],
+          "typical_range": [20, 60]
+        },
+        "earnings_yield": {
+          "name": "Earnings Yield",
+          "description": "Inverse of PE ratio (earnings/price)",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["pe_ratio"],
+          "calculation": "(1 / pe_ratio) * 100"
+        },
+        "fcf_yield": {
+          "name": "Free Cash Flow Yield",
+          "description": "FCF divided by market cap",
+          "type": "number",
+          "unit": "percentage",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["free_cash_flow", "market_cap"],
+          "typical_range": [0, 10]
+        },
+        "beta": {
+          "name": "Beta",
+          "description": "Volatility relative to market",
+          "type": "number",
+          "unit": "coefficient",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": false,
+          "database_column": "beta",
+          "typical_range": [0.5, 2],
+          "interpretation": {
+            "low_volatility": "< 1",
+            "market_volatility": "= 1",
+            "high_volatility": "> 1"
+          }
+        },
+        "price_change_from_52w_high": {
+          "name": "% from 52-Week High",
+          "description": "Percentage change from 52-week high",
+          "type": "number",
+          "unit": "percentage",
+          "max_value": 0,
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["current_price", "52w_high"]
+        },
+        "price_change_from_52w_low": {
+          "name": "% from 52-Week Low",
+          "description": "Percentage change from 52-week low",
+          "type": "number",
+          "unit": "percentage",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": true,
+          "derived_from": ["current_price", "52w_low"]
+        }
+      }
+    },
+    
+    "fundamentals": {
+      "name": "Fundamental Data",
+      "description": "Core financial statement items",
+      "fields": {
+        "revenue": {
+          "name": "Revenue",
+          "description": "Total revenue/sales",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "min_value": 0,
+          "can_be_negative": false,
+          "time_series": true,
+          "derived": false,
+          "database_column": "revenue",
+          "quarterly": true,
+          "annual": true
+        },
+        "gross_profit": {
+          "name": "Gross Profit",
+          "description": "Revenue minus cost of goods sold",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": false,
+          "database_column": "gross_profit",
+          "quarterly": true,
+          "annual": true
+        },
+        "operating_profit": {
+          "name": "Operating Profit",
+          "description": "Profit from core operations",
+          "type": "number",
+          "unit": "millions",
+          "currency": "INR",
+          "can_be_negative": true,
+          "time_series": true,
+          "derived": false,
+          "database_column": "operating_profit",
+          "quarterly": true,
+          "annual": true
+        }
+      }
+    }
+  },
+  
+  "metadata_fields": {
+    "sector": {
+      "name": "Sector",
+      "description": "Industry sector classification",
+      "type": "string",
+      "allowed_values": [
+        "IT",
+        "Pharma",
+        "Auto",
+        "Finance",
+        "FMCG",
+        "Energy",
+        "Infrastructure",
+        "Telecom",
+        "Healthcare",
+        "Metals",
+        "Banking",
+        "Consumer Durables",
+        "Real Estate",
+        "Media"
+      ]
+    },
+    "exchange": {
+      "name": "Exchange",
+      "description": "Stock exchange listing",
+      "type": "string",
+      "allowed_values": ["NSE", "BSE", "NYSE", "NASDAQ"]
+    },
+    "market_cap_category": {
+      "name": "Market Cap Category",
+      "description": "Size classification",
+      "type": "string",
+      "allowed_values": ["Large Cap", "Mid Cap", "Small Cap", "Micro Cap"]
+    },
+    "index": {
+      "name": "Index Membership",
+      "description": "Index constituents",
+      "type": "string",
+      "examples": ["NIFTY50", "SENSEX", "NIFTY500", "S&P500"]
+    }
+  },
+  
+  "field_aliases": {
+    "p/e": "pe_ratio",
+    "price_earnings": "pe_ratio",
+    "pe": "pe_ratio",
+    "p/b": "price_to_book",
+    "price_book": "price_to_book",
+    "pb": "price_to_book",
+    "d/e": "debt_to_equity",
+    "debt_equity": "debt_to_equity",
+    "fcf": "free_cash_flow",
+    "free_cashflow": "free_cash_flow",
+    "mcap": "market_cap",
+    "marketcap": "market_cap"
+  }
+}

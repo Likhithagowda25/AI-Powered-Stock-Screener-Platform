@@ -1,0 +1,37 @@
+{
+  "description": "Sector-specific with complex logic - IT stocks with attractive valuation",
+  "natural_language": "IT stocks with (PE < 20 OR PEG < 1.5) AND debt-to-equity < 0.5",
+  "use_case": "Finding IT companies with either low PE or attractive growth valuation and low debt",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "or": [
+            {
+              "field": "pe_ratio",
+              "operator": "<",
+              "value": 20
+            },
+            {
+              "field": "peg_ratio",
+              "operator": "<",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "field": "debt_to_equity",
+          "operator": "<",
+          "value": 0.5
+        }
+      ]
+    },
+    "meta": {
+      "sector": "IT"
+    }
+  },
+  
+  "complexity": "advanced",
+  "tags": ["sector-filter", "nested-logic", "debt", "IT"]
+}

@@ -1,0 +1,8 @@
+nselib
+pandas
+numpy
+scipy
+requests
+psycopg2
+yfinance
+python-dotenv

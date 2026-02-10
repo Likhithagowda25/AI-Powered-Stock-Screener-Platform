@@ -1,0 +1,40 @@
+{
+  "description": "Potential turnaround candidates - Distressed but showing recovery signs",
+  "natural_language": "Negative earnings last year BUT positive earnings last 2 quarters AND improving margins",
+  "use_case": "Finding companies emerging from distress with recent profitability improvement",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "net_profit",
+          "operator": "<",
+          "value": 0,
+          "period": {
+            "type": "last_n_years",
+            "n": 1,
+            "aggregation": "sum"
+          }
+        },
+        {
+          "field": "net_profit",
+          "operator": ">",
+          "value": 0,
+          "period": {
+            "type": "last_n_quarters",
+            "n": 2,
+            "aggregation": "all"
+          }
+        },
+        {
+          "field": "operating_margin",
+          "operator": ">",
+          "value": 5
+        }
+      ]
+    }
+  },
+  
+  "complexity": "advanced",
+  "tags": ["turnaround", "recovery", "contrarian", "time-series"]
+}

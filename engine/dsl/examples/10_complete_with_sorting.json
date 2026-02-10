@@ -1,0 +1,40 @@
+{
+  "description": "Complete query with metadata, filters, sorting, and limit",
+  "natural_language": "Large cap NSE IT stocks with PE < 30, ROE > 12, positive FCF, sorted by dividend yield, top 50",
+  "use_case": "Comprehensive screen with all DSL features",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "<",
+          "value": 30
+        },
+        {
+          "field": "roe",
+          "operator": ">",
+          "value": 12
+        },
+        {
+          "field": "free_cash_flow",
+          "operator": ">",
+          "value": 0
+        }
+      ]
+    },
+    "meta": {
+      "sector": "IT",
+      "exchange": "NSE",
+      "market_cap_category": "Large Cap"
+    },
+    "sort": {
+      "field": "dividend_yield",
+      "order": "desc"
+    },
+    "limit": 50
+  },
+  
+  "complexity": "advanced",
+  "tags": ["complete", "metadata", "sorting", "limit"]
+}

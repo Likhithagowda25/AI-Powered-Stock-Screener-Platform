@@ -1,0 +1,31 @@
+{
+  "description": "EPS CAGR calculation over multiple years",
+  "natural_language": "Find stocks with EPS CAGR > 15% over last 5 years",
+  "category": "derived_metrics_cagr",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "eps_cagr",
+          "operator": ">",
+          "value": 15,
+          "period": {
+            "type": "last_n_years",
+            "n": 5,
+            "aggregation": "trend"
+          }
+        },
+        {
+          "field": "pe_ratio",
+          "operator": "<",
+          "value": 25
+        }
+      ]
+    },
+    "sort": {
+      "field": "eps_cagr",
+      "order": "desc"
+    },
+    "limit": 20
+  }
+}

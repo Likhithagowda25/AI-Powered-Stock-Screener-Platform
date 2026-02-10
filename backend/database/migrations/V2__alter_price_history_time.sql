@@ -1,0 +1,2 @@
+ALTER TABLE price_history
+ALTER COLUMN time TYPE TIMESTAMPTZ;

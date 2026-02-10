@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-21T13:16:24.982469",
+  "data_type": "fundamentals",
+  "total_records": 5,
+  "clean_records": 5,
+  "skipped_records": 0,
+  "total_issues": 3,
+  "severity_breakdown": {
+    "critical": 0,
+    "high": 0,
+    "medium": 3,
+    "low": 0
+  },
+  "skipped_tickers": [],
+  "flagged_count": 3,
+  "issues": [
+    {
+      "ticker": "POWERGRID.NS",
+      "field": "total_assets",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "3",
+      "total_records": 5,
+      "percentage": 60.0,
+      "action": "flag",
+      "message": "Missing important field 'total_assets' in 3/5 records"
+    },
+    {
+      "ticker": "POWERGRID.NS",
+      "field": "total_debt",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "3",
+      "total_records": 5,
+      "percentage": 60.0,
+      "action": "flag",
+      "message": "Missing important field 'total_debt' in 3/5 records"
+    },
+    {
+      "ticker": "POWERGRID.NS",
+      "field": "free_cash_flow",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "5",
+      "total_records": 5,
+      "percentage": 100.0,
+      "action": "flag",
+      "message": "Missing important field 'free_cash_flow' in 5/5 records"
+    }
+  ]
+}

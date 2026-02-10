@@ -1,0 +1,21 @@
+{
+  "description": "Simple PE filter - Find stocks with PE ratio less than 15",
+  "natural_language": "PE ratio less than 15",
+  "use_case": "Value investing - finding potentially undervalued stocks",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "<",
+          "value": 15
+        }
+      ]
+    }
+  },
+  
+  "expected_sql_pattern": "WHERE pe_ratio < 15",
+  "complexity": "simple",
+  "tags": ["value", "valuation", "basic"]
+}

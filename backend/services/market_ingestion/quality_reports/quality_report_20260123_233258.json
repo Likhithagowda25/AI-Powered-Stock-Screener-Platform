@@ -1,0 +1,464 @@
+{
+  "summary": {
+    "total_stocks": 1888,
+    "average_quality_score": 75.9,
+    "min_quality_score": 11.8,
+    "max_quality_score": 82.4,
+    "stocks_above_80_percent": 788,
+    "stocks_below_50_percent": 13,
+    "timestamp": "2026-01-23T23:32:58.358121"
+  },
+  "missing_field_counts": {
+    "peg_ratio": 1888,
+    "operating_margin": 1888,
+    "current_ratio": 1888,
+    "dividend_yield": 843,
+    "roe": 399,
+    "roa": 330,
+    "pe_ratio": 241,
+    "debt_to_equity": 223,
+    "revenue": 17,
+    "net_income": 13,
+    "pb_ratio": 12,
+    "market_cap": 8,
+    "eps": 7,
+    "sector": 1,
+    "industry": 1,
+    "name": 0,
+    "current_price": 0
+  },
+  "worst_stocks": [
+    {
+      "ticker": "KRISHFL-RE.NS",
+      "total_fields": 17,
+      "populated_fields": 2,
+      "missing_fields": [
+        "sector",
+        "industry",
+        "market_cap",
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T20:54:29.256966",
+      "quality_score": 11.8
+    },
+    {
+      "ticker": "SABEVENTS.NS",
+      "total_fields": 17,
+      "populated_fields": 6,
+      "missing_fields": [
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T21:41:19.833987",
+      "quality_score": 35.3
+    },
+    {
+      "ticker": "SKFINDUS.NS",
+      "total_fields": 17,
+      "populated_fields": 6,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T21:46:57.865582",
+      "quality_score": 35.3
+    },
+    {
+      "ticker": "TECILCHEM.NS",
+      "total_fields": 17,
+      "populated_fields": 6,
+      "missing_fields": [
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T21:48:58.390220",
+      "quality_score": 35.3
+    },
+    {
+      "ticker": "ICDSLTD.NS",
+      "total_fields": 17,
+      "populated_fields": 7,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T20:36:08.009845",
+      "quality_score": 41.2
+    },
+    {
+      "ticker": "KALYANI.NS",
+      "total_fields": 17,
+      "populated_fields": 7,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T20:48:56.303261",
+      "quality_score": 41.2
+    },
+    {
+      "ticker": "MODTHREAD.NS",
+      "total_fields": 17,
+      "populated_fields": 7,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T21:08:16.633938",
+      "quality_score": 41.2
+    },
+    {
+      "ticker": "NIRAJISPAT.NS",
+      "total_fields": 17,
+      "populated_fields": 7,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T21:15:47.802367",
+      "quality_score": 41.2
+    },
+    {
+      "ticker": "PRUDMOULI.NS",
+      "total_fields": 17,
+      "populated_fields": 7,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T21:30:03.255735",
+      "quality_score": 41.2
+    },
+    {
+      "ticker": "CPEDU.NS",
+      "total_fields": 17,
+      "populated_fields": 8,
+      "missing_fields": [
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T20:04:27.740426",
+      "quality_score": 47.1
+    }
+  ],
+  "best_stocks": [
+    {
+      "ticker": "BOMDYEING.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:56:25.352475",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BOSCH-HCIL.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:56:55.003965",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BOSCHLTD.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:56:56.408138",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BPCL.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:56:57.466251",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BRIGADE.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:57:03.238524",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BRITANNIA.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:57:11.213335",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BSE.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:57:27.898932",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BSL.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:57:35.517393",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "BSOFT.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:57:36.845941",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "CAMPUS.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T19:58:23.975597",
+      "quality_score": 82.4
+    }
+  ],
+  "stocks_needing_fallback": [
+    "BORANA.NS",
+    "BOROLTD.NS",
+    "BORORENEW.NS",
+    "BOROSCI.NS",
+    "BPL.NS",
+    "BRIGHOTEL.NS",
+    "BRNL.NS",
+    "BROOKS.NS",
+    "BSHSL.NS",
+    "BTML.NS",
+    "BUTTERFLY.NS",
+    "BVCL.NS",
+    "BYKE.NS",
+    "CALSOFT.NS",
+    "CAMLINFINE.NS",
+    "CAMS.NS",
+    "CANBK.NS",
+    "CANFINHOME.NS",
+    "CANHLIFE.NS",
+    "CAPACITE.NS",
+    "CAPILLARY.NS",
+    "CAPITALSFB.NS",
+    "CAPTRUST.NS",
+    "CARTRADE.NS",
+    "CASTROLIND.NS",
+    "CCCL.NS",
+    "CCHHL.NS",
+    "CEATLTD.NS",
+    "CELEBRITY.NS",
+    "CENTEXT.NS",
+    "CENTRALBK.NS",
+    "CENTRUM.NS",
+    "CEREBRAINT.NS",
+    "CEWATER.NS",
+    "CHEMBOND.NS",
+    "CHEMBONDCH.NS",
+    "CHEMCON.NS",
+    "CHEMFAB.NS",
+    "CHEMPLASTS.NS",
+    "CHOICEIN.NS",
+    "CIEINDIA.NS",
+    "CIGNITITEC.NS",
+    "CINELINE.NS",
+    "CINEVISTA.NS",
+    "CLEDUCATE.NS",
+    "COFFEEDAY.NS",
+    "COHANCE.NS",
+    "COMPINFO.NS",
+    "CONSOFINVT.NS",
+    "CORALFINAC.NS"
+  ],
+  "generated_at": "2026-01-23T23:32:58.371705"
+}

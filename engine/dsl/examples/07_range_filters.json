@@ -1,0 +1,36 @@
+{
+  "description": "Range filters with multiple conditions",
+  "natural_language": "Find stocks with PE between 10-20, market cap above 1000, and ROE in specific sectors",
+  "category": "range_filters",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "between",
+          "value": [10, 20]
+        },
+        {
+          "field": "market_cap",
+          "operator": ">",
+          "value": 1000
+        },
+        {
+          "field": "roe",
+          "operator": "between",
+          "value": [15, 25]
+        },
+        {
+          "field": "sector",
+          "operator": "in",
+          "value": ["IT", "Pharma", "Finance"]
+        }
+      ]
+    },
+    "sort": {
+      "field": "roe",
+      "order": "desc"
+    },
+    "limit": 35
+  }
+}

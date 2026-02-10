@@ -1,0 +1,31 @@
+{
+  "description": "NOT operator with exclusion logic",
+  "natural_language": "Find stocks that are NOT overvalued (PE not > 40) and NOT highly leveraged",
+  "category": "logical_not",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "not": {
+            "field": "pe_ratio",
+            "operator": ">",
+            "value": 40
+          }
+        },
+        {
+          "not": {
+            "field": "debt_to_equity",
+            "operator": ">",
+            "value": 2
+          }
+        },
+        {
+          "field": "roe",
+          "operator": ">",
+          "value": 12
+        }
+      ]
+    },
+    "limit": 30
+  }
+}

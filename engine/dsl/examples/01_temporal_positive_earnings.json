@@ -1,0 +1,27 @@
+{
+  "description": "Quality stocks with consistent earnings",
+  "natural_language": "Find stocks with PE ratio between 10 and 20, positive earnings in last 4 quarters",
+  "category": "temporal_condition",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "between",
+          "value": [10, 20]
+        },
+        {
+          "field": "net_profit",
+          "operator": ">",
+          "value": 0,
+          "period": {
+            "type": "last_n_quarters",
+            "n": 4,
+            "aggregation": "all"
+          }
+        }
+      ]
+    },
+    "limit": 50
+  }
+}

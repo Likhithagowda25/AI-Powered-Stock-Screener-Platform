@@ -1,0 +1,35 @@
+{
+  "description": "High-quality dividend stocks with consistency",
+  "natural_language": "Dividend yield > 3% AND payout ratio < 60% AND consistent dividends for 5 years",
+  "use_case": "Income investing - finding reliable dividend payers",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "dividend_yield",
+          "operator": ">",
+          "value": 3
+        },
+        {
+          "field": "payout_ratio",
+          "operator": "<",
+          "value": 60
+        },
+        {
+          "field": "dividend_yield",
+          "operator": ">",
+          "value": 0,
+          "period": {
+            "type": "last_n_years",
+            "n": 5,
+            "aggregation": "all"
+          }
+        }
+      ]
+    }
+  },
+  
+  "complexity": "intermediate",
+  "tags": ["dividend", "income", "consistency", "time-series"]
+}

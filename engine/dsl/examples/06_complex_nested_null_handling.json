@@ -1,0 +1,46 @@
+{
+  "description": "Complex nested conditions with null handling",
+  "natural_language": "Find IT or Pharma stocks with either high ROE or strong profit growth, excluding nulls",
+  "category": "complex_logic",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "or": [
+            {
+              "field": "roe",
+              "operator": ">",
+              "value": 18,
+              "null_handling": {
+                "strategy": "exclude"
+              }
+            },
+            {
+              "field": "net_profit",
+              "operator": ">",
+              "value": 0,
+              "period": {
+                "type": "last_n_quarters",
+                "n": 4,
+                "aggregation": "all"
+              }
+            }
+          ]
+        },
+        {
+          "field": "pe_ratio",
+          "operator": "<",
+          "value": 30,
+          "null_handling": {
+            "strategy": "use_default",
+            "default_value": 15
+          }
+        }
+      ]
+    },
+    "meta": {
+      "sector": "IT"
+    },
+    "limit": 40
+  }
+}

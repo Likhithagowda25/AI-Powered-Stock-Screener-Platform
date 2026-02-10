@@ -1,0 +1,4 @@
+2025-12-20 16:36:56.034618: Annual raw data saved for TCS.NS at data/raw/fundamentals\annual\TCS.NS_annual_raw.csv
+2025-12-20 16:36:56.073124: Normalized quarterly CSV saved for TCS.NS at data/processed/fundamentals\quarterly\TCS.NS_quarterly_normalized.csv
+2025-12-20 16:36:56.086114: Normalized annual CSV saved for TCS.NS at data/processed/fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-20 16:36:56.495539: Quarterly raw data saved for INFY.NS at data/raw/fundamentals\quarterly\INFY.NS_quarterly_raw.csv

@@ -1,0 +1,339 @@
+2025-12-20 17:44:48,741 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 17:44:48,741 - __main__ - INFO - ============================================================
+2025-12-20 17:44:48,741 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 17:44:48,741 - __main__ - INFO - ============================================================
+2025-12-20 17:44:48,741 - __main__ - INFO - Provider: yahoo
+2025-12-20 17:44:48,741 - __main__ - INFO - Symbols: 5
+2025-12-20 17:44:48,741 - __main__ - INFO - ============================================================
+2025-12-20 17:44:48,742 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 17:44:48,742 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 17:44:48,796 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:44:48,796 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:44:51,464 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:44:53,748 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:44:55,671 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:44:57,536 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:44:59,483 - __main__ - INFO - Quarterly fundamentals ingestion complete: 0 total records
+2025-12-20 17:44:59,483 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 17:44:59,483 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 17:44:59,533 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:44:59,533 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:44:59,735 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:44:59,988 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:45:00,250 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:45:00,444 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:45:00,620 - __main__ - INFO - Annual fundamentals ingestion complete: 0 total records
+2025-12-20 17:45:00,620 - __main__ - INFO - 
+============================================================
+2025-12-20 17:45:00,620 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 17:45:00,620 - __main__ - INFO - ============================================================
+2025-12-20 17:45:00,620 - __main__ - INFO - Quarterly records: 0
+2025-12-20 17:45:00,620 - __main__ - INFO - Annual records: 0
+2025-12-20 17:45:00,620 - __main__ - INFO - Total records: 0
+2025-12-20 17:45:00,620 - __main__ - INFO - Time elapsed: 0:00:11.877933
+2025-12-20 17:45:00,622 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 17:45:00,623 - __main__ - INFO - ============================================================
+2025-12-20 17:46:27,857 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 17:46:27,857 - __main__ - INFO - ============================================================
+2025-12-20 17:46:27,857 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 17:46:27,858 - __main__ - INFO - ============================================================
+2025-12-20 17:46:27,858 - __main__ - INFO - Provider: yahoo
+2025-12-20 17:46:27,859 - __main__ - INFO - Symbols: 5
+2025-12-20 17:46:27,859 - __main__ - INFO - ============================================================
+2025-12-20 17:46:27,859 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 17:46:27,859 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 17:46:27,931 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:46:27,932 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:46:29,911 - __main__ - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-20 17:46:29,911 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:46:31,662 - __main__ - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-20 17:46:31,662 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:46:33,117 - __main__ - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-20 17:46:33,117 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:46:34,802 - __main__ - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-20 17:46:34,802 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:46:36,475 - __main__ - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-20 17:46:36,475 - __main__ - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-20 17:46:36,475 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 17:46:36,475 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 17:46:36,527 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:46:36,527 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:46:36,719 - __main__ - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-20 17:46:36,719 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:46:36,991 - __main__ - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-20 17:46:36,991 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:46:37,165 - __main__ - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-20 17:46:37,165 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:46:37,324 - __main__ - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-20 17:46:37,326 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:46:37,509 - __main__ - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-20 17:46:37,509 - __main__ - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-20 17:46:37,509 - __main__ - INFO - 
+============================================================
+2025-12-20 17:46:37,509 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 17:46:37,509 - __main__ - INFO - ============================================================
+2025-12-20 17:46:37,509 - __main__ - INFO - Quarterly records: 32
+2025-12-20 17:46:37,509 - __main__ - INFO - Annual records: 24
+2025-12-20 17:46:37,509 - __main__ - INFO - Total records: 56
+2025-12-20 17:46:37,509 - __main__ - INFO - Time elapsed: 0:00:09.649969
+2025-12-20 17:46:37,509 - __main__ - INFO - Processed data saved to: c:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 17:46:37,511 - __main__ - INFO - ============================================================
+2025-12-20 17:54:56,372 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 17:54:56,372 - __main__ - INFO - ============================================================
+2025-12-20 17:54:56,372 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 17:54:56,372 - __main__ - INFO - ============================================================
+2025-12-20 17:54:56,372 - __main__ - INFO - Provider: yahoo
+2025-12-20 17:54:56,372 - __main__ - INFO - Symbols: 5
+2025-12-20 17:54:56,372 - __main__ - INFO - ============================================================
+2025-12-20 17:54:56,372 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 17:54:56,372 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 17:54:56,444 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:54:56,444 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:55:00,313 - __main__ - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-20 17:55:00,313 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:55:02,660 - __main__ - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-20 17:55:02,660 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:55:05,108 - __main__ - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-20 17:55:05,108 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:55:07,505 - __main__ - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-20 17:55:07,505 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:55:09,885 - __main__ - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-20 17:55:09,885 - __main__ - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-20 17:55:09,885 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 17:55:09,885 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 17:55:09,931 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:55:09,931 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:55:10,146 - __main__ - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-20 17:55:10,147 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:55:10,400 - __main__ - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-20 17:55:10,404 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:55:10,585 - __main__ - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-20 17:55:10,585 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:55:10,754 - __main__ - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-20 17:55:10,754 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:55:10,950 - __main__ - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-20 17:55:10,950 - __main__ - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-20 17:55:10,950 - __main__ - INFO - 
+============================================================
+2025-12-20 17:55:10,950 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 17:55:10,950 - __main__ - INFO - ============================================================
+2025-12-20 17:55:10,950 - __main__ - INFO - Quarterly records: 32
+2025-12-20 17:55:10,950 - __main__ - INFO - Annual records: 24
+2025-12-20 17:55:10,953 - __main__ - INFO - Total records: 56
+2025-12-20 17:55:10,953 - __main__ - INFO - Time elapsed: 0:00:14.577334
+2025-12-20 17:55:10,953 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 17:55:10,953 - __main__ - INFO - ============================================================
+2025-12-20 17:58:34,513 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 17:58:34,513 - __main__ - INFO - ============================================================
+2025-12-20 17:58:34,513 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 17:58:34,513 - __main__ - INFO - ============================================================
+2025-12-20 17:58:34,513 - __main__ - INFO - Provider: yahoo
+2025-12-20 17:58:34,513 - __main__ - INFO - Symbols: 5
+2025-12-20 17:58:34,513 - __main__ - INFO - ============================================================
+2025-12-20 17:58:34,513 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 17:58:34,513 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 17:58:34,685 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:58:34,685 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:58:38,511 - __main__ - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-20 17:58:38,511 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:58:41,258 - __main__ - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-20 17:58:41,260 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:58:43,965 - __main__ - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-20 17:58:43,968 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:58:47,027 - __main__ - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-20 17:58:47,027 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:58:50,453 - __main__ - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-20 17:58:50,455 - __main__ - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-20 17:58:50,455 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 17:58:50,457 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 17:58:50,545 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 17:58:50,547 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 17:58:50,924 - __main__ - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-20 17:58:50,924 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 17:58:51,363 - __main__ - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-20 17:58:51,368 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 17:58:51,877 - __main__ - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-20 17:58:51,879 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 17:58:52,218 - __main__ - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-20 17:58:52,218 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 17:58:52,650 - __main__ - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-20 17:58:52,650 - __main__ - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-20 17:58:52,650 - __main__ - INFO - 
+============================================================
+2025-12-20 17:58:52,650 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 17:58:52,655 - __main__ - INFO - ============================================================
+2025-12-20 17:58:52,655 - __main__ - INFO - Quarterly records: 32
+2025-12-20 17:58:52,655 - __main__ - INFO - Annual records: 24
+2025-12-20 17:58:52,655 - __main__ - INFO - Total records: 56
+2025-12-20 17:58:52,655 - __main__ - INFO - Time elapsed: 0:00:18.137480
+2025-12-20 17:58:52,657 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 17:58:52,658 - __main__ - INFO - ============================================================
+2025-12-20 18:00:30,824 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 18:00:30,832 - __main__ - INFO - ============================================================
+2025-12-20 18:00:30,832 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 18:00:30,833 - __main__ - INFO - ============================================================
+2025-12-20 18:00:30,835 - __main__ - INFO - Provider: yahoo
+2025-12-20 18:00:30,835 - __main__ - INFO - Symbols: 5
+2025-12-20 18:00:30,838 - __main__ - INFO - ============================================================
+2025-12-20 18:00:30,838 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 18:00:30,839 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 18:00:31,053 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 18:00:31,053 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 18:00:35,389 - __main__ - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-20 18:00:35,389 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 18:00:38,683 - __main__ - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-20 18:00:38,683 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 18:00:43,994 - __main__ - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-20 18:00:43,996 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 18:00:49,755 - __main__ - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-20 18:00:49,755 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 18:00:53,340 - __main__ - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-20 18:00:53,340 - __main__ - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-20 18:00:53,342 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 18:00:53,343 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 18:00:53,444 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 18:00:53,444 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 18:00:53,939 - __main__ - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-20 18:00:53,941 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 18:00:54,693 - __main__ - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-20 18:00:54,694 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 18:00:55,090 - __main__ - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-20 18:00:55,090 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 18:00:55,585 - __main__ - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-20 18:00:55,585 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 18:00:56,094 - __main__ - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-20 18:00:56,094 - __main__ - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-20 18:00:56,094 - __main__ - INFO - 
+============================================================
+2025-12-20 18:00:56,094 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 18:00:56,094 - __main__ - INFO - ============================================================
+2025-12-20 18:00:56,098 - __main__ - INFO - Quarterly records: 32
+2025-12-20 18:00:56,098 - __main__ - INFO - Annual records: 24
+2025-12-20 18:00:56,098 - __main__ - INFO - Total records: 56
+2025-12-20 18:00:56,099 - __main__ - INFO - Time elapsed: 0:00:25.256505
+2025-12-20 18:00:56,099 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 18:00:56,099 - __main__ - INFO - ============================================================
+2025-12-20 21:14:30,193 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 21:14:30,194 - __main__ - INFO - ============================================================
+2025-12-20 21:14:30,195 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 21:14:30,196 - __main__ - INFO - ============================================================
+2025-12-20 21:14:30,196 - __main__ - INFO - Provider: yahoo
+2025-12-20 21:14:30,196 - __main__ - INFO - Symbols: 5
+2025-12-20 21:14:30,197 - __main__ - INFO - ============================================================
+2025-12-20 21:14:30,197 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 21:14:30,197 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 21:14:30,355 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 21:14:30,356 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 21:14:48,846 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\TCS.NS_quarterly_normalized.csv
+2025-12-20 21:14:48,886 - __main__ - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-20 21:14:48,886 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 21:14:55,177 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\INFY.NS_quarterly_normalized.csv
+2025-12-20 21:14:55,192 - __main__ - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-20 21:14:55,193 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 21:14:59,647 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized.csv
+2025-12-20 21:14:59,664 - __main__ - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-20 21:14:59,666 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 21:15:06,886 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ICICIBANK.NS_quarterly_normalized.csv
+2025-12-20 21:15:06,909 - __main__ - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-20 21:15:06,910 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 21:15:14,081 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\RELIANCE.NS_quarterly_normalized.csv
+2025-12-20 21:15:14,098 - __main__ - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-20 21:15:14,098 - __main__ - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-20 21:15:14,100 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 21:15:14,101 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 21:15:14,202 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 21:15:14,203 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 21:15:16,579 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-20 21:15:16,621 - __main__ - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-20 21:15:16,624 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 21:15:19,266 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\INFY.NS_annual_normalized.csv
+2025-12-20 21:15:19,292 - __main__ - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-20 21:15:19,351 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 21:15:23,309 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\HDFCBANK.NS_annual_normalized.csv
+2025-12-20 21:15:23,326 - __main__ - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-20 21:15:23,326 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 21:15:28,674 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ICICIBANK.NS_annual_normalized.csv
+2025-12-20 21:15:28,690 - __main__ - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-20 21:15:28,690 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 21:15:33,499 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\RELIANCE.NS_annual_normalized.csv
+2025-12-20 21:15:33,514 - __main__ - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-20 21:15:33,515 - __main__ - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-20 21:15:33,515 - __main__ - INFO - 
+============================================================
+2025-12-20 21:15:33,516 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 21:15:33,516 - __main__ - INFO - ============================================================
+2025-12-20 21:15:33,517 - __main__ - INFO - Quarterly records: 32
+2025-12-20 21:15:33,517 - __main__ - INFO - Annual records: 24
+2025-12-20 21:15:33,518 - __main__ - INFO - Total records: 56
+2025-12-20 21:15:33,518 - __main__ - INFO - Time elapsed: 0:01:03.317197
+2025-12-20 21:15:33,518 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 21:15:33,518 - __main__ - INFO - ============================================================
+2025-12-20 21:15:43,160 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-20 21:15:43,161 - __main__ - INFO - ============================================================
+2025-12-20 21:15:43,161 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-20 21:15:43,161 - __main__ - INFO - ============================================================
+2025-12-20 21:15:43,163 - __main__ - INFO - Provider: yahoo
+2025-12-20 21:15:43,163 - __main__ - INFO - Symbols: 5
+2025-12-20 21:15:43,164 - __main__ - INFO - ============================================================
+2025-12-20 21:15:43,164 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-20 21:15:43,165 - __main__ - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-20 21:15:43,337 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 21:15:43,337 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 21:15:53,703 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\TCS.NS_quarterly_normalized.csv
+2025-12-20 21:15:53,768 - __main__ - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-20 21:15:53,768 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 21:16:02,486 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\INFY.NS_quarterly_normalized.csv
+2025-12-20 21:16:02,508 - __main__ - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-20 21:16:02,508 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 21:16:12,990 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized.csv
+2025-12-20 21:16:13,011 - __main__ - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-20 21:16:13,012 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 21:16:19,664 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ICICIBANK.NS_quarterly_normalized.csv
+2025-12-20 21:16:19,677 - __main__ - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-20 21:16:19,679 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 21:16:25,248 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\RELIANCE.NS_quarterly_normalized.csv
+2025-12-20 21:16:25,267 - __main__ - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-20 21:16:25,269 - __main__ - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-20 21:16:25,270 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-20 21:16:25,271 - __main__ - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-20 21:16:25,380 - __main__ - INFO - PostgreSQL connection established
+2025-12-20 21:16:25,380 - __main__ - INFO - Fetching data for TCS.NS...
+2025-12-20 21:16:28,967 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-20 21:16:29,013 - __main__ - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-20 21:16:29,013 - __main__ - INFO - Fetching data for INFY.NS...
+2025-12-20 21:16:32,920 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\INFY.NS_annual_normalized.csv
+2025-12-20 21:16:32,938 - __main__ - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-20 21:16:32,939 - __main__ - INFO - Fetching data for HDFCBANK.NS...
+2025-12-20 21:16:35,958 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\HDFCBANK.NS_annual_normalized.csv
+2025-12-20 21:16:35,990 - __main__ - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-20 21:16:35,992 - __main__ - INFO - Fetching data for ICICIBANK.NS...
+2025-12-20 21:16:43,344 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ICICIBANK.NS_annual_normalized.csv
+2025-12-20 21:16:43,372 - __main__ - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-20 21:16:43,373 - __main__ - INFO - Fetching data for RELIANCE.NS...
+2025-12-20 21:16:48,001 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\RELIANCE.NS_annual_normalized.csv
+2025-12-20 21:16:48,022 - __main__ - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-20 21:16:48,024 - __main__ - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-20 21:16:48,025 - __main__ - INFO - 
+============================================================
+2025-12-20 21:16:48,025 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-20 21:16:48,026 - __main__ - INFO - ============================================================
+2025-12-20 21:16:48,027 - __main__ - INFO - Quarterly records: 32
+2025-12-20 21:16:48,028 - __main__ - INFO - Annual records: 24
+2025-12-20 21:16:48,028 - __main__ - INFO - Total records: 56
+2025-12-20 21:16:48,029 - __main__ - INFO - Time elapsed: 0:01:04.861714
+2025-12-20 21:16:48,032 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-20
+2025-12-20 21:16:48,033 - __main__ - INFO - ============================================================

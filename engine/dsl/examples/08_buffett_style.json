@@ -1,0 +1,45 @@
+{
+  "description": "Warren Buffett style value investing criteria",
+  "natural_language": "Strong moat: ROE > 15 for last 5 years, reasonable PE < 25, low debt < 0.5, strong FCF",
+  "use_case": "Finding companies with sustainable competitive advantages at reasonable prices",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "roe",
+          "operator": ">",
+          "value": 15,
+          "period": {
+            "type": "last_n_years",
+            "n": 5,
+            "aggregation": "all"
+          }
+        },
+        {
+          "field": "pe_ratio",
+          "operator": "<",
+          "value": 25
+        },
+        {
+          "field": "debt_to_equity",
+          "operator": "<",
+          "value": 0.5
+        },
+        {
+          "field": "free_cash_flow",
+          "operator": ">",
+          "value": 0
+        },
+        {
+          "field": "promoter_holding",
+          "operator": ">",
+          "value": 30
+        }
+      ]
+    }
+  },
+  
+  "complexity": "advanced",
+  "tags": ["value", "quality", "moat", "buffett", "time-series"]
+}

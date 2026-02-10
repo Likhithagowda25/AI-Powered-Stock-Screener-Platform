@@ -1,0 +1,114 @@
+2026-01-16 15:53:59,107 - __main__ - INFO - Test mode: Processing 10 stocks only
+2026-01-16 15:53:59,109 - backend.services.market_ingestion.nse_ticker_fetcher - INFO - Loaded 2222 tickers from cache (saved: 2025-12-30T15:49:22.994674)
+2026-01-16 15:53:59,109 - backend.services.market_ingestion.nse_ticker_fetcher - INFO - Using cached NSE tickers: 2222 stocks
+2026-01-16 15:53:59,109 - __main__ - INFO - Total stocks to process: 10
+2026-01-16 15:53:59,110 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2026-01-16 15:53:59,110 - __main__ - INFO - ============================================================
+2026-01-16 15:53:59,111 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2026-01-16 15:53:59,111 - __main__ - INFO - ============================================================
+2026-01-16 15:53:59,111 - __main__ - INFO - Provider: yahoo
+2026-01-16 15:53:59,111 - __main__ - INFO - Symbols: 10
+2026-01-16 15:53:59,112 - __main__ - INFO - ============================================================
+2026-01-16 15:53:59,112 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2026-01-16 15:53:59,112 - __main__ - INFO - Starting quarterly fundamentals ingestion for 10 symbols
+2026-01-16 15:53:59,175 - __main__ - INFO - PostgreSQL connection established
+2026-01-16 15:53:59,175 - __main__ - INFO - Fetching data for 20MICRONS.NS...
+2026-01-16 15:54:09,752 - __main__ - WARNING - Error fetching estimates/actions for 20MICRONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2026-01-16 15:54:09,781 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\20MICRONS.NS_quarterly_normalized.csv
+2026-01-16 15:54:09,794 - __main__ - INFO - [OK] Ingested 6 quarterly records for 20MICRONS.NS
+2026-01-16 15:54:09,794 - __main__ - INFO - Fetching data for 21STCENMGM.NS...
+2026-01-16 15:54:13,646 - yfinance - ERROR - 21STCENMGM.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:13,930 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\21STCENMGM.NS_quarterly_normalized.csv
+2026-01-16 15:54:13,937 - __main__ - INFO - [OK] Ingested 6 quarterly records for 21STCENMGM.NS
+2026-01-16 15:54:13,937 - __main__ - INFO - Fetching data for 360ONE.NS...
+2026-01-16 15:54:17,950 - __main__ - WARNING - Error fetching estimates/actions for 360ONE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2026-01-16 15:54:17,958 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\360ONE.NS_quarterly_normalized.csv
+2026-01-16 15:54:17,965 - __main__ - INFO - [OK] Ingested 5 quarterly records for 360ONE.NS
+2026-01-16 15:54:17,965 - __main__ - INFO - Fetching data for 3IINFOLTD.NS...
+2026-01-16 15:54:22,428 - yfinance - ERROR - 3IINFOLTD.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:22,762 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\3IINFOLTD.NS_quarterly_normalized.csv
+2026-01-16 15:54:22,769 - __main__ - INFO - [OK] Ingested 6 quarterly records for 3IINFOLTD.NS
+2026-01-16 15:54:22,769 - __main__ - INFO - Fetching data for 3MINDIA.NS...
+2026-01-16 15:54:28,412 - yfinance - ERROR - 3MINDIA.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:28,717 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\3MINDIA.NS_quarterly_normalized.csv
+2026-01-16 15:54:28,720 - __main__ - INFO - [OK] Ingested 5 quarterly records for 3MINDIA.NS
+2026-01-16 15:54:28,720 - __main__ - INFO - Fetching data for 3PLAND.NS...
+2026-01-16 15:54:33,017 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3PLAND.NS"}}}
+2026-01-16 15:54:34,396 - yfinance - ERROR - 3PLAND.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:34,727 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\3PLAND.NS_quarterly_normalized.csv
+2026-01-16 15:54:34,731 - __main__ - INFO - [OK] Ingested 5 quarterly records for 3PLAND.NS
+2026-01-16 15:54:34,731 - __main__ - INFO - Fetching data for 5PAISA.NS...
+2026-01-16 15:54:39,697 - yfinance - ERROR - 5PAISA.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:39,948 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\5PAISA.NS_quarterly_normalized.csv
+2026-01-16 15:54:39,956 - __main__ - INFO - [OK] Ingested 5 quarterly records for 5PAISA.NS
+2026-01-16 15:54:39,956 - __main__ - INFO - Fetching data for 63MOONS.NS...
+2026-01-16 15:54:44,179 - __main__ - WARNING - Error fetching estimates/actions for 63MOONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2026-01-16 15:54:44,194 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\63MOONS.NS_quarterly_normalized.csv
+2026-01-16 15:54:44,198 - __main__ - INFO - [OK] Ingested 5 quarterly records for 63MOONS.NS
+2026-01-16 15:54:44,198 - __main__ - INFO - Fetching data for A2ZINFRA.NS...
+2026-01-16 15:54:49,281 - yfinance - ERROR - A2ZINFRA.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:49,655 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\A2ZINFRA.NS_quarterly_normalized.csv
+2026-01-16 15:54:49,660 - __main__ - INFO - [OK] Ingested 6 quarterly records for A2ZINFRA.NS
+2026-01-16 15:54:49,660 - __main__ - INFO - Fetching data for AAATECH.NS...
+2026-01-16 15:54:51,891 - __main__ - WARNING - Error fetching market data for AAATECH.NS: Failed to perform, curl: (23) Failure writing output to destination, passed 13 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-16 15:54:54,541 - yfinance - ERROR - AAATECH.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:54:54,798 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AAATECH.NS_quarterly_normalized.csv
+2026-01-16 15:54:54,806 - __main__ - INFO - [OK] Ingested 5 quarterly records for AAATECH.NS
+2026-01-16 15:54:54,806 - __main__ - INFO - Quarterly fundamentals ingestion complete: 54 total records
+2026-01-16 15:54:54,806 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2026-01-16 15:54:54,806 - __main__ - INFO - Starting annual fundamentals ingestion for 10 symbols
+2026-01-16 15:54:54,874 - __main__ - INFO - PostgreSQL connection established
+2026-01-16 15:54:54,874 - __main__ - INFO - Fetching data for 20MICRONS.NS...
+2026-01-16 15:54:57,553 - __main__ - WARNING - Error fetching estimates/actions for 20MICRONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2026-01-16 15:54:57,587 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\20MICRONS.NS_annual_normalized.csv
+2026-01-16 15:54:57,597 - __main__ - INFO - [OK] Ingested 5 annual records for 20MICRONS.NS
+2026-01-16 15:54:57,597 - __main__ - INFO - Fetching data for 21STCENMGM.NS...
+2026-01-16 15:55:01,264 - __main__ - WARNING - Error fetching estimates/actions for 21STCENMGM.NS: Failed to perform, curl: (23) Failure writing output to destination, passed 13694 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-16 15:55:01,277 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\21STCENMGM.NS_annual_normalized.csv
+2026-01-16 15:55:01,284 - __main__ - INFO - [OK] Ingested 5 annual records for 21STCENMGM.NS
+2026-01-16 15:55:01,286 - __main__ - INFO - Fetching data for 360ONE.NS...
+2026-01-16 15:55:04,857 - __main__ - WARNING - Error fetching estimates/actions for 360ONE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2026-01-16 15:55:04,870 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\360ONE.NS_annual_normalized.csv
+2026-01-16 15:55:04,874 - __main__ - INFO - [OK] Ingested 4 annual records for 360ONE.NS
+2026-01-16 15:55:04,875 - __main__ - INFO - Fetching data for 3IINFOLTD.NS...
+2026-01-16 15:55:11,169 - yfinance - ERROR - 3IINFOLTD.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:55:11,496 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\3IINFOLTD.NS_annual_normalized.csv
+2026-01-16 15:55:11,504 - __main__ - INFO - [OK] Ingested 5 annual records for 3IINFOLTD.NS
+2026-01-16 15:55:11,505 - __main__ - INFO - Fetching data for 3MINDIA.NS...
+2026-01-16 15:55:14,961 - yfinance - ERROR - 3MINDIA.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:55:15,365 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\3MINDIA.NS_annual_normalized.csv
+2026-01-16 15:55:15,372 - __main__ - INFO - [OK] Ingested 5 annual records for 3MINDIA.NS
+2026-01-16 15:55:15,373 - __main__ - INFO - Fetching data for 3PLAND.NS...
+2026-01-16 15:55:18,776 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3PLAND.NS"}}}
+2026-01-16 15:55:21,620 - yfinance - ERROR - 3PLAND.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:55:21,938 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\3PLAND.NS_annual_normalized.csv
+2026-01-16 15:55:21,944 - __main__ - INFO - [OK] Ingested 5 annual records for 3PLAND.NS
+2026-01-16 15:55:21,944 - __main__ - INFO - Fetching data for 5PAISA.NS...
+2026-01-16 15:55:26,130 - yfinance - ERROR - 5PAISA.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:55:26,521 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\5PAISA.NS_annual_normalized.csv
+2026-01-16 15:55:26,528 - __main__ - INFO - [OK] Ingested 5 annual records for 5PAISA.NS
+2026-01-16 15:55:26,529 - __main__ - INFO - Fetching data for 63MOONS.NS...
+2026-01-16 15:55:28,222 - __main__ - WARNING - Error fetching estimates/actions for 63MOONS.NS: Failed to perform, curl: (23) Failure writing output to destination, passed 13 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-16 15:55:28,235 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\63MOONS.NS_annual_normalized.csv
+2026-01-16 15:55:28,242 - __main__ - INFO - [OK] Ingested 5 annual records for 63MOONS.NS
+2026-01-16 15:55:28,243 - __main__ - INFO - Fetching data for A2ZINFRA.NS...
+2026-01-16 15:55:31,675 - yfinance - ERROR - A2ZINFRA.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:55:32,237 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\A2ZINFRA.NS_annual_normalized.csv
+2026-01-16 15:55:32,244 - __main__ - INFO - [OK] Ingested 4 annual records for A2ZINFRA.NS
+2026-01-16 15:55:32,244 - __main__ - INFO - Fetching data for AAATECH.NS...
+2026-01-16 15:55:34,910 - yfinance - ERROR - AAATECH.NS: No earnings dates found, symbol may be delisted
+2026-01-16 15:55:35,144 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AAATECH.NS_annual_normalized.csv
+2026-01-16 15:55:35,151 - __main__ - INFO - [OK] Ingested 5 annual records for AAATECH.NS
+2026-01-16 15:55:35,151 - __main__ - INFO - Annual fundamentals ingestion complete: 48 total records
+2026-01-16 15:55:35,151 - __main__ - INFO - 
+============================================================
+2026-01-16 15:55:35,151 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2026-01-16 15:55:35,152 - __main__ - INFO - ============================================================
+2026-01-16 15:55:35,152 - __main__ - INFO - Quarterly records: 54
+2026-01-16 15:55:35,152 - __main__ - INFO - Annual records: 48
+2026-01-16 15:55:35,152 - __main__ - INFO - Total records: 102
+2026-01-16 15:55:35,153 - __main__ - INFO - Time elapsed: 0:01:36.038359
+2026-01-16 15:55:35,153 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2026-01-16
+2026-01-16 15:55:35,153 - __main__ - INFO - ============================================================

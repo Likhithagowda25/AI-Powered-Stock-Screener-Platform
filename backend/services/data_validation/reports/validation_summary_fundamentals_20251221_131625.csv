@@ -1,0 +1,7 @@
+Ticker,Issue Type,Severity,Affected Period,Field,Count,Percentage,Action,Message
+ZEEL.NS,missing_mandatory,CRITICAL,N/A,revenue,1,16.666666666666664,skip,Missing mandatory field 'revenue' in 1/6 records
+ZEEL.NS,missing_mandatory,CRITICAL,N/A,net_income,1,16.666666666666664,skip,Missing mandatory field 'net_income' in 1/6 records
+ZEEL.NS,missing_important,MEDIUM,N/A,ebitda,1,16.666666666666664,flag,Missing important field 'ebitda' in 1/6 records
+ZEEL.NS,missing_important,MEDIUM,N/A,total_assets,3,50.0,flag,Missing important field 'total_assets' in 3/6 records
+ZEEL.NS,missing_important,MEDIUM,N/A,total_debt,3,50.0,flag,Missing important field 'total_debt' in 3/6 records
+ZEEL.NS,missing_important,MEDIUM,N/A,free_cash_flow,6,100.0,flag,Missing important field 'free_cash_flow' in 6/6 records

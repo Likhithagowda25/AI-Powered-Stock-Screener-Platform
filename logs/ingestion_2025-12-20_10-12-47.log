@@ -1,0 +1,3 @@
+2025-12-20 10:12:47.271681: Raw data saved for INFY.NS at data/raw/fundamentals\INFY.NS_raw.csv
+2025-12-20 10:12:47.389403: Normalized CSV saved for INFY.NS at data/processed/fundamentals\INFY.NS_normalized.csv
+2025-12-20 10:12:47.396775: Fetching raw data for RELIANCE.NS from Yahoo Finance...

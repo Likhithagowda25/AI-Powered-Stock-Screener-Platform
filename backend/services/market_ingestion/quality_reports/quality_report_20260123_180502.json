@@ -1,0 +1,26 @@
+{
+  "summary": {},
+  "missing_field_counts": {
+    "name": 0,
+    "sector": 0,
+    "industry": 0,
+    "market_cap": 0,
+    "current_price": 0,
+    "pe_ratio": 0,
+    "pb_ratio": 0,
+    "peg_ratio": 0,
+    "roe": 0,
+    "roa": 0,
+    "debt_to_equity": 0,
+    "revenue": 0,
+    "net_income": 0,
+    "eps": 0,
+    "dividend_yield": 0,
+    "operating_margin": 0,
+    "current_ratio": 0
+  },
+  "worst_stocks": [],
+  "best_stocks": [],
+  "stocks_needing_fallback": [],
+  "generated_at": "2026-01-23T18:05:02.545680"
+}

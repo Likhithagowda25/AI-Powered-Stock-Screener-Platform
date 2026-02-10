@@ -1,0 +1,90 @@
+2025-12-20 22:58:15,888 - __main__ - INFO - Processing HDFCBANK.NS_quarterly_normalized.csv...
+2025-12-20 22:58:15,892 - __main__ - INFO - Starting fundamentals validation for 6 records
+2025-12-20 22:58:15,892 - __main__ - INFO - Validating schema and data types...
+2025-12-20 22:58:15,908 - __main__ - INFO - Checking for missing data...
+2025-12-20 22:58:15,911 - __main__ - INFO - Detecting anomalies...
+2025-12-20 22:58:15,924 - __main__ - WARNING - SKIP: HDFCBANK.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-20 22:58:15,924 - __main__ - WARNING - SKIP: HDFCBANK.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-20 22:58:15,924 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'ebitda' in 6/6 records
+2025-12-20 22:58:15,924 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'total_assets' in 1/6 records
+2025-12-20 22:58:15,924 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'total_debt' in 1/6 records
+2025-12-20 22:58:15,924 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-20 22:58:15,927 - __main__ - INFO - Skipped 1 tickers: HDFCBANK.NS
+2025-12-20 22:58:15,929 - __main__ - INFO - Validation report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_report_fundamentals_20251220_225815.json
+2025-12-20 22:58:15,930 - __main__ - INFO - Summary report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225815.md
+2025-12-20 22:58:15,938 - __main__ - INFO - CSV report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225815.csv
+2025-12-20 22:58:15,940 - __main__ - INFO - Validation complete. Found 6 issues.
+2025-12-20 22:58:15,940 - __main__ - INFO - Clean records: 0/6
+2025-12-20 22:58:15,941 - __main__ - INFO - Cleaned data saved to C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized_validated.csv
+2025-12-20 22:58:15,941 - __main__ - INFO - Processing ICICIBANK.NS_quarterly_normalized.csv...
+2025-12-20 22:58:15,958 - __main__ - INFO - Starting fundamentals validation for 7 records
+2025-12-20 22:58:15,959 - __main__ - INFO - Validating schema and data types...
+2025-12-20 22:58:15,978 - __main__ - INFO - Checking for missing data...
+2025-12-20 22:58:15,979 - __main__ - INFO - Detecting anomalies...
+2025-12-20 22:58:15,989 - __main__ - WARNING - SKIP: ICICIBANK.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-20 22:58:15,989 - __main__ - WARNING - SKIP: ICICIBANK.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-20 22:58:15,989 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'ebitda' in 7/7 records
+2025-12-20 22:58:15,989 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'total_assets' in 2/7 records
+2025-12-20 22:58:15,989 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'total_debt' in 2/7 records
+2025-12-20 22:58:15,989 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-20 22:58:15,990 - __main__ - INFO - Skipped 1 tickers: ICICIBANK.NS
+2025-12-20 22:58:15,992 - __main__ - INFO - Validation report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_report_fundamentals_20251220_225815.json
+2025-12-20 22:58:15,992 - __main__ - INFO - Summary report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225815.md
+2025-12-20 22:58:15,997 - __main__ - INFO - CSV report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225815.csv
+2025-12-20 22:58:15,997 - __main__ - INFO - Validation complete. Found 6 issues.
+2025-12-20 22:58:15,997 - __main__ - INFO - Clean records: 0/7
+2025-12-20 22:58:16,001 - __main__ - INFO - Cleaned data saved to C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ICICIBANK.NS_quarterly_normalized_validated.csv
+2025-12-20 22:58:16,001 - __main__ - INFO - Processing INFY.NS_quarterly_normalized.csv...
+2025-12-20 22:58:16,020 - __main__ - INFO - Starting fundamentals validation for 7 records
+2025-12-20 22:58:16,020 - __main__ - INFO - Validating schema and data types...
+2025-12-20 22:58:16,034 - __main__ - INFO - Checking for missing data...
+2025-12-20 22:58:16,036 - __main__ - INFO - Detecting anomalies...
+2025-12-20 22:58:16,042 - __main__ - WARNING - SKIP: INFY.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-20 22:58:16,042 - __main__ - WARNING - SKIP: INFY.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-20 22:58:16,042 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-20 22:58:16,042 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'total_assets' in 2/7 records
+2025-12-20 22:58:16,044 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'total_debt' in 2/7 records
+2025-12-20 22:58:16,044 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'free_cash_flow' in 4/7 records
+2025-12-20 22:58:16,044 - __main__ - INFO - Skipped 1 tickers: INFY.NS
+2025-12-20 22:58:16,044 - __main__ - INFO - Validation report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_report_fundamentals_20251220_225816.json
+2025-12-20 22:58:16,044 - __main__ - INFO - Summary report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225816.md
+2025-12-20 22:58:16,054 - __main__ - INFO - CSV report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225816.csv
+2025-12-20 22:58:16,054 - __main__ - INFO - Validation complete. Found 6 issues.
+2025-12-20 22:58:16,054 - __main__ - INFO - Clean records: 0/7
+2025-12-20 22:58:16,055 - __main__ - INFO - Cleaned data saved to C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\INFY.NS_quarterly_normalized_validated.csv
+2025-12-20 22:58:16,055 - __main__ - INFO - Processing RELIANCE.NS_quarterly_normalized.csv...
+2025-12-20 22:58:16,066 - __main__ - INFO - Starting fundamentals validation for 6 records
+2025-12-20 22:58:16,072 - __main__ - INFO - Validating schema and data types...
+2025-12-20 22:58:16,086 - __main__ - INFO - Checking for missing data...
+2025-12-20 22:58:16,086 - __main__ - INFO - Detecting anomalies...
+2025-12-20 22:58:16,097 - __main__ - WARNING - SKIP: RELIANCE.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-20 22:58:16,097 - __main__ - WARNING - SKIP: RELIANCE.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-20 22:58:16,101 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-20 22:58:16,102 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-20 22:58:16,102 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-20 22:58:16,102 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-20 22:58:16,103 - __main__ - INFO - Skipped 1 tickers: RELIANCE.NS
+2025-12-20 22:58:16,105 - __main__ - INFO - Validation report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_report_fundamentals_20251220_225816.json
+2025-12-20 22:58:16,105 - __main__ - INFO - Summary report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225816.md
+2025-12-20 22:58:16,110 - __main__ - INFO - CSV report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225816.csv
+2025-12-20 22:58:16,110 - __main__ - INFO - Validation complete. Found 6 issues.
+2025-12-20 22:58:16,110 - __main__ - INFO - Clean records: 0/6
+2025-12-20 22:58:16,110 - __main__ - INFO - Cleaned data saved to C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\RELIANCE.NS_quarterly_normalized_validated.csv
+2025-12-20 22:58:16,110 - __main__ - INFO - Processing TCS.NS_quarterly_normalized.csv...
+2025-12-20 22:58:16,116 - __main__ - INFO - Starting fundamentals validation for 6 records
+2025-12-20 22:58:16,116 - __main__ - INFO - Validating schema and data types...
+2025-12-20 22:58:16,128 - __main__ - INFO - Checking for missing data...
+2025-12-20 22:58:16,130 - __main__ - INFO - Detecting anomalies...
+2025-12-20 22:58:16,143 - __main__ - WARNING - SKIP: TCS.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-20 22:58:16,143 - __main__ - WARNING - SKIP: TCS.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-20 22:58:16,143 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-20 22:58:16,143 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'total_assets' in 1/6 records
+2025-12-20 22:58:16,143 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'total_debt' in 1/6 records
+2025-12-20 22:58:16,143 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'free_cash_flow' in 3/6 records
+2025-12-20 22:58:16,143 - __main__ - INFO - Skipped 1 tickers: TCS.NS
+2025-12-20 22:58:16,148 - __main__ - INFO - Validation report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_report_fundamentals_20251220_225816.json
+2025-12-20 22:58:16,150 - __main__ - INFO - Summary report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225816.md
+2025-12-20 22:58:16,155 - __main__ - INFO - CSV report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251220_225816.csv
+2025-12-20 22:58:16,155 - __main__ - INFO - Validation complete. Found 6 issues.
+2025-12-20 22:58:16,155 - __main__ - INFO - Clean records: 0/6
+2025-12-20 22:58:16,155 - __main__ - INFO - Cleaned data saved to C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\TCS.NS_quarterly_normalized_validated.csv

@@ -1,0 +1,449 @@
+{
+  "summary": {
+    "total_stocks": 327,
+    "average_quality_score": 76.4,
+    "min_quality_score": 11.8,
+    "max_quality_score": 82.4,
+    "stocks_above_80_percent": 155,
+    "stocks_below_50_percent": 3,
+    "timestamp": "2026-01-23T03:28:04.398706"
+  },
+  "missing_field_counts": {
+    "peg_ratio": 327,
+    "operating_margin": 327,
+    "current_ratio": 327,
+    "dividend_yield": 142,
+    "roe": 54,
+    "roa": 46,
+    "pe_ratio": 40,
+    "debt_to_equity": 35,
+    "revenue": 4,
+    "net_income": 3,
+    "eps": 3,
+    "market_cap": 2,
+    "pb_ratio": 2,
+    "sector": 1,
+    "industry": 1,
+    "name": 0,
+    "current_price": 0
+  },
+  "worst_stocks": [
+    {
+      "ticker": "3PLAND.NS",
+      "total_fields": 17,
+      "populated_fields": 2,
+      "missing_fields": [
+        "sector",
+        "industry",
+        "market_cap",
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T23:12:52.464097",
+      "quality_score": 11.8
+    },
+    {
+      "ticker": "AGRITECH.NS",
+      "total_fields": 17,
+      "populated_fields": 6,
+      "missing_fields": [
+        "pe_ratio",
+        "pb_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:17:56.693150",
+      "quality_score": 35.3
+    },
+    {
+      "ticker": "ANTELOPUS.NS",
+      "total_fields": 17,
+      "populated_fields": 8,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "revenue",
+        "net_income",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:22:52.620050",
+      "quality_score": 47.1
+    },
+    {
+      "ticker": "ALOKINDS.NS",
+      "total_fields": 17,
+      "populated_fields": 9,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:20:36.632291",
+      "quality_score": 52.9
+    },
+    {
+      "ticker": "ANKITMETAL.NS",
+      "total_fields": 17,
+      "populated_fields": 9,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:22:28.860702",
+      "quality_score": 52.9
+    },
+    {
+      "ticker": "ANSALAPI.NS",
+      "total_fields": 17,
+      "populated_fields": 9,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "debt_to_equity",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:22:44.758138",
+      "quality_score": 52.9
+    },
+    {
+      "ticker": "BLAL.NS",
+      "total_fields": 17,
+      "populated_fields": 9,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "roe",
+        "debt_to_equity",
+        "revenue",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:34:21.151789",
+      "quality_score": 52.9
+    },
+    {
+      "ticker": "BLUSPRING.NS",
+      "total_fields": 17,
+      "populated_fields": 9,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-23T03:27:29.639959",
+      "quality_score": 52.9
+    },
+    {
+      "ticker": "ABLBL.NS",
+      "total_fields": 17,
+      "populated_fields": 10,
+      "missing_fields": [
+        "peg_ratio",
+        "roe",
+        "roa",
+        "eps",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T23:14:52.778788",
+      "quality_score": 58.8
+    },
+    {
+      "ticker": "ACL.NS",
+      "total_fields": 17,
+      "populated_fields": 10,
+      "missing_fields": [
+        "pe_ratio",
+        "peg_ratio",
+        "roe",
+        "roa",
+        "dividend_yield",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance",
+        "alpha_vantage"
+      ],
+      "last_updated": "2026-01-22T23:15:32.716228",
+      "quality_score": 58.8
+    }
+  ],
+  "best_stocks": [
+    {
+      "ticker": "20MICRONS.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:12:22.335656",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "3MINDIA.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:12:44.981792",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "AARON.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:13:49.525614",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "AARTECH.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:13:50.312399",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "AARTIDRUGS.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:13:50.654967",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "AARTIIND.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:13:51.336128",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "AARTIPHARM.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:13:51.674290",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "AARVI.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:13:57.479400",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "ABBOTINDIA.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:14:23.256652",
+      "quality_score": 82.4
+    },
+    {
+      "ticker": "ABDL.NS",
+      "total_fields": 17,
+      "populated_fields": 14,
+      "missing_fields": [
+        "peg_ratio",
+        "operating_margin",
+        "current_ratio"
+      ],
+      "data_sources": [
+        "yfinance"
+      ],
+      "last_updated": "2026-01-22T23:14:37.515325",
+      "quality_score": 82.4
+    }
+  ],
+  "stocks_needing_fallback": [
+    "21STCENMGM.NS",
+    "360ONE.NS",
+    "3IINFOLTD.NS",
+    "3PLAND.NS",
+    "5PAISA.NS",
+    "63MOONS.NS",
+    "A2ZINFRA.NS",
+    "AAATECH.NS",
+    "AADHARHFC.NS",
+    "AAKASH.NS",
+    "AAREYDRUGS.NS",
+    "AARTISURF.NS",
+    "AAVAS.NS",
+    "ABAN.NS",
+    "ABB.NS",
+    "ABCAPITAL.NS",
+    "ABCOTS.NS",
+    "ABFRL.NS",
+    "ABLBL.NS",
+    "ABMINTLLTD.NS",
+    "ACCELYA.NS",
+    "ACCURACY.NS",
+    "ACEINTEG.NS",
+    "ACL.NS",
+    "ADANIENSOL.NS",
+    "ADANIGREEN.NS",
+    "ADANIPOWER.NS",
+    "ADL.NS",
+    "ADOR.NS",
+    "ADROITINFO.NS",
+    "ADVANCE.NS",
+    "ADVENTHTL.NS",
+    "AEGISVOPAK.NS",
+    "AEQUS.NS",
+    "AERONEU.NS",
+    "AETHER.NS",
+    "AFFLE.NS",
+    "AFFORDABLE.NS",
+    "AFIL.NS",
+    "AFSL.NS",
+    "AGARWALEYE.NS",
+    "AGRITECH.NS",
+    "AGSTRA.NS",
+    "AHCL.NS",
+    "AIRAN.NS",
+    "AIROLAM.NS",
+    "AJAXENGG.NS",
+    "AJOONI.NS",
+    "AKASH.NS",
+    "AKG.NS"
+  ],
+  "generated_at": "2026-01-23T03:28:04.402110"
+}

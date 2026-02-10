@@ -1,0 +1,3 @@
+2025-12-20 10:12:46.346857: Raw data saved for TCS.NS at data/raw/fundamentals\TCS.NS_raw.csv
+2025-12-20 10:12:46.405201: Normalized CSV saved for TCS.NS at data/processed/fundamentals\TCS.NS_normalized.csv
+2025-12-20 10:12:46.407186: Fetching raw data for INFY.NS from Yahoo Finance...

@@ -1,0 +1,13 @@
+2025-12-20 16:50:29.276947: === Starting Step 4: Load into Database ===
+2025-12-20 16:50:29.360247: PostgreSQL connection established.
+2025-12-20 16:50:29.371014: Processing file: data/processed/fundamentals\annual\HDFCBANK.NS_annual_normalized.csv
+2025-12-20 16:50:29.382293: Unknown CSV type, skipping file: HDFCBANK.NS_annual_normalized.csv
+2025-12-20 16:50:29.382293: Processing file: data/processed/fundamentals\annual\ICICIBANK.NS_annual_normalized.csv
+2025-12-20 16:50:29.408326: Unknown CSV type, skipping file: ICICIBANK.NS_annual_normalized.csv
+2025-12-20 16:50:29.411283: Processing file: data/processed/fundamentals\annual\INFY.NS_annual_normalized.csv
+2025-12-20 16:50:29.414280: Unknown CSV type, skipping file: INFY.NS_annual_normalized.csv
+2025-12-20 16:50:29.415278: Processing file: data/processed/fundamentals\annual\RELIANCE.NS_annual_normalized.csv
+2025-12-20 16:50:29.430270: Unknown CSV type, skipping file: RELIANCE.NS_annual_normalized.csv
+2025-12-20 16:50:29.430270: Processing file: data/processed/fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-20 16:50:29.445526: Unknown CSV type, skipping file: TCS.NS_annual_normalized.csv
+2025-12-20 16:50:29.446608: Processing file: data/processed/fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized.csv

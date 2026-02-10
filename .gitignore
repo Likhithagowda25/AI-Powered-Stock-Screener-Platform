@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.env.dev
+.node_modules/
+.logs/
+.workflows/
+.coverage/
+data/processed/fundamentals/quarterly/
+data/processed/fundamentals/annual/
+backend/database/node_modules/

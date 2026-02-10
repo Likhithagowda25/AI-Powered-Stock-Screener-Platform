@@ -1,0 +1,3 @@
+2025-12-20 10:12:50.080072: Raw data saved for ICICIBANK.NS at data/raw/fundamentals\ICICIBANK.NS_raw.csv
+2025-12-20 10:12:50.208867: Normalized CSV saved for ICICIBANK.NS at data/processed/fundamentals\ICICIBANK.NS_normalized.csv
+2025-12-20 10:12:50.210892: === Fundamental Data Ingestion Completed ===

@@ -1,0 +1,8 @@
+Ticker,Issue Type,Severity,Affected Period,Field,Count,Percentage,Action,Message
+BIOCON.NS,missing_mandatory,CRITICAL,,revenue,1.0,16.666666666666664,skip,Missing mandatory field 'revenue' in 1/6 records
+BIOCON.NS,missing_mandatory,CRITICAL,,net_income,1.0,16.666666666666664,skip,Missing mandatory field 'net_income' in 1/6 records
+BIOCON.NS,missing_important,MEDIUM,,ebitda,1.0,16.666666666666664,flag,Missing important field 'ebitda' in 1/6 records
+BIOCON.NS,missing_important,MEDIUM,,total_assets,3.0,50.0,flag,Missing important field 'total_assets' in 3/6 records
+BIOCON.NS,missing_important,MEDIUM,,total_debt,3.0,50.0,flag,Missing important field 'total_debt' in 3/6 records
+BIOCON.NS,missing_important,MEDIUM,,free_cash_flow,6.0,100.0,flag,Missing important field 'free_cash_flow' in 6/6 records
+BIOCON.NS,net_income_spike,MEDIUM,Q1 2025,net_income,,,flag,Net income changed by 1272.5%

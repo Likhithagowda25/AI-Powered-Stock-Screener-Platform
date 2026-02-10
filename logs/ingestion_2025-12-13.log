@@ -1,0 +1,24 @@
+2025-12-13 17:18:28,461 - INFO - Starting ingestion for AAPL
+2025-12-13 17:18:30,033 - INFO - Raw data saved: storage/raw/2025-12-13/AAPL.json
+2025-12-13 17:18:30,213 - ERROR - Ingestion failed for AAPL
+Traceback (most recent call last):
+  File "C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\ingestion\data_ingestion.py", line 73, in ingest_symbol
+    int(v["6. volume"])
+        ~^^^^^^^^^^^^^
+KeyError: '6. volume'
+2025-12-13 17:18:30,223 - INFO - Starting ingestion for MSFT
+2025-12-13 17:18:31,910 - INFO - Raw data saved: storage/raw/2025-12-13/MSFT.json
+2025-12-13 17:18:32,099 - ERROR - Ingestion failed for MSFT
+Traceback (most recent call last):
+  File "C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\ingestion\data_ingestion.py", line 73, in ingest_symbol
+    int(v["6. volume"])
+        ~^^^^^^^^^^^^^
+KeyError: '6. volume'
+2025-12-13 17:18:32,111 - INFO - Starting ingestion for GOOGL
+2025-12-13 17:18:33,544 - INFO - Raw data saved: storage/raw/2025-12-13/GOOGL.json
+2025-12-13 17:18:33,721 - ERROR - Ingestion failed for GOOGL
+Traceback (most recent call last):
+  File "C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\ingestion\data_ingestion.py", line 73, in ingest_symbol
+    int(v["6. volume"])
+        ~^^^^^^^^^^^^^
+KeyError: '6. volume'

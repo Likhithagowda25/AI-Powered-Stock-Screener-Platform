@@ -1,0 +1,33 @@
+2025-12-20 16:53:54.050374: === Starting Step 4: Load into Database ===
+2025-12-20 16:53:54.101659: PostgreSQL connection established.
+2025-12-20 16:53:54.101659: Processing file: data/processed/fundamentals\annual\HDFCBANK.NS_annual_normalized.csv
+2025-12-20 16:53:54.107407: Validation Warning: 5 rows missing revenue, 5 rows missing EPS.
+2025-12-20 16:53:54.130922: Inserted 4 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.131905: Processing file: data/processed/fundamentals\annual\ICICIBANK.NS_annual_normalized.csv
+2025-12-20 16:53:54.135230: Validation Warning: 5 rows missing revenue, 5 rows missing EPS.
+2025-12-20 16:53:54.142690: Inserted 4 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.143691: Processing file: data/processed/fundamentals\annual\INFY.NS_annual_normalized.csv
+2025-12-20 16:53:54.146691: Validation Warning: 5 rows missing revenue, 5 rows missing EPS.
+2025-12-20 16:53:54.151132: Inserted 4 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.151132: Processing file: data/processed/fundamentals\annual\RELIANCE.NS_annual_normalized.csv
+2025-12-20 16:53:54.156510: Validation Warning: 5 rows missing revenue, 5 rows missing EPS.
+2025-12-20 16:53:54.164288: Inserted 4 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.165296: Processing file: data/processed/fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-20 16:53:54.168408: Validation Warning: 4 rows missing revenue, 4 rows missing EPS.
+2025-12-20 16:53:54.175342: Inserted 4 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.176584: Processing file: data/processed/fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized.csv
+2025-12-20 16:53:54.179555: Validation Warning: 6 rows missing revenue, 6 rows missing EPS.
+2025-12-20 16:53:54.183797: Inserted 5 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.183797: Processing file: data/processed/fundamentals\quarterly\ICICIBANK.NS_quarterly_normalized.csv
+2025-12-20 16:53:54.194714: Validation Warning: 7 rows missing revenue, 7 rows missing EPS.
+2025-12-20 16:53:54.208376: Inserted 5 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.208376: Processing file: data/processed/fundamentals\quarterly\INFY.NS_quarterly_normalized.csv
+2025-12-20 16:53:54.214849: Validation Warning: 7 rows missing revenue, 7 rows missing EPS.
+2025-12-20 16:53:54.228291: Inserted 5 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.229256: Processing file: data/processed/fundamentals\quarterly\RELIANCE.NS_quarterly_normalized.csv
+2025-12-20 16:53:54.240682: Validation Warning: 6 rows missing revenue, 6 rows missing EPS.
+2025-12-20 16:53:54.248043: Inserted 5 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.248043: Processing file: data/processed/fundamentals\quarterly\TCS.NS_quarterly_normalized.csv
+2025-12-20 16:53:54.262439: Validation Warning: 6 rows missing revenue, 6 rows missing EPS.
+2025-12-20 16:53:54.265470: Inserted 5 rows into fundamentals_quarterly.
+2025-12-20 16:53:54.265470: === Step 4 Ingestion Completed ===

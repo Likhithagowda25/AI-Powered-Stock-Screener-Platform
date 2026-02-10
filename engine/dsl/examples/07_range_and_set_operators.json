@@ -1,0 +1,50 @@
+{
+  "description": "Using range and set membership operators",
+  "natural_language": "PE between 10 and 20, ROE > 12, in IT/Pharma/Auto sectors",
+  "use_case": "Finding moderately valued stocks in specific sectors with good profitability",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "between",
+          "value": [10, 20]
+        },
+        {
+          "field": "roe",
+          "operator": ">",
+          "value": 12
+        }
+      ]
+    },
+    "meta": {
+      "sector": "IT"
+    }
+  },
+  
+  "alternative_using_in_operator": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "between",
+          "value": [10, 20]
+        },
+        {
+          "field": "roe",
+          "operator": ">",
+          "value": 12
+        },
+        {
+          "field": "sector",
+          "operator": "in",
+          "value": ["IT", "Pharma", "Auto"]
+        }
+      ]
+    }
+  },
+  
+  "complexity": "intermediate",
+  "tags": ["range", "set-operators", "multi-sector"]
+}

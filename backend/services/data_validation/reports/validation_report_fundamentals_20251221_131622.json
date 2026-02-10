@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-12-21T13:16:22.993797",
+  "data_type": "fundamentals",
+  "total_records": 6,
+  "clean_records": 0,
+  "skipped_records": 6,
+  "total_issues": 7,
+  "severity_breakdown": {
+    "critical": 2,
+    "high": 0,
+    "medium": 5,
+    "low": 0
+  },
+  "skipped_tickers": [
+    "BIOCON.NS"
+  ],
+  "flagged_count": 5,
+  "issues": [
+    {
+      "ticker": "BIOCON.NS",
+      "field": "revenue",
+      "issue_type": "missing_mandatory",
+      "severity": "CRITICAL",
+      "count": "1",
+      "total_records": 6,
+      "percentage": 16.666666666666664,
+      "action": "skip",
+      "message": "Missing mandatory field 'revenue' in 1/6 records"
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "field": "net_income",
+      "issue_type": "missing_mandatory",
+      "severity": "CRITICAL",
+      "count": "1",
+      "total_records": 6,
+      "percentage": 16.666666666666664,
+      "action": "skip",
+      "message": "Missing mandatory field 'net_income' in 1/6 records"
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "field": "ebitda",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "1",
+      "total_records": 6,
+      "percentage": 16.666666666666664,
+      "action": "flag",
+      "message": "Missing important field 'ebitda' in 1/6 records"
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "field": "total_assets",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "3",
+      "total_records": 6,
+      "percentage": 50.0,
+      "action": "flag",
+      "message": "Missing important field 'total_assets' in 3/6 records"
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "field": "total_debt",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "3",
+      "total_records": 6,
+      "percentage": 50.0,
+      "action": "flag",
+      "message": "Missing important field 'total_debt' in 3/6 records"
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "field": "free_cash_flow",
+      "issue_type": "missing_important",
+      "severity": "MEDIUM",
+      "count": "6",
+      "total_records": 6,
+      "percentage": 100.0,
+      "action": "flag",
+      "message": "Missing important field 'free_cash_flow' in 6/6 records"
+    },
+    {
+      "ticker": "BIOCON.NS",
+      "field": "net_income",
+      "issue_type": "net_income_spike",
+      "severity": "MEDIUM",
+      "quarter": "Q1 2025",
+      "change_pct": 1272.5099601593624,
+      "action": "flag",
+      "message": "Net income changed by 1272.5%"
+    }
+  ]
+}

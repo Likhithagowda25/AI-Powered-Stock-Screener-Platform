@@ -1,0 +1,30 @@
+{
+  "description": "Contrarian play with financial safety - Beaten down stocks with strong fundamentals",
+  "natural_language": "Stocks down > 30% from 52-week high BUT debt-to-equity < 1 AND positive cash flow",
+  "use_case": "Finding oversold quality companies for value opportunities",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "price_change_from_52w_high",
+          "operator": "<",
+          "value": -30
+        },
+        {
+          "field": "debt_to_equity",
+          "operator": "<",
+          "value": 1
+        },
+        {
+          "field": "free_cash_flow",
+          "operator": ">",
+          "value": 0
+        }
+      ]
+    }
+  },
+  
+  "complexity": "intermediate",
+  "tags": ["contrarian", "value", "safety", "technical"]
+}

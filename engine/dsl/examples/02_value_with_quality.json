@@ -1,0 +1,35 @@
+{
+  "description": "Value stocks with quality - Low PE, high promoter holding, consistent profitability",
+  "natural_language": "PE < 5 AND promoter holding > 50 AND positive earnings last 4 quarters",
+  "use_case": "Finding undervalued stocks with strong fundamentals and insider confidence",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "pe_ratio",
+          "operator": "<",
+          "value": 5
+        },
+        {
+          "field": "promoter_holding",
+          "operator": ">",
+          "value": 50
+        },
+        {
+          "field": "net_profit",
+          "operator": ">",
+          "value": 0,
+          "period": {
+            "type": "last_n_quarters",
+            "n": 4,
+            "aggregation": "all"
+          }
+        }
+      ]
+    }
+  },
+  
+  "complexity": "intermediate",
+  "tags": ["value", "quality", "time-series", "promoter"]
+}

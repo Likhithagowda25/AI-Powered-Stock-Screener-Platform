@@ -1,0 +1,708 @@
+2025-12-30 15:10:00,685 - backend.services.market_ingestion.fundamentals_ingest - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-30 15:10:00,685 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:10:00,685 - backend.services.market_ingestion.fundamentals_ingest - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-30 15:10:00,685 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:10:00,701 - backend.services.market_ingestion.fundamentals_ingest - INFO - Provider: yahoo
+2025-12-30 15:10:00,701 - backend.services.market_ingestion.fundamentals_ingest - INFO - Symbols: 5
+2025-12-30 15:10:00,702 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:10:00,702 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-30 15:10:00,702 - backend.services.market_ingestion.fundamentals_ingest - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-30 15:10:00,773 - backend.services.market_ingestion.fundamentals_ingest - INFO - PostgreSQL connection established
+2025-12-30 15:10:00,774 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for TCS.NS...
+2025-12-30 15:10:07,097 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for TCS.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:07,139 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for TCS.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.7178...
+                                                   ^
+
+2025-12-30 15:10:07,139 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for INFY.NS...
+2025-12-30 15:10:11,586 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for INFY.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:11,586 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for INFY.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.1605...
+                                                   ^
+
+2025-12-30 15:10:11,586 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for RELIANCE.NS...
+2025-12-30 15:10:16,741 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for RELIANCE.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:16,742 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for RELIANCE.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.5086...
+                                                   ^
+
+2025-12-30 15:10:16,743 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for HDFCBANK.NS...
+2025-12-30 15:10:21,368 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for HDFCBANK.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:21,368 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for HDFCBANK.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.0015...
+                                                   ^
+
+2025-12-30 15:10:21,373 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for ICICIBANK.NS...
+2025-12-30 15:10:25,780 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for ICICIBANK.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:25,780 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for ICICIBANK.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.0257...
+                                                   ^
+
+2025-12-30 15:10:25,780 - backend.services.market_ingestion.fundamentals_ingest - INFO - Quarterly fundamentals ingestion complete: 0 total records
+2025-12-30 15:10:25,780 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-30 15:10:25,780 - backend.services.market_ingestion.fundamentals_ingest - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-30 15:10:25,829 - backend.services.market_ingestion.fundamentals_ingest - INFO - PostgreSQL connection established
+2025-12-30 15:10:25,829 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for TCS.NS...
+2025-12-30 15:10:27,180 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for TCS.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:27,201 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for TCS.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.7178...
+                                                   ^
+
+2025-12-30 15:10:27,201 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for INFY.NS...
+2025-12-30 15:10:28,712 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for INFY.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:28,712 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for INFY.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.1605...
+                                                   ^
+
+2025-12-30 15:10:28,712 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for RELIANCE.NS...
+2025-12-30 15:10:30,211 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for RELIANCE.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:30,211 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for RELIANCE.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.5086...
+                                                   ^
+
+2025-12-30 15:10:30,222 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for HDFCBANK.NS...
+2025-12-30 15:10:31,660 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for HDFCBANK.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:31,660 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for HDFCBANK.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.0015...
+                                                   ^
+
+2025-12-30 15:10:31,660 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for ICICIBANK.NS...
+2025-12-30 15:10:33,208 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for ICICIBANK.NS: Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for ICICIBANK.NS: schema "np" does not exist
+LINE 5:                         promoter_holding = np.float64(0.0257...
+                                                   ^
+
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - Annual fundamentals ingestion complete: 0 total records
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+============================================================
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - Quarterly records: 0
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - Annual records: 0
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - Total records: 0
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - Time elapsed: 0:00:32.517681
+2025-12-30 15:10:33,220 - backend.services.market_ingestion.fundamentals_ingest - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-30
+2025-12-30 15:10:33,223 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:11:22,332 - backend.services.market_ingestion.fundamentals_ingest - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-30 15:11:22,332 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:11:22,334 - backend.services.market_ingestion.fundamentals_ingest - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-30 15:11:22,334 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:11:22,335 - backend.services.market_ingestion.fundamentals_ingest - INFO - Provider: yahoo
+2025-12-30 15:11:22,335 - backend.services.market_ingestion.fundamentals_ingest - INFO - Symbols: 5
+2025-12-30 15:11:22,335 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:11:22,335 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-30 15:11:22,335 - backend.services.market_ingestion.fundamentals_ingest - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-30 15:11:22,391 - backend.services.market_ingestion.fundamentals_ingest - INFO - PostgreSQL connection established
+2025-12-30 15:11:22,391 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for TCS.NS...
+2025-12-30 15:11:31,543 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for TCS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:31,579 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\TCS.NS_quarterly_normalized.csv
+2025-12-30 15:11:31,586 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for TCS.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:31,586 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for INFY.NS...
+2025-12-30 15:11:35,624 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for INFY.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:35,643 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\INFY.NS_quarterly_normalized.csv
+2025-12-30 15:11:35,643 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for INFY.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:35,643 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for RELIANCE.NS...
+2025-12-30 15:11:39,148 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for RELIANCE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:39,170 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\RELIANCE.NS_quarterly_normalized.csv
+2025-12-30 15:11:39,172 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for RELIANCE.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:39,173 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for HDFCBANK.NS...
+2025-12-30 15:11:43,153 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for HDFCBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:43,161 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized.csv
+2025-12-30 15:11:43,162 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for HDFCBANK.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:43,163 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for ICICIBANK.NS...
+2025-12-30 15:11:46,862 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for ICICIBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:46,878 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ICICIBANK.NS_quarterly_normalized.csv
+2025-12-30 15:11:46,879 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for ICICIBANK.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:46,880 - backend.services.market_ingestion.fundamentals_ingest - INFO - Quarterly fundamentals ingestion complete: 0 total records
+2025-12-30 15:11:46,880 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-30 15:11:46,882 - backend.services.market_ingestion.fundamentals_ingest - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-30 15:11:46,932 - backend.services.market_ingestion.fundamentals_ingest - INFO - PostgreSQL connection established
+2025-12-30 15:11:46,932 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for TCS.NS...
+2025-12-30 15:11:48,226 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for TCS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:48,260 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-30 15:11:48,263 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for TCS.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:48,264 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for INFY.NS...
+2025-12-30 15:11:49,687 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for INFY.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:49,696 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\INFY.NS_annual_normalized.csv
+2025-12-30 15:11:49,697 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for INFY.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:49,698 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for RELIANCE.NS...
+2025-12-30 15:11:50,880 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for RELIANCE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:50,897 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\RELIANCE.NS_annual_normalized.csv
+2025-12-30 15:11:50,898 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for RELIANCE.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:50,898 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for HDFCBANK.NS...
+2025-12-30 15:11:51,972 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for HDFCBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:51,997 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\HDFCBANK.NS_annual_normalized.csv
+2025-12-30 15:11:51,997 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for HDFCBANK.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:51,997 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for ICICIBANK.NS...
+2025-12-30 15:11:53,074 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for ICICIBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:11:53,095 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ICICIBANK.NS_annual_normalized.csv
+2025-12-30 15:11:53,097 - backend.services.market_ingestion.fundamentals_ingest - ERROR - [FAILED] Failed to ingest fundamentals for ICICIBANK.NS: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-12-30 15:11:53,098 - backend.services.market_ingestion.fundamentals_ingest - INFO - Annual fundamentals ingestion complete: 0 total records
+2025-12-30 15:11:53,098 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+============================================================
+2025-12-30 15:11:53,098 - backend.services.market_ingestion.fundamentals_ingest - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-30 15:11:53,098 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:11:53,099 - backend.services.market_ingestion.fundamentals_ingest - INFO - Quarterly records: 0
+2025-12-30 15:11:53,099 - backend.services.market_ingestion.fundamentals_ingest - INFO - Annual records: 0
+2025-12-30 15:11:53,099 - backend.services.market_ingestion.fundamentals_ingest - INFO - Total records: 0
+2025-12-30 15:11:53,099 - backend.services.market_ingestion.fundamentals_ingest - INFO - Time elapsed: 0:00:30.763322
+2025-12-30 15:11:53,099 - backend.services.market_ingestion.fundamentals_ingest - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-30
+2025-12-30 15:11:53,100 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - Provider: yahoo
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - Symbols: 5
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:12:44,496 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-30 15:12:44,510 - backend.services.market_ingestion.fundamentals_ingest - INFO - Starting quarterly fundamentals ingestion for 5 symbols
+2025-12-30 15:12:44,558 - backend.services.market_ingestion.fundamentals_ingest - INFO - PostgreSQL connection established
+2025-12-30 15:12:44,558 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for TCS.NS...
+2025-12-30 15:12:50,066 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for TCS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:12:50,102 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\TCS.NS_quarterly_normalized.csv
+2025-12-30 15:12:50,116 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 6 quarterly records for TCS.NS
+2025-12-30 15:12:50,116 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for INFY.NS...
+2025-12-30 15:12:54,677 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for INFY.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:12:54,696 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\INFY.NS_quarterly_normalized.csv
+2025-12-30 15:12:54,702 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 7 quarterly records for INFY.NS
+2025-12-30 15:12:54,702 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for RELIANCE.NS...
+2025-12-30 15:12:59,007 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for RELIANCE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:12:59,023 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\RELIANCE.NS_quarterly_normalized.csv
+2025-12-30 15:12:59,029 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 6 quarterly records for RELIANCE.NS
+2025-12-30 15:12:59,029 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for HDFCBANK.NS...
+2025-12-30 15:13:03,157 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for HDFCBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:03,171 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\HDFCBANK.NS_quarterly_normalized.csv
+2025-12-30 15:13:03,179 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 6 quarterly records for HDFCBANK.NS
+2025-12-30 15:13:03,179 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for ICICIBANK.NS...
+2025-12-30 15:13:07,285 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for ICICIBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:07,310 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ICICIBANK.NS_quarterly_normalized.csv
+2025-12-30 15:13:07,320 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 7 quarterly records for ICICIBANK.NS
+2025-12-30 15:13:07,321 - backend.services.market_ingestion.fundamentals_ingest - INFO - Quarterly fundamentals ingestion complete: 32 total records
+2025-12-30 15:13:07,321 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-30 15:13:07,321 - backend.services.market_ingestion.fundamentals_ingest - INFO - Starting annual fundamentals ingestion for 5 symbols
+2025-12-30 15:13:07,371 - backend.services.market_ingestion.fundamentals_ingest - INFO - PostgreSQL connection established
+2025-12-30 15:13:07,371 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for TCS.NS...
+2025-12-30 15:13:08,580 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for TCS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:08,618 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\TCS.NS_annual_normalized.csv
+2025-12-30 15:13:08,621 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 4 annual records for TCS.NS
+2025-12-30 15:13:08,621 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for INFY.NS...
+2025-12-30 15:13:10,135 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for INFY.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:10,144 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\INFY.NS_annual_normalized.csv
+2025-12-30 15:13:10,150 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 5 annual records for INFY.NS
+2025-12-30 15:13:10,150 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for RELIANCE.NS...
+2025-12-30 15:13:11,361 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for RELIANCE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:11,375 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\RELIANCE.NS_annual_normalized.csv
+2025-12-30 15:13:11,382 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 5 annual records for RELIANCE.NS
+2025-12-30 15:13:11,382 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for HDFCBANK.NS...
+2025-12-30 15:13:12,609 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for HDFCBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:12,628 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\HDFCBANK.NS_annual_normalized.csv
+2025-12-30 15:13:12,633 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 5 annual records for HDFCBANK.NS
+2025-12-30 15:13:12,633 - backend.services.market_ingestion.fundamentals_ingest - INFO - Fetching data for ICICIBANK.NS...
+2025-12-30 15:13:13,977 - backend.services.market_ingestion.fundamentals_ingest - WARNING - Error fetching estimates/actions for ICICIBANK.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:13:14,001 - backend.services.market_ingestion.fundamentals_ingest - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ICICIBANK.NS_annual_normalized.csv
+2025-12-30 15:13:14,008 - backend.services.market_ingestion.fundamentals_ingest - INFO - [OK] Ingested 5 annual records for ICICIBANK.NS
+2025-12-30 15:13:14,009 - backend.services.market_ingestion.fundamentals_ingest - INFO - Annual fundamentals ingestion complete: 24 total records
+2025-12-30 15:13:14,009 - backend.services.market_ingestion.fundamentals_ingest - INFO - 
+============================================================
+2025-12-30 15:13:14,010 - backend.services.market_ingestion.fundamentals_ingest - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-30 15:13:14,010 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:13:14,010 - backend.services.market_ingestion.fundamentals_ingest - INFO - Quarterly records: 32
+2025-12-30 15:13:14,010 - backend.services.market_ingestion.fundamentals_ingest - INFO - Annual records: 24
+2025-12-30 15:13:14,010 - backend.services.market_ingestion.fundamentals_ingest - INFO - Total records: 56
+2025-12-30 15:13:14,011 - backend.services.market_ingestion.fundamentals_ingest - INFO - Time elapsed: 0:00:29.512928
+2025-12-30 15:13:14,011 - backend.services.market_ingestion.fundamentals_ingest - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-30
+2025-12-30 15:13:14,011 - backend.services.market_ingestion.fundamentals_ingest - INFO - ============================================================
+2025-12-30 15:52:55,883 - __main__ - INFO - Processing 50 stocks
+2025-12-30 15:52:55,908 - backend.services.market_ingestion.nse_ticker_fetcher - INFO - Loaded 2222 tickers from cache (saved: 2025-12-30T15:49:22.994674)
+2025-12-30 15:52:55,908 - backend.services.market_ingestion.nse_ticker_fetcher - INFO - Using cached NSE tickers: 2222 stocks
+2025-12-30 15:52:55,908 - __main__ - INFO - Total stocks to process: 50
+2025-12-30 15:52:55,908 - __main__ - INFO - Initialized FundamentalsIngestionPipeline with provider: yahoo
+2025-12-30 15:52:55,908 - __main__ - INFO - ============================================================
+2025-12-30 15:52:55,908 - __main__ - INFO - STARTING FUNDAMENTALS INGESTION PIPELINE
+2025-12-30 15:52:55,908 - __main__ - INFO - ============================================================
+2025-12-30 15:52:55,913 - __main__ - INFO - Provider: yahoo
+2025-12-30 15:52:55,914 - __main__ - INFO - Symbols: 50
+2025-12-30 15:52:55,914 - __main__ - INFO - ============================================================
+2025-12-30 15:52:55,914 - __main__ - INFO - 
+[1/2] Ingesting quarterly fundamentals...
+2025-12-30 15:52:55,915 - __main__ - INFO - Starting quarterly fundamentals ingestion for 50 symbols
+2025-12-30 15:52:56,007 - __main__ - INFO - PostgreSQL connection established
+2025-12-30 15:52:56,007 - __main__ - INFO - Fetching data for 20MICRONS.NS...
+2025-12-30 15:53:02,132 - __main__ - WARNING - Error fetching estimates/actions for 20MICRONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:53:02,165 - __main__ - INFO - Created company record: 20MICRONS.NS
+2025-12-30 15:53:02,180 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\20MICRONS.NS_quarterly_normalized.csv
+2025-12-30 15:53:02,194 - __main__ - INFO - [OK] Ingested 6 quarterly records for 20MICRONS.NS
+2025-12-30 15:53:02,202 - __main__ - INFO - Fetching data for 21STCENMGM.NS...
+2025-12-30 15:53:06,423 - yfinance - ERROR - 21STCENMGM.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:06,924 - __main__ - INFO - Created company record: 21STCENMGM.NS
+2025-12-30 15:53:06,941 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\21STCENMGM.NS_quarterly_normalized.csv
+2025-12-30 15:53:06,955 - __main__ - INFO - [OK] Ingested 6 quarterly records for 21STCENMGM.NS
+2025-12-30 15:53:06,955 - __main__ - INFO - Fetching data for 360ONE.NS...
+2025-12-30 15:53:11,547 - __main__ - WARNING - Error fetching estimates/actions for 360ONE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:53:11,551 - __main__ - INFO - Created company record: 360ONE.NS
+2025-12-30 15:53:11,566 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\360ONE.NS_quarterly_normalized.csv
+2025-12-30 15:53:11,579 - __main__ - INFO - [OK] Ingested 6 quarterly records for 360ONE.NS
+2025-12-30 15:53:11,579 - __main__ - INFO - Fetching data for 3IINFOLTD.NS...
+2025-12-30 15:53:15,853 - yfinance - ERROR - 3IINFOLTD.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:16,475 - __main__ - INFO - Created company record: 3IINFOLTD.NS
+2025-12-30 15:53:16,497 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\3IINFOLTD.NS_quarterly_normalized.csv
+2025-12-30 15:53:16,514 - __main__ - INFO - [OK] Ingested 7 quarterly records for 3IINFOLTD.NS
+2025-12-30 15:53:16,514 - __main__ - INFO - Fetching data for 3MINDIA.NS...
+2025-12-30 15:53:20,449 - yfinance - ERROR - 3MINDIA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:21,138 - __main__ - INFO - Created company record: 3MINDIA.NS
+2025-12-30 15:53:21,160 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\3MINDIA.NS_quarterly_normalized.csv
+2025-12-30 15:53:21,173 - __main__ - INFO - [OK] Ingested 5 quarterly records for 3MINDIA.NS
+2025-12-30 15:53:21,175 - __main__ - INFO - Fetching data for 3PLAND.NS...
+2025-12-30 15:53:24,938 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3PLAND.NS"}}}
+2025-12-30 15:53:26,571 - yfinance - ERROR - 3PLAND.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:27,301 - __main__ - INFO - Created company record: 3PLAND.NS
+2025-12-30 15:53:27,320 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\3PLAND.NS_quarterly_normalized.csv
+2025-12-30 15:53:27,333 - __main__ - INFO - [OK] Ingested 6 quarterly records for 3PLAND.NS
+2025-12-30 15:53:27,333 - __main__ - INFO - Fetching data for 5PAISA.NS...
+2025-12-30 15:53:31,351 - yfinance - ERROR - 5PAISA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:31,765 - __main__ - INFO - Created company record: 5PAISA.NS
+2025-12-30 15:53:31,784 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\5PAISA.NS_quarterly_normalized.csv
+2025-12-30 15:53:31,791 - __main__ - INFO - [OK] Ingested 5 quarterly records for 5PAISA.NS
+2025-12-30 15:53:31,791 - __main__ - INFO - Fetching data for 63MOONS.NS...
+2025-12-30 15:53:36,022 - __main__ - WARNING - Error fetching estimates/actions for 63MOONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:53:36,026 - __main__ - INFO - Created company record: 63MOONS.NS
+2025-12-30 15:53:36,048 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\63MOONS.NS_quarterly_normalized.csv
+2025-12-30 15:53:36,063 - __main__ - INFO - [OK] Ingested 6 quarterly records for 63MOONS.NS
+2025-12-30 15:53:36,063 - __main__ - INFO - Fetching data for A2ZINFRA.NS...
+2025-12-30 15:53:40,151 - yfinance - ERROR - A2ZINFRA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:40,598 - __main__ - INFO - Created company record: A2ZINFRA.NS
+2025-12-30 15:53:40,617 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\A2ZINFRA.NS_quarterly_normalized.csv
+2025-12-30 15:53:40,628 - __main__ - INFO - [OK] Ingested 7 quarterly records for A2ZINFRA.NS
+2025-12-30 15:53:40,630 - __main__ - INFO - Fetching data for AAATECH.NS...
+2025-12-30 15:53:44,187 - yfinance - ERROR - AAATECH.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:44,509 - __main__ - INFO - Created company record: AAATECH.NS
+2025-12-30 15:53:44,528 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AAATECH.NS_quarterly_normalized.csv
+2025-12-30 15:53:44,541 - __main__ - INFO - [OK] Ingested 5 quarterly records for AAATECH.NS
+2025-12-30 15:53:44,542 - __main__ - INFO - Fetching data for AADHARHFC.NS...
+2025-12-30 15:53:47,903 - __main__ - WARNING - Error fetching estimates/actions for AADHARHFC.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:53:47,910 - __main__ - INFO - Created company record: AADHARHFC.NS
+2025-12-30 15:53:47,922 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AADHARHFC.NS_quarterly_normalized.csv
+2025-12-30 15:53:47,931 - __main__ - INFO - [OK] Ingested 7 quarterly records for AADHARHFC.NS
+2025-12-30 15:53:47,933 - __main__ - INFO - Fetching data for AAKASH.NS...
+2025-12-30 15:53:51,444 - yfinance - ERROR - AAKASH.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:52,088 - __main__ - INFO - Created company record: AAKASH.NS
+2025-12-30 15:53:52,125 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AAKASH.NS_quarterly_normalized.csv
+2025-12-30 15:53:52,149 - __main__ - INFO - [OK] Ingested 5 quarterly records for AAKASH.NS
+2025-12-30 15:53:52,150 - __main__ - INFO - Fetching data for AAREYDRUGS.NS...
+2025-12-30 15:53:56,424 - yfinance - ERROR - AAREYDRUGS.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:53:56,840 - __main__ - INFO - Created company record: AAREYDRUGS.NS
+2025-12-30 15:53:56,844 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AAREYDRUGS.NS_quarterly_normalized.csv
+2025-12-30 15:53:56,867 - __main__ - INFO - [OK] Ingested 6 quarterly records for AAREYDRUGS.NS
+2025-12-30 15:53:56,867 - __main__ - INFO - Fetching data for AARON.NS...
+2025-12-30 15:54:01,566 - yfinance - ERROR - AARON.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:54:02,091 - __main__ - INFO - Created company record: AARON.NS
+2025-12-30 15:54:02,108 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARON.NS_quarterly_normalized.csv
+2025-12-30 15:54:02,123 - __main__ - INFO - [OK] Ingested 6 quarterly records for AARON.NS
+2025-12-30 15:54:02,123 - __main__ - INFO - Fetching data for AARTECH.NS...
+2025-12-30 15:54:06,196 - yfinance - ERROR - AARTECH.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:54:06,699 - __main__ - INFO - Created company record: AARTECH.NS
+2025-12-30 15:54:06,726 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARTECH.NS_quarterly_normalized.csv
+2025-12-30 15:54:06,741 - __main__ - INFO - [OK] Ingested 7 quarterly records for AARTECH.NS
+2025-12-30 15:54:06,744 - __main__ - INFO - Fetching data for AARTIDRUGS.NS...
+2025-12-30 15:54:11,174 - __main__ - WARNING - Error fetching estimates/actions for AARTIDRUGS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:11,174 - __main__ - INFO - Created company record: AARTIDRUGS.NS
+2025-12-30 15:54:11,200 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARTIDRUGS.NS_quarterly_normalized.csv
+2025-12-30 15:54:11,209 - __main__ - INFO - [OK] Ingested 6 quarterly records for AARTIDRUGS.NS
+2025-12-30 15:54:11,217 - __main__ - INFO - Fetching data for AARTIIND.NS...
+2025-12-30 15:54:15,428 - __main__ - WARNING - Error fetching estimates/actions for AARTIIND.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:15,435 - __main__ - INFO - Created company record: AARTIIND.NS
+2025-12-30 15:54:15,450 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARTIIND.NS_quarterly_normalized.csv
+2025-12-30 15:54:15,466 - __main__ - INFO - [OK] Ingested 5 quarterly records for AARTIIND.NS
+2025-12-30 15:54:15,466 - __main__ - INFO - Fetching data for AARTIPHARM.NS...
+2025-12-30 15:54:19,817 - yfinance - ERROR - AARTIPHARM.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:54:20,317 - __main__ - INFO - Created company record: AARTIPHARM.NS
+2025-12-30 15:54:20,349 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARTIPHARM.NS_quarterly_normalized.csv
+2025-12-30 15:54:20,368 - __main__ - INFO - [OK] Ingested 6 quarterly records for AARTIPHARM.NS
+2025-12-30 15:54:20,368 - __main__ - INFO - Fetching data for AARTISURF.NS...
+2025-12-30 15:54:24,593 - yfinance - ERROR - AARTISURF.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:54:25,200 - __main__ - INFO - Created company record: AARTISURF.NS
+2025-12-30 15:54:25,231 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARTISURF.NS_quarterly_normalized.csv
+2025-12-30 15:54:25,243 - __main__ - INFO - [OK] Ingested 6 quarterly records for AARTISURF.NS
+2025-12-30 15:54:25,247 - __main__ - INFO - Fetching data for AARVI.NS...
+2025-12-30 15:54:29,358 - yfinance - ERROR - AARVI.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:54:29,859 - __main__ - INFO - Created company record: AARVI.NS
+2025-12-30 15:54:29,894 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AARVI.NS_quarterly_normalized.csv
+2025-12-30 15:54:29,918 - __main__ - INFO - [OK] Ingested 7 quarterly records for AARVI.NS
+2025-12-30 15:54:29,918 - __main__ - INFO - Fetching data for AAVAS.NS...
+2025-12-30 15:54:34,331 - __main__ - WARNING - Error fetching estimates/actions for AAVAS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:34,340 - __main__ - INFO - Created company record: AAVAS.NS
+2025-12-30 15:54:34,364 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\AAVAS.NS_quarterly_normalized.csv
+2025-12-30 15:54:34,382 - __main__ - INFO - [OK] Ingested 6 quarterly records for AAVAS.NS
+2025-12-30 15:54:34,383 - __main__ - INFO - Fetching data for ABAN.NS...
+2025-12-30 15:54:38,720 - __main__ - WARNING - Error fetching estimates/actions for ABAN.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:38,720 - __main__ - INFO - Created company record: ABAN.NS
+2025-12-30 15:54:38,752 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABAN.NS_quarterly_normalized.csv
+2025-12-30 15:54:38,762 - __main__ - INFO - [OK] Ingested 7 quarterly records for ABAN.NS
+2025-12-30 15:54:38,769 - __main__ - INFO - Fetching data for ABB.NS...
+2025-12-30 15:54:43,115 - __main__ - WARNING - Error fetching estimates/actions for ABB.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:43,142 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABB.NS_quarterly_normalized.csv
+2025-12-30 15:54:43,151 - __main__ - INFO - [OK] Ingested 6 quarterly records for ABB.NS
+2025-12-30 15:54:43,151 - __main__ - INFO - Fetching data for ABBOTINDIA.NS...
+2025-12-30 15:54:47,658 - __main__ - WARNING - Error fetching estimates/actions for ABBOTINDIA.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:47,658 - __main__ - INFO - Created company record: ABBOTINDIA.NS
+2025-12-30 15:54:47,677 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABBOTINDIA.NS_quarterly_normalized.csv
+2025-12-30 15:54:47,690 - __main__ - INFO - [OK] Ingested 6 quarterly records for ABBOTINDIA.NS
+2025-12-30 15:54:47,691 - __main__ - INFO - Fetching data for ABCAPITAL.NS...
+2025-12-30 15:54:51,703 - __main__ - WARNING - Error fetching estimates/actions for ABCAPITAL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:54:51,703 - __main__ - INFO - Created company record: ABCAPITAL.NS
+2025-12-30 15:54:51,720 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABCAPITAL.NS_quarterly_normalized.csv
+2025-12-30 15:54:51,731 - __main__ - INFO - [OK] Ingested 5 quarterly records for ABCAPITAL.NS
+2025-12-30 15:54:51,732 - __main__ - INFO - Fetching data for ABCOTS.NS...
+2025-12-30 15:54:56,159 - yfinance - ERROR - ABCOTS.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:54:56,550 - __main__ - INFO - Created company record: ABCOTS.NS
+2025-12-30 15:54:56,583 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABCOTS.NS_quarterly_normalized.csv
+2025-12-30 15:54:56,613 - __main__ - INFO - [OK] Ingested 6 quarterly records for ABCOTS.NS
+2025-12-30 15:54:56,615 - __main__ - INFO - Fetching data for ABDL.NS...
+2025-12-30 15:55:01,044 - __main__ - WARNING - Error fetching estimates/actions for ABDL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:01,044 - __main__ - INFO - Created company record: ABDL.NS
+2025-12-30 15:55:01,061 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABDL.NS_quarterly_normalized.csv
+2025-12-30 15:55:01,076 - __main__ - INFO - [OK] Ingested 6 quarterly records for ABDL.NS
+2025-12-30 15:55:01,077 - __main__ - INFO - Fetching data for ABFRL.NS...
+2025-12-30 15:55:05,951 - __main__ - WARNING - Error fetching estimates/actions for ABFRL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:05,974 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABFRL.NS_quarterly_normalized.csv
+2025-12-30 15:55:05,991 - __main__ - INFO - [OK] Ingested 6 quarterly records for ABFRL.NS
+2025-12-30 15:55:05,991 - __main__ - INFO - Fetching data for ABINFRA.NS...
+2025-12-30 15:55:09,802 - yfinance - ERROR - ABINFRA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:55:10,370 - __main__ - INFO - Created company record: ABINFRA.NS
+2025-12-30 15:55:10,406 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABINFRA.NS_quarterly_normalized.csv
+2025-12-30 15:55:10,435 - __main__ - INFO - [OK] Ingested 7 quarterly records for ABINFRA.NS
+2025-12-30 15:55:10,435 - __main__ - INFO - Fetching data for ABLBL.NS...
+2025-12-30 15:55:14,092 - __main__ - WARNING - Error fetching estimates/actions for ABLBL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:14,092 - __main__ - INFO - Created company record: ABLBL.NS
+2025-12-30 15:55:14,122 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABLBL.NS_quarterly_normalized.csv
+2025-12-30 15:55:14,125 - __main__ - INFO - [OK] Ingested 2 quarterly records for ABLBL.NS
+2025-12-30 15:55:14,125 - __main__ - INFO - Fetching data for ABMINTLLTD.NS...
+2025-12-30 15:55:17,979 - yfinance - ERROR - ABMINTLLTD.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:55:18,459 - __main__ - INFO - Created company record: ABMINTLLTD.NS
+2025-12-30 15:55:18,485 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABMINTLLTD.NS_quarterly_normalized.csv
+2025-12-30 15:55:18,510 - __main__ - INFO - [OK] Ingested 5 quarterly records for ABMINTLLTD.NS
+2025-12-30 15:55:18,513 - __main__ - INFO - Fetching data for ABREL.NS...
+2025-12-30 15:55:22,709 - __main__ - WARNING - Error fetching estimates/actions for ABREL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:22,714 - __main__ - INFO - Created company record: ABREL.NS
+2025-12-30 15:55:22,724 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABREL.NS_quarterly_normalized.csv
+2025-12-30 15:55:22,740 - __main__ - INFO - [OK] Ingested 6 quarterly records for ABREL.NS
+2025-12-30 15:55:22,741 - __main__ - INFO - Fetching data for ABSLAMC.NS...
+2025-12-30 15:55:28,093 - __main__ - WARNING - Error fetching estimates/actions for ABSLAMC.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:28,096 - __main__ - INFO - Created company record: ABSLAMC.NS
+2025-12-30 15:55:28,111 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ABSLAMC.NS_quarterly_normalized.csv
+2025-12-30 15:55:28,127 - __main__ - INFO - [OK] Ingested 5 quarterly records for ABSLAMC.NS
+2025-12-30 15:55:28,127 - __main__ - INFO - Fetching data for ACC.NS...
+2025-12-30 15:55:32,976 - __main__ - WARNING - Error fetching estimates/actions for ACC.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:33,002 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACC.NS_quarterly_normalized.csv
+2025-12-30 15:55:33,016 - __main__ - INFO - [OK] Ingested 5 quarterly records for ACC.NS
+2025-12-30 15:55:33,018 - __main__ - INFO - Fetching data for ACCELYA.NS...
+2025-12-30 15:55:38,063 - __main__ - WARNING - Error fetching estimates/actions for ACCELYA.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:38,074 - __main__ - INFO - Created company record: ACCELYA.NS
+2025-12-30 15:55:38,101 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACCELYA.NS_quarterly_normalized.csv
+2025-12-30 15:55:38,118 - __main__ - INFO - [OK] Ingested 6 quarterly records for ACCELYA.NS
+2025-12-30 15:55:38,118 - __main__ - INFO - Fetching data for ACCURACY.NS...
+2025-12-30 15:55:42,876 - yfinance - ERROR - ACCURACY.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:55:43,496 - __main__ - INFO - Created company record: ACCURACY.NS
+2025-12-30 15:55:43,525 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACCURACY.NS_quarterly_normalized.csv
+2025-12-30 15:55:43,542 - __main__ - INFO - [OK] Ingested 7 quarterly records for ACCURACY.NS
+2025-12-30 15:55:43,542 - __main__ - INFO - Fetching data for ACE.NS...
+2025-12-30 15:55:48,143 - __main__ - WARNING - Error fetching estimates/actions for ACE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:48,145 - __main__ - INFO - Created company record: ACE.NS
+2025-12-30 15:55:48,161 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACE.NS_quarterly_normalized.csv
+2025-12-30 15:55:48,169 - __main__ - INFO - [OK] Ingested 5 quarterly records for ACE.NS
+2025-12-30 15:55:48,176 - __main__ - INFO - Fetching data for ACEINTEG.NS...
+2025-12-30 15:55:52,915 - yfinance - ERROR - ACEINTEG.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:55:53,352 - __main__ - INFO - Created company record: ACEINTEG.NS
+2025-12-30 15:55:53,360 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACEINTEG.NS_quarterly_normalized.csv
+2025-12-30 15:55:53,376 - __main__ - INFO - [OK] Ingested 6 quarterly records for ACEINTEG.NS
+2025-12-30 15:55:53,376 - __main__ - INFO - Fetching data for ACI.NS...
+2025-12-30 15:55:58,363 - __main__ - WARNING - Error fetching estimates/actions for ACI.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:55:58,363 - __main__ - INFO - Created company record: ACI.NS
+2025-12-30 15:55:58,380 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACI.NS_quarterly_normalized.csv
+2025-12-30 15:55:58,395 - __main__ - INFO - [OK] Ingested 6 quarterly records for ACI.NS
+2025-12-30 15:55:58,395 - __main__ - INFO - Fetching data for ACL.NS...
+2025-12-30 15:56:02,162 - yfinance - ERROR - ACL.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:56:02,672 - __main__ - INFO - Created company record: ACL.NS
+2025-12-30 15:56:02,686 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACL.NS_quarterly_normalized.csv
+2025-12-30 15:56:02,698 - __main__ - INFO - [OK] Ingested 5 quarterly records for ACL.NS
+2025-12-30 15:56:02,701 - __main__ - INFO - Fetching data for ACMESOLAR.NS...
+2025-12-30 15:56:08,948 - __main__ - WARNING - Error fetching estimates/actions for ACMESOLAR.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:08,948 - __main__ - INFO - Created company record: ACMESOLAR.NS
+2025-12-30 15:56:08,966 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACMESOLAR.NS_quarterly_normalized.csv
+2025-12-30 15:56:08,984 - __main__ - INFO - [OK] Ingested 5 quarterly records for ACMESOLAR.NS
+2025-12-30 15:56:08,984 - __main__ - INFO - Fetching data for ACUTAAS.NS...
+2025-12-30 15:56:16,712 - __main__ - WARNING - Error fetching estimates/actions for ACUTAAS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:16,717 - __main__ - INFO - Created company record: ACUTAAS.NS
+2025-12-30 15:56:16,917 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ACUTAAS.NS_quarterly_normalized.csv
+2025-12-30 15:56:16,937 - __main__ - INFO - [OK] Ingested 6 quarterly records for ACUTAAS.NS
+2025-12-30 15:56:16,939 - __main__ - INFO - Fetching data for ADANIENSOL.NS...
+2025-12-30 15:56:21,460 - __main__ - WARNING - Error fetching estimates/actions for ADANIENSOL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:21,462 - __main__ - INFO - Created company record: ADANIENSOL.NS
+2025-12-30 15:56:21,485 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADANIENSOL.NS_quarterly_normalized.csv
+2025-12-30 15:56:21,495 - __main__ - INFO - [OK] Ingested 5 quarterly records for ADANIENSOL.NS
+2025-12-30 15:56:21,496 - __main__ - INFO - Fetching data for ADANIENT.NS...
+2025-12-30 15:56:25,678 - __main__ - WARNING - Error fetching estimates/actions for ADANIENT.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:25,695 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADANIENT.NS_quarterly_normalized.csv
+2025-12-30 15:56:25,712 - __main__ - INFO - [OK] Ingested 6 quarterly records for ADANIENT.NS
+2025-12-30 15:56:25,712 - __main__ - INFO - Fetching data for ADANIGREEN.NS...
+2025-12-30 15:56:29,636 - __main__ - WARNING - Error fetching estimates/actions for ADANIGREEN.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:29,639 - __main__ - INFO - Created company record: ADANIGREEN.NS
+2025-12-30 15:56:29,652 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADANIGREEN.NS_quarterly_normalized.csv
+2025-12-30 15:56:29,663 - __main__ - INFO - [OK] Ingested 5 quarterly records for ADANIGREEN.NS
+2025-12-30 15:56:29,664 - __main__ - INFO - Fetching data for ADANIPORTS.NS...
+2025-12-30 15:56:33,480 - __main__ - WARNING - Error fetching estimates/actions for ADANIPORTS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:33,483 - __main__ - INFO - Created company record: ADANIPORTS.NS
+2025-12-30 15:56:33,494 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADANIPORTS.NS_quarterly_normalized.csv
+2025-12-30 15:56:33,507 - __main__ - INFO - [OK] Ingested 5 quarterly records for ADANIPORTS.NS
+2025-12-30 15:56:33,508 - __main__ - INFO - Fetching data for ADANIPOWER.NS...
+2025-12-30 15:56:37,205 - __main__ - WARNING - Error fetching estimates/actions for ADANIPOWER.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:37,237 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADANIPOWER.NS_quarterly_normalized.csv
+2025-12-30 15:56:37,251 - __main__ - INFO - [OK] Ingested 5 quarterly records for ADANIPOWER.NS
+2025-12-30 15:56:37,252 - __main__ - INFO - Fetching data for ADFFOODS.NS...
+2025-12-30 15:56:42,017 - __main__ - WARNING - Error fetching estimates/actions for ADFFOODS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:42,020 - __main__ - INFO - Created company record: ADFFOODS.NS
+2025-12-30 15:56:42,041 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADFFOODS.NS_quarterly_normalized.csv
+2025-12-30 15:56:42,061 - __main__ - INFO - [OK] Ingested 6 quarterly records for ADFFOODS.NS
+2025-12-30 15:56:42,063 - __main__ - INFO - Fetching data for ADL.NS...
+2025-12-30 15:56:46,439 - yfinance - ERROR - ADL.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:56:47,090 - __main__ - INFO - Created company record: ADL.NS
+2025-12-30 15:56:47,107 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADL.NS_quarterly_normalized.csv
+2025-12-30 15:56:47,121 - __main__ - INFO - [OK] Ingested 6 quarterly records for ADL.NS
+2025-12-30 15:56:47,122 - __main__ - INFO - Fetching data for ADOR.NS...
+2025-12-30 15:56:51,763 - __main__ - WARNING - Error fetching estimates/actions for ADOR.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:51,765 - __main__ - INFO - Created company record: ADOR.NS
+2025-12-30 15:56:51,787 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\quarterly\ADOR.NS_quarterly_normalized.csv
+2025-12-30 15:56:51,803 - __main__ - INFO - [OK] Ingested 6 quarterly records for ADOR.NS
+2025-12-30 15:56:51,803 - __main__ - INFO - Quarterly fundamentals ingestion complete: 288 total records
+2025-12-30 15:56:51,803 - __main__ - INFO - 
+[2/2] Ingesting annual fundamentals...
+2025-12-30 15:56:51,803 - __main__ - INFO - Starting annual fundamentals ingestion for 50 symbols
+2025-12-30 15:56:51,905 - __main__ - INFO - PostgreSQL connection established
+2025-12-30 15:56:51,905 - __main__ - INFO - Fetching data for 20MICRONS.NS...
+2025-12-30 15:56:57,038 - __main__ - WARNING - Error fetching estimates/actions for 20MICRONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:56:57,100 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\20MICRONS.NS_annual_normalized.csv
+2025-12-30 15:56:57,120 - __main__ - INFO - [OK] Ingested 5 annual records for 20MICRONS.NS
+2025-12-30 15:56:57,122 - __main__ - INFO - Fetching data for 21STCENMGM.NS...
+2025-12-30 15:57:01,594 - yfinance - ERROR - 21STCENMGM.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:01,952 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\21STCENMGM.NS_annual_normalized.csv
+2025-12-30 15:57:01,961 - __main__ - INFO - [OK] Ingested 5 annual records for 21STCENMGM.NS
+2025-12-30 15:57:01,961 - __main__ - INFO - Fetching data for 360ONE.NS...
+2025-12-30 15:57:06,108 - __main__ - WARNING - Error fetching estimates/actions for 360ONE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:57:06,132 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\360ONE.NS_annual_normalized.csv
+2025-12-30 15:57:06,144 - __main__ - INFO - [OK] Ingested 4 annual records for 360ONE.NS
+2025-12-30 15:57:06,144 - __main__ - INFO - Fetching data for 3IINFOLTD.NS...
+2025-12-30 15:57:10,380 - yfinance - ERROR - 3IINFOLTD.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:10,891 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\3IINFOLTD.NS_annual_normalized.csv
+2025-12-30 15:57:10,907 - __main__ - INFO - [OK] Ingested 5 annual records for 3IINFOLTD.NS
+2025-12-30 15:57:10,908 - __main__ - INFO - Fetching data for 3MINDIA.NS...
+2025-12-30 15:57:14,467 - yfinance - ERROR - 3MINDIA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:14,997 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\3MINDIA.NS_annual_normalized.csv
+2025-12-30 15:57:15,006 - __main__ - INFO - [OK] Ingested 5 annual records for 3MINDIA.NS
+2025-12-30 15:57:15,007 - __main__ - INFO - Fetching data for 3PLAND.NS...
+2025-12-30 15:57:17,653 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 3PLAND.NS"}}}
+2025-12-30 15:57:19,648 - yfinance - ERROR - 3PLAND.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:20,107 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\3PLAND.NS_annual_normalized.csv
+2025-12-30 15:57:20,118 - __main__ - INFO - [OK] Ingested 5 annual records for 3PLAND.NS
+2025-12-30 15:57:20,119 - __main__ - INFO - Fetching data for 5PAISA.NS...
+2025-12-30 15:57:23,735 - yfinance - ERROR - 5PAISA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:24,042 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\5PAISA.NS_annual_normalized.csv
+2025-12-30 15:57:24,053 - __main__ - INFO - [OK] Ingested 5 annual records for 5PAISA.NS
+2025-12-30 15:57:24,053 - __main__ - INFO - Fetching data for 63MOONS.NS...
+2025-12-30 15:57:27,564 - __main__ - WARNING - Error fetching estimates/actions for 63MOONS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:57:27,590 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\63MOONS.NS_annual_normalized.csv
+2025-12-30 15:57:27,605 - __main__ - INFO - [OK] Ingested 5 annual records for 63MOONS.NS
+2025-12-30 15:57:27,605 - __main__ - INFO - Fetching data for A2ZINFRA.NS...
+2025-12-30 15:57:31,182 - yfinance - ERROR - A2ZINFRA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:31,545 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\A2ZINFRA.NS_annual_normalized.csv
+2025-12-30 15:57:31,551 - __main__ - INFO - [OK] Ingested 4 annual records for A2ZINFRA.NS
+2025-12-30 15:57:31,552 - __main__ - INFO - Fetching data for AAATECH.NS...
+2025-12-30 15:57:35,746 - yfinance - ERROR - AAATECH.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:36,119 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AAATECH.NS_annual_normalized.csv
+2025-12-30 15:57:36,129 - __main__ - INFO - [OK] Ingested 5 annual records for AAATECH.NS
+2025-12-30 15:57:36,129 - __main__ - INFO - Fetching data for AADHARHFC.NS...
+2025-12-30 15:57:40,177 - __main__ - WARNING - Error fetching estimates/actions for AADHARHFC.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:57:40,193 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AADHARHFC.NS_annual_normalized.csv
+2025-12-30 15:57:40,204 - __main__ - INFO - [OK] Ingested 4 annual records for AADHARHFC.NS
+2025-12-30 15:57:40,205 - __main__ - INFO - Fetching data for AAKASH.NS...
+2025-12-30 15:57:44,199 - yfinance - ERROR - AAKASH.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:44,613 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AAKASH.NS_annual_normalized.csv
+2025-12-30 15:57:44,622 - __main__ - INFO - [OK] Ingested 5 annual records for AAKASH.NS
+2025-12-30 15:57:44,622 - __main__ - INFO - Fetching data for AAREYDRUGS.NS...
+2025-12-30 15:57:48,383 - yfinance - ERROR - AAREYDRUGS.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:48,676 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AAREYDRUGS.NS_annual_normalized.csv
+2025-12-30 15:57:48,685 - __main__ - INFO - [OK] Ingested 4 annual records for AAREYDRUGS.NS
+2025-12-30 15:57:48,685 - __main__ - INFO - Fetching data for AARON.NS...
+2025-12-30 15:57:52,600 - yfinance - ERROR - AARON.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:52,950 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARON.NS_annual_normalized.csv
+2025-12-30 15:57:52,958 - __main__ - INFO - [OK] Ingested 5 annual records for AARON.NS
+2025-12-30 15:57:52,959 - __main__ - INFO - Fetching data for AARTECH.NS...
+2025-12-30 15:57:56,961 - yfinance - ERROR - AARTECH.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:57:57,231 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARTECH.NS_annual_normalized.csv
+2025-12-30 15:57:57,241 - __main__ - INFO - [OK] Ingested 5 annual records for AARTECH.NS
+2025-12-30 15:57:57,241 - __main__ - INFO - Fetching data for AARTIDRUGS.NS...
+2025-12-30 15:58:01,243 - __main__ - WARNING - Error fetching estimates/actions for AARTIDRUGS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:01,267 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARTIDRUGS.NS_annual_normalized.csv
+2025-12-30 15:58:01,278 - __main__ - INFO - [OK] Ingested 5 annual records for AARTIDRUGS.NS
+2025-12-30 15:58:01,278 - __main__ - INFO - Fetching data for AARTIIND.NS...
+2025-12-30 15:58:05,409 - __main__ - WARNING - Error fetching estimates/actions for AARTIIND.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:05,444 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARTIIND.NS_annual_normalized.csv
+2025-12-30 15:58:05,454 - __main__ - INFO - [OK] Ingested 4 annual records for AARTIIND.NS
+2025-12-30 15:58:05,455 - __main__ - INFO - Fetching data for AARTIPHARM.NS...
+2025-12-30 15:58:09,236 - yfinance - ERROR - AARTIPHARM.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:58:09,483 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARTIPHARM.NS_annual_normalized.csv
+2025-12-30 15:58:09,493 - __main__ - INFO - [OK] Ingested 5 annual records for AARTIPHARM.NS
+2025-12-30 15:58:09,493 - __main__ - INFO - Fetching data for AARTISURF.NS...
+2025-12-30 15:58:13,062 - yfinance - ERROR - AARTISURF.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:58:13,382 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARTISURF.NS_annual_normalized.csv
+2025-12-30 15:58:13,389 - __main__ - INFO - [OK] Ingested 4 annual records for AARTISURF.NS
+2025-12-30 15:58:13,390 - __main__ - INFO - Fetching data for AARVI.NS...
+2025-12-30 15:58:17,231 - yfinance - ERROR - AARVI.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:58:17,573 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AARVI.NS_annual_normalized.csv
+2025-12-30 15:58:17,585 - __main__ - INFO - [OK] Ingested 5 annual records for AARVI.NS
+2025-12-30 15:58:17,585 - __main__ - INFO - Fetching data for AAVAS.NS...
+2025-12-30 15:58:21,107 - __main__ - WARNING - Error fetching estimates/actions for AAVAS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:21,127 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\AAVAS.NS_annual_normalized.csv
+2025-12-30 15:58:21,135 - __main__ - INFO - [OK] Ingested 4 annual records for AAVAS.NS
+2025-12-30 15:58:21,136 - __main__ - INFO - Fetching data for ABAN.NS...
+2025-12-30 15:58:25,171 - __main__ - WARNING - Error fetching estimates/actions for ABAN.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:25,198 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABAN.NS_annual_normalized.csv
+2025-12-30 15:58:25,207 - __main__ - INFO - [OK] Ingested 5 annual records for ABAN.NS
+2025-12-30 15:58:25,207 - __main__ - INFO - Fetching data for ABB.NS...
+2025-12-30 15:58:29,955 - __main__ - WARNING - Error fetching estimates/actions for ABB.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:29,997 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABB.NS_annual_normalized.csv
+2025-12-30 15:58:30,017 - __main__ - INFO - [OK] Ingested 5 annual records for ABB.NS
+2025-12-30 15:58:30,018 - __main__ - INFO - Fetching data for ABBOTINDIA.NS...
+2025-12-30 15:58:35,555 - __main__ - WARNING - Error fetching estimates/actions for ABBOTINDIA.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:35,569 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABBOTINDIA.NS_annual_normalized.csv
+2025-12-30 15:58:35,580 - __main__ - INFO - [OK] Ingested 4 annual records for ABBOTINDIA.NS
+2025-12-30 15:58:35,582 - __main__ - INFO - Fetching data for ABCAPITAL.NS...
+2025-12-30 15:58:46,442 - __main__ - WARNING - Error fetching estimates/actions for ABCAPITAL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:58:46,460 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABCAPITAL.NS_annual_normalized.csv
+2025-12-30 15:58:46,473 - __main__ - INFO - [OK] Ingested 5 annual records for ABCAPITAL.NS
+2025-12-30 15:58:46,475 - __main__ - INFO - Fetching data for ABCOTS.NS...
+2025-12-30 15:58:53,678 - yfinance - ERROR - ABCOTS.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:58:54,458 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABCOTS.NS_annual_normalized.csv
+2025-12-30 15:58:54,465 - __main__ - INFO - [OK] Ingested 4 annual records for ABCOTS.NS
+2025-12-30 15:58:54,466 - __main__ - INFO - Fetching data for ABDL.NS...
+2025-12-30 15:59:01,193 - __main__ - WARNING - Error fetching estimates/actions for ABDL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:01,209 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABDL.NS_annual_normalized.csv
+2025-12-30 15:59:01,219 - __main__ - INFO - [OK] Ingested 5 annual records for ABDL.NS
+2025-12-30 15:59:01,220 - __main__ - INFO - Fetching data for ABFRL.NS...
+2025-12-30 15:59:06,795 - __main__ - WARNING - Error fetching estimates/actions for ABFRL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:06,828 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABFRL.NS_annual_normalized.csv
+2025-12-30 15:59:06,844 - __main__ - INFO - [OK] Ingested 4 annual records for ABFRL.NS
+2025-12-30 15:59:06,846 - __main__ - INFO - Fetching data for ABINFRA.NS...
+2025-12-30 15:59:11,609 - yfinance - ERROR - ABINFRA.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:59:11,999 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABINFRA.NS_annual_normalized.csv
+2025-12-30 15:59:12,009 - __main__ - INFO - [OK] Ingested 4 annual records for ABINFRA.NS
+2025-12-30 15:59:12,009 - __main__ - INFO - Fetching data for ABLBL.NS...
+2025-12-30 15:59:15,640 - __main__ - WARNING - Error fetching estimates/actions for ABLBL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:15,642 - __main__ - WARNING - No annual data for ABLBL.NS
+2025-12-30 15:59:15,642 - __main__ - INFO - Fetching data for ABMINTLLTD.NS...
+2025-12-30 15:59:20,153 - yfinance - ERROR - ABMINTLLTD.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:59:20,632 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABMINTLLTD.NS_annual_normalized.csv
+2025-12-30 15:59:20,648 - __main__ - INFO - [OK] Ingested 5 annual records for ABMINTLLTD.NS
+2025-12-30 15:59:20,648 - __main__ - INFO - Fetching data for ABREL.NS...
+2025-12-30 15:59:25,681 - __main__ - WARNING - Error fetching estimates/actions for ABREL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:25,704 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABREL.NS_annual_normalized.csv
+2025-12-30 15:59:25,714 - __main__ - INFO - [OK] Ingested 4 annual records for ABREL.NS
+2025-12-30 15:59:25,714 - __main__ - INFO - Fetching data for ABSLAMC.NS...
+2025-12-30 15:59:30,415 - __main__ - WARNING - Error fetching estimates/actions for ABSLAMC.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:30,437 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ABSLAMC.NS_annual_normalized.csv
+2025-12-30 15:59:30,452 - __main__ - INFO - [OK] Ingested 4 annual records for ABSLAMC.NS
+2025-12-30 15:59:30,452 - __main__ - INFO - Fetching data for ACC.NS...
+2025-12-30 15:59:35,406 - __main__ - WARNING - Error fetching estimates/actions for ACC.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:35,427 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACC.NS_annual_normalized.csv
+2025-12-30 15:59:35,444 - __main__ - INFO - [OK] Ingested 5 annual records for ACC.NS
+2025-12-30 15:59:35,444 - __main__ - INFO - Fetching data for ACCELYA.NS...
+2025-12-30 15:59:39,884 - __main__ - WARNING - Error fetching estimates/actions for ACCELYA.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:39,951 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACCELYA.NS_annual_normalized.csv
+2025-12-30 15:59:39,987 - __main__ - INFO - [OK] Ingested 5 annual records for ACCELYA.NS
+2025-12-30 15:59:39,989 - __main__ - INFO - Fetching data for ACCURACY.NS...
+2025-12-30 15:59:45,029 - yfinance - ERROR - ACCURACY.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:59:45,405 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACCURACY.NS_annual_normalized.csv
+2025-12-30 15:59:45,413 - __main__ - INFO - [OK] Ingested 5 annual records for ACCURACY.NS
+2025-12-30 15:59:45,415 - __main__ - INFO - Fetching data for ACE.NS...
+2025-12-30 15:59:50,505 - __main__ - WARNING - Error fetching estimates/actions for ACE.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 15:59:50,515 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACE.NS_annual_normalized.csv
+2025-12-30 15:59:50,539 - __main__ - INFO - [OK] Ingested 4 annual records for ACE.NS
+2025-12-30 15:59:50,539 - __main__ - INFO - Fetching data for ACEINTEG.NS...
+2025-12-30 15:59:55,491 - yfinance - ERROR - ACEINTEG.NS: No earnings dates found, symbol may be delisted
+2025-12-30 15:59:55,828 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACEINTEG.NS_annual_normalized.csv
+2025-12-30 15:59:55,849 - __main__ - INFO - [OK] Ingested 5 annual records for ACEINTEG.NS
+2025-12-30 15:59:55,851 - __main__ - INFO - Fetching data for ACI.NS...
+2025-12-30 16:00:00,391 - __main__ - WARNING - Error fetching estimates/actions for ACI.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:00,409 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACI.NS_annual_normalized.csv
+2025-12-30 16:00:00,422 - __main__ - INFO - [OK] Ingested 5 annual records for ACI.NS
+2025-12-30 16:00:00,423 - __main__ - INFO - Fetching data for ACL.NS...
+2025-12-30 16:00:04,705 - yfinance - ERROR - ACL.NS: No earnings dates found, symbol may be delisted
+2025-12-30 16:00:05,184 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACL.NS_annual_normalized.csv
+2025-12-30 16:00:05,195 - __main__ - INFO - [OK] Ingested 4 annual records for ACL.NS
+2025-12-30 16:00:05,195 - __main__ - INFO - Fetching data for ACMESOLAR.NS...
+2025-12-30 16:00:10,290 - __main__ - WARNING - Error fetching estimates/actions for ACMESOLAR.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:10,305 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACMESOLAR.NS_annual_normalized.csv
+2025-12-30 16:00:10,315 - __main__ - INFO - [OK] Ingested 4 annual records for ACMESOLAR.NS
+2025-12-30 16:00:10,315 - __main__ - INFO - Fetching data for ACUTAAS.NS...
+2025-12-30 16:00:15,794 - __main__ - WARNING - Error fetching estimates/actions for ACUTAAS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:15,820 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ACUTAAS.NS_annual_normalized.csv
+2025-12-30 16:00:15,830 - __main__ - INFO - [OK] Ingested 5 annual records for ACUTAAS.NS
+2025-12-30 16:00:15,831 - __main__ - INFO - Fetching data for ADANIENSOL.NS...
+2025-12-30 16:00:20,153 - __main__ - WARNING - Error fetching estimates/actions for ADANIENSOL.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:20,181 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADANIENSOL.NS_annual_normalized.csv
+2025-12-30 16:00:20,194 - __main__ - INFO - [OK] Ingested 5 annual records for ADANIENSOL.NS
+2025-12-30 16:00:20,195 - __main__ - INFO - Fetching data for ADANIENT.NS...
+2025-12-30 16:00:27,457 - __main__ - WARNING - Error fetching estimates/actions for ADANIENT.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:27,471 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADANIENT.NS_annual_normalized.csv
+2025-12-30 16:00:27,480 - __main__ - INFO - [OK] Ingested 4 annual records for ADANIENT.NS
+2025-12-30 16:00:27,480 - __main__ - INFO - Fetching data for ADANIGREEN.NS...
+2025-12-30 16:00:32,501 - __main__ - WARNING - Error fetching estimates/actions for ADANIGREEN.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:32,528 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADANIGREEN.NS_annual_normalized.csv
+2025-12-30 16:00:32,543 - __main__ - INFO - [OK] Ingested 5 annual records for ADANIGREEN.NS
+2025-12-30 16:00:32,544 - __main__ - INFO - Fetching data for ADANIPORTS.NS...
+2025-12-30 16:00:37,143 - __main__ - WARNING - Error fetching estimates/actions for ADANIPORTS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:37,158 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADANIPORTS.NS_annual_normalized.csv
+2025-12-30 16:00:37,170 - __main__ - INFO - [OK] Ingested 5 annual records for ADANIPORTS.NS
+2025-12-30 16:00:37,171 - __main__ - INFO - Fetching data for ADANIPOWER.NS...
+2025-12-30 16:00:41,508 - __main__ - WARNING - Error fetching estimates/actions for ADANIPOWER.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:41,531 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADANIPOWER.NS_annual_normalized.csv
+2025-12-30 16:00:41,544 - __main__ - INFO - [OK] Ingested 5 annual records for ADANIPOWER.NS
+2025-12-30 16:00:41,544 - __main__ - INFO - Fetching data for ADFFOODS.NS...
+2025-12-30 16:00:45,843 - __main__ - WARNING - Error fetching estimates/actions for ADFFOODS.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:45,870 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADFFOODS.NS_annual_normalized.csv
+2025-12-30 16:00:45,881 - __main__ - INFO - [OK] Ingested 5 annual records for ADFFOODS.NS
+2025-12-30 16:00:45,882 - __main__ - INFO - Fetching data for ADL.NS...
+2025-12-30 16:00:50,523 - yfinance - ERROR - ADL.NS: No earnings dates found, symbol may be delisted
+2025-12-30 16:00:50,923 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADL.NS_annual_normalized.csv
+2025-12-30 16:00:50,933 - __main__ - INFO - [OK] Ingested 4 annual records for ADL.NS
+2025-12-30 16:00:50,934 - __main__ - INFO - Fetching data for ADOR.NS...
+2025-12-30 16:00:55,033 - __main__ - WARNING - Error fetching estimates/actions for ADOR.NS: Invalid comparison between dtype=datetime64[ns, America/New_York] and Timestamp
+2025-12-30 16:00:55,053 - __main__ - INFO - Saved normalized CSV: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\data\processed\fundamentals\annual\ADOR.NS_annual_normalized.csv
+2025-12-30 16:00:55,062 - __main__ - INFO - [OK] Ingested 4 annual records for ADOR.NS
+2025-12-30 16:00:55,063 - __main__ - INFO - Annual fundamentals ingestion complete: 226 total records
+2025-12-30 16:00:55,064 - __main__ - INFO - 
+============================================================
+2025-12-30 16:00:55,064 - __main__ - INFO - FUNDAMENTALS INGESTION COMPLETE
+2025-12-30 16:00:55,065 - __main__ - INFO - ============================================================
+2025-12-30 16:00:55,066 - __main__ - INFO - Quarterly records: 288
+2025-12-30 16:00:55,066 - __main__ - INFO - Annual records: 226
+2025-12-30 16:00:55,067 - __main__ - INFO - Total records: 514
+2025-12-30 16:00:55,067 - __main__ - INFO - Time elapsed: 0:07:59.150501
+2025-12-30 16:00:55,068 - __main__ - INFO - Processed data saved to: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\storage\processed\fundamentals\2025-12-30
+2025-12-30 16:00:55,068 - __main__ - INFO - ============================================================

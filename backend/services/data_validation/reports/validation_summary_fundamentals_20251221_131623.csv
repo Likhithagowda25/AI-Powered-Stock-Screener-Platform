@@ -1,0 +1,7 @@
+Ticker,Issue Type,Severity,Affected Period,Field,Count,Percentage,Action,Message
+HINDALCO.NS,missing_mandatory,CRITICAL,N/A,revenue,2,28.57142857142857,skip,Missing mandatory field 'revenue' in 2/7 records
+HINDALCO.NS,missing_mandatory,CRITICAL,N/A,net_income,2,28.57142857142857,skip,Missing mandatory field 'net_income' in 2/7 records
+HINDALCO.NS,missing_important,MEDIUM,N/A,ebitda,2,28.57142857142857,flag,Missing important field 'ebitda' in 2/7 records
+HINDALCO.NS,missing_important,MEDIUM,N/A,total_assets,3,42.857142857142854,flag,Missing important field 'total_assets' in 3/7 records
+HINDALCO.NS,missing_important,MEDIUM,N/A,total_debt,3,42.857142857142854,flag,Missing important field 'total_debt' in 3/7 records
+HINDALCO.NS,missing_important,MEDIUM,N/A,free_cash_flow,7,100.0,flag,Missing important field 'free_cash_flow' in 7/7 records

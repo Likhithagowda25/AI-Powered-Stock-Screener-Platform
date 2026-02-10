@@ -1,0 +1,31 @@
+{
+  "description": "Growth at Reasonable Price (GARP) - Quality growth stocks at fair valuation",
+  "natural_language": "PEG < 1 AND revenue growth > 20% AND ROE > 15%",
+  "use_case": "Finding growth stocks that aren't overvalued",
+  
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "peg_ratio",
+          "operator": "<",
+          "value": 1,
+          "derived_from": ["pe_ratio", "eps_growth"]
+        },
+        {
+          "field": "revenue_growth_yoy",
+          "operator": ">",
+          "value": 20
+        },
+        {
+          "field": "roe",
+          "operator": ">",
+          "value": 15
+        }
+      ]
+    }
+  },
+  
+  "complexity": "intermediate",
+  "tags": ["growth", "garp", "quality", "derived-metrics"]
+}

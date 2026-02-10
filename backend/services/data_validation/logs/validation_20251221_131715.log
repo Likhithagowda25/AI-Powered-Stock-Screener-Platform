@@ -1,0 +1,471 @@
+2025-12-21 13:17:15,351 - __main__ - INFO - Loading quarterly data...
+2025-12-21 13:17:15,359 - __main__ - INFO - Loaded ABFRL.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,361 - __main__ - INFO - Loaded ACC.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,364 - __main__ - INFO - Loaded AMBUJACEM.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,368 - __main__ - INFO - Loaded ASIANPAINT.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,370 - __main__ - INFO - Loaded AUROPHARMA.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,372 - __main__ - INFO - Loaded AXISBANK.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,375 - __main__ - INFO - Loaded BAJAJ-AUTO.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,378 - __main__ - INFO - Loaded BAJAJFINSV.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,383 - __main__ - INFO - Loaded BAJFINANCE.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,385 - __main__ - INFO - Loaded BHARTIARTL.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,387 - __main__ - INFO - Loaded BIOCON.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,389 - __main__ - INFO - Loaded BPCL.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,392 - __main__ - INFO - Loaded BRITANNIA.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,395 - __main__ - INFO - Loaded CHOLAFIN.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,398 - __main__ - INFO - Loaded CIPLA.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,400 - __main__ - INFO - Loaded COALINDIA.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,403 - __main__ - INFO - Loaded COFORGE.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,407 - __main__ - INFO - Loaded DABUR.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,411 - __main__ - INFO - Loaded DIVISLAB.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,415 - __main__ - INFO - Loaded DMART.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,418 - __main__ - INFO - Loaded DRREDDY.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,421 - __main__ - INFO - Loaded EICHERMOT.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,425 - __main__ - INFO - Loaded FEDERALBNK.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,429 - __main__ - INFO - Loaded GODREJCP.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,432 - __main__ - INFO - Loaded GRASIM.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,437 - __main__ - INFO - Loaded HCLTECH.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,441 - __main__ - INFO - Loaded HDFCAMC.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,444 - __main__ - INFO - Loaded HDFCBANK.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,451 - __main__ - INFO - Loaded HDFCLIFE.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,453 - __main__ - INFO - Loaded HEROMOTOCO.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,456 - __main__ - INFO - Loaded HINDALCO.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,456 - __main__ - INFO - Loaded HINDUNILVR.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,461 - __main__ - INFO - Loaded HINDZINC.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,465 - __main__ - INFO - Loaded ICICIBANK.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,468 - __main__ - INFO - Loaded ICICIPRULI.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,471 - __main__ - INFO - Loaded INDUSINDBK.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,473 - __main__ - INFO - Loaded INFY.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,476 - __main__ - INFO - Loaded IOC.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,480 - __main__ - INFO - Loaded ITC.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,483 - __main__ - INFO - Loaded JSWSTEEL.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,485 - __main__ - INFO - Loaded KOTAKBANK.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,488 - __main__ - INFO - Loaded LT.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,491 - __main__ - INFO - Loaded LTIM.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,493 - __main__ - INFO - Loaded M&M.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,497 - __main__ - INFO - Loaded MARICO.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,501 - __main__ - INFO - Loaded MARUTI.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,503 - __main__ - INFO - Loaded NESTLEIND.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,506 - __main__ - INFO - Loaded NTPC.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,509 - __main__ - INFO - Loaded ONGC.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,511 - __main__ - INFO - Loaded PERSISTENT.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,514 - __main__ - INFO - Loaded PIDILITIND.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,518 - __main__ - INFO - Loaded POWERGRID.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,520 - __main__ - INFO - Loaded RELIANCE.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,522 - __main__ - INFO - Loaded SBILIFE.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,526 - __main__ - INFO - Loaded SBIN.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,530 - __main__ - INFO - Loaded SHREECEM.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,532 - __main__ - INFO - Loaded SUNPHARMA.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,535 - __main__ - INFO - Loaded SUNTV.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,537 - __main__ - INFO - Loaded TATAMOTORS.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,540 - __main__ - INFO - Loaded TATASTEEL.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,542 - __main__ - INFO - Loaded TCS.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,546 - __main__ - INFO - Loaded TECHM.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,550 - __main__ - INFO - Loaded TITAN.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,553 - __main__ - INFO - Loaded TRENT.NS_quarterly_normalized.csv: 7 records
+2025-12-21 13:17:15,554 - __main__ - INFO - Loaded ULTRACEMCO.NS_quarterly_normalized.csv: 5 records
+2025-12-21 13:17:15,557 - __main__ - INFO - Loaded VEDL.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,561 - __main__ - INFO - Loaded WIPRO.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,565 - __main__ - INFO - Loaded ZEEL.NS_quarterly_normalized.csv: 6 records
+2025-12-21 13:17:15,565 - __main__ - INFO - Loading annual data...
+2025-12-21 13:17:15,567 - __main__ - INFO - Loaded ABFRL.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,570 - __main__ - INFO - Loaded ACC.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,573 - __main__ - INFO - Loaded AMBUJACEM.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,575 - __main__ - INFO - Loaded ASIANPAINT.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,577 - __main__ - INFO - Loaded AUROPHARMA.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,582 - __main__ - INFO - Loaded AXISBANK.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,585 - __main__ - INFO - Loaded BAJAJ-AUTO.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,586 - __main__ - INFO - Loaded BAJAJFINSV.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,590 - __main__ - INFO - Loaded BAJFINANCE.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,592 - __main__ - INFO - Loaded BHARTIARTL.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,595 - __main__ - INFO - Loaded BIOCON.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,599 - __main__ - INFO - Loaded BPCL.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,601 - __main__ - INFO - Loaded BRITANNIA.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,603 - __main__ - INFO - Loaded CHOLAFIN.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,607 - __main__ - INFO - Loaded CIPLA.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,609 - __main__ - INFO - Loaded COALINDIA.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,611 - __main__ - INFO - Loaded COFORGE.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,615 - __main__ - INFO - Loaded DABUR.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,618 - __main__ - INFO - Loaded DIVISLAB.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,620 - __main__ - INFO - Loaded DMART.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,623 - __main__ - INFO - Loaded DRREDDY.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,626 - __main__ - INFO - Loaded EICHERMOT.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,630 - __main__ - INFO - Loaded FEDERALBNK.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,633 - __main__ - INFO - Loaded GODREJCP.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,635 - __main__ - INFO - Loaded GRASIM.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,638 - __main__ - INFO - Loaded HCLTECH.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,640 - __main__ - INFO - Loaded HDFCAMC.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,643 - __main__ - INFO - Loaded HDFCBANK.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,646 - __main__ - INFO - Loaded HDFCLIFE.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,649 - __main__ - INFO - Loaded HEROMOTOCO.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,652 - __main__ - INFO - Loaded HINDALCO.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,654 - __main__ - INFO - Loaded HINDUNILVR.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,657 - __main__ - INFO - Loaded HINDZINC.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,661 - __main__ - INFO - Loaded ICICIBANK.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,665 - __main__ - INFO - Loaded ICICIPRULI.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,666 - __main__ - INFO - Loaded INDUSINDBK.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,669 - __main__ - INFO - Loaded INFY.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,672 - __main__ - INFO - Loaded IOC.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,674 - __main__ - INFO - Loaded ITC.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,676 - __main__ - INFO - Loaded JSWSTEEL.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,679 - __main__ - INFO - Loaded KOTAKBANK.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,684 - __main__ - INFO - Loaded LT.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,687 - __main__ - INFO - Loaded LTIM.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,689 - __main__ - INFO - Loaded M&M.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,691 - __main__ - INFO - Loaded MARICO.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,695 - __main__ - INFO - Loaded MARUTI.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,697 - __main__ - INFO - Loaded NESTLEIND.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,701 - __main__ - INFO - Loaded NTPC.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,704 - __main__ - INFO - Loaded ONGC.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,706 - __main__ - INFO - Loaded PERSISTENT.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,709 - __main__ - INFO - Loaded PIDILITIND.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,713 - __main__ - INFO - Loaded POWERGRID.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,717 - __main__ - INFO - Loaded RELIANCE.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,719 - __main__ - INFO - Loaded SBILIFE.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,721 - __main__ - INFO - Loaded SBIN.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,725 - __main__ - INFO - Loaded SHREECEM.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,728 - __main__ - INFO - Loaded SUNPHARMA.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,732 - __main__ - INFO - Loaded SUNTV.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,735 - __main__ - INFO - Loaded TATAMOTORS.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,737 - __main__ - INFO - Loaded TATASTEEL.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,741 - __main__ - INFO - Loaded TCS.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,743 - __main__ - INFO - Loaded TECHM.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,747 - __main__ - INFO - Loaded TITAN.NS_annual_normalized.csv: 4 records
+2025-12-21 13:17:15,749 - __main__ - INFO - Loaded TRENT.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,752 - __main__ - INFO - Loaded ULTRACEMCO.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,754 - __main__ - INFO - Loaded VEDL.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,757 - __main__ - INFO - Loaded WIPRO.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,760 - __main__ - INFO - Loaded ZEEL.NS_annual_normalized.csv: 5 records
+2025-12-21 13:17:15,760 - __main__ - INFO - 
+============================================================
+2025-12-21 13:17:15,761 - __main__ - INFO - VALIDATING QUARTERLY FUNDAMENTALS
+2025-12-21 13:17:15,761 - __main__ - INFO - ============================================================
+2025-12-21 13:17:15,768 - __main__ - INFO - Starting fundamentals validation for 387 records
+2025-12-21 13:17:15,768 - __main__ - INFO - Validating schema and data types...
+2025-12-21 13:17:16,462 - __main__ - INFO - Checking for missing data...
+2025-12-21 13:17:16,616 - __main__ - INFO - Detecting anomalies...
+2025-12-21 13:17:17,110 - __main__ - WARNING - SKIP: M&M.NS - Ticker contains 6 invalid characters
+2025-12-21 13:17:17,111 - __main__ - WARNING - SKIP: ABFRL.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,111 - __main__ - WARNING - SKIP: ABFRL.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,111 - __main__ - INFO - FLAG: ABFRL.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,111 - __main__ - INFO - FLAG: ABFRL.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,111 - __main__ - INFO - FLAG: ABFRL.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,111 - __main__ - INFO - FLAG: ABFRL.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,111 - __main__ - INFO - FLAG: ACC.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,113 - __main__ - INFO - FLAG: ACC.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,113 - __main__ - INFO - FLAG: ACC.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,113 - __main__ - WARNING - SKIP: AMBUJACEM.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,114 - __main__ - WARNING - SKIP: AMBUJACEM.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,114 - __main__ - INFO - FLAG: AMBUJACEM.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,114 - __main__ - INFO - FLAG: AMBUJACEM.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,114 - __main__ - INFO - FLAG: AMBUJACEM.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,114 - __main__ - INFO - FLAG: AMBUJACEM.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,114 - __main__ - WARNING - SKIP: ASIANPAINT.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,114 - __main__ - WARNING - SKIP: ASIANPAINT.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,114 - __main__ - INFO - FLAG: ASIANPAINT.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,115 - __main__ - INFO - FLAG: ASIANPAINT.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,115 - __main__ - INFO - FLAG: ASIANPAINT.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,115 - __main__ - INFO - FLAG: ASIANPAINT.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,115 - __main__ - WARNING - SKIP: AUROPHARMA.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,115 - __main__ - WARNING - SKIP: AUROPHARMA.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,116 - __main__ - INFO - FLAG: AUROPHARMA.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,116 - __main__ - INFO - FLAG: AUROPHARMA.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,116 - __main__ - INFO - FLAG: AUROPHARMA.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,116 - __main__ - INFO - FLAG: AUROPHARMA.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,116 - __main__ - INFO - FLAG: AXISBANK.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,116 - __main__ - INFO - FLAG: AXISBANK.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,117 - __main__ - WARNING - SKIP: BAJAJ-AUTO.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,117 - __main__ - WARNING - SKIP: BAJAJ-AUTO.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,117 - __main__ - INFO - FLAG: BAJAJ-AUTO.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,118 - __main__ - INFO - FLAG: BAJAJ-AUTO.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,118 - __main__ - INFO - FLAG: BAJAJ-AUTO.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,118 - __main__ - INFO - FLAG: BAJAJ-AUTO.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,118 - __main__ - WARNING - SKIP: BAJAJFINSV.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,118 - __main__ - WARNING - SKIP: BAJAJFINSV.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,119 - __main__ - INFO - FLAG: BAJAJFINSV.NS - Missing important field 'ebitda' in 6/6 records
+2025-12-21 13:17:17,119 - __main__ - INFO - FLAG: BAJAJFINSV.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,119 - __main__ - INFO - FLAG: BAJAJFINSV.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,119 - __main__ - INFO - FLAG: BAJAJFINSV.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,119 - __main__ - WARNING - SKIP: BAJFINANCE.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,119 - __main__ - WARNING - SKIP: BAJFINANCE.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,119 - __main__ - INFO - FLAG: BAJFINANCE.NS - Missing important field 'ebitda' in 6/6 records
+2025-12-21 13:17:17,119 - __main__ - INFO - FLAG: BAJFINANCE.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BAJFINANCE.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BAJFINANCE.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,120 - __main__ - WARNING - SKIP: BIOCON.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,120 - __main__ - WARNING - SKIP: BIOCON.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BIOCON.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BIOCON.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BIOCON.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BIOCON.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BPCL.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BPCL.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,120 - __main__ - INFO - FLAG: BPCL.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: BRITANNIA.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: BRITANNIA.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: BRITANNIA.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CHOLAFIN.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CHOLAFIN.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CHOLAFIN.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CHOLAFIN.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,121 - __main__ - WARNING - SKIP: CIPLA.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,121 - __main__ - WARNING - SKIP: CIPLA.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CIPLA.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CIPLA.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CIPLA.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: CIPLA.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: COALINDIA.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: COALINDIA.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: COALINDIA.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: COFORGE.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: COFORGE.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: COFORGE.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: DABUR.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: DABUR.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,121 - __main__ - INFO - FLAG: DABUR.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,125 - __main__ - WARNING - SKIP: DIVISLAB.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,125 - __main__ - WARNING - SKIP: DIVISLAB.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,125 - __main__ - INFO - FLAG: DIVISLAB.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,125 - __main__ - INFO - FLAG: DIVISLAB.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,125 - __main__ - INFO - FLAG: DIVISLAB.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,125 - __main__ - INFO - FLAG: DIVISLAB.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,125 - __main__ - INFO - FLAG: DMART.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,125 - __main__ - INFO - FLAG: DMART.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,126 - __main__ - INFO - FLAG: DMART.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,126 - __main__ - WARNING - SKIP: DRREDDY.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,126 - __main__ - WARNING - SKIP: DRREDDY.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,126 - __main__ - INFO - FLAG: DRREDDY.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,126 - __main__ - INFO - FLAG: DRREDDY.NS - Missing important field 'total_assets' in 2/7 records
+2025-12-21 13:17:17,128 - __main__ - INFO - FLAG: DRREDDY.NS - Missing important field 'total_debt' in 2/7 records
+2025-12-21 13:17:17,128 - __main__ - INFO - FLAG: DRREDDY.NS - Missing important field 'free_cash_flow' in 2/7 records
+2025-12-21 13:17:17,128 - __main__ - WARNING - SKIP: EICHERMOT.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,128 - __main__ - WARNING - SKIP: EICHERMOT.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,128 - __main__ - INFO - FLAG: EICHERMOT.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,128 - __main__ - INFO - FLAG: EICHERMOT.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,130 - __main__ - INFO - FLAG: EICHERMOT.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,130 - __main__ - INFO - FLAG: EICHERMOT.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,130 - __main__ - INFO - FLAG: FEDERALBNK.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,130 - __main__ - INFO - FLAG: FEDERALBNK.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,130 - __main__ - INFO - FLAG: FEDERALBNK.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,130 - __main__ - INFO - FLAG: FEDERALBNK.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,130 - __main__ - WARNING - SKIP: GODREJCP.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,131 - __main__ - WARNING - SKIP: GODREJCP.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,131 - __main__ - INFO - FLAG: GODREJCP.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,131 - __main__ - INFO - FLAG: GODREJCP.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,131 - __main__ - INFO - FLAG: GODREJCP.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,131 - __main__ - INFO - FLAG: GODREJCP.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,131 - __main__ - INFO - FLAG: GRASIM.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,131 - __main__ - INFO - FLAG: GRASIM.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,132 - __main__ - INFO - FLAG: GRASIM.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,132 - __main__ - INFO - FLAG: HCLTECH.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,132 - __main__ - INFO - FLAG: HCLTECH.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,132 - __main__ - INFO - FLAG: HCLTECH.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,133 - __main__ - WARNING - SKIP: HDFCAMC.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,133 - __main__ - WARNING - SKIP: HDFCAMC.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,133 - __main__ - INFO - FLAG: HDFCAMC.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,133 - __main__ - INFO - FLAG: HDFCAMC.NS - Missing important field 'total_assets' in 4/6 records
+2025-12-21 13:17:17,133 - __main__ - INFO - FLAG: HDFCAMC.NS - Missing important field 'total_debt' in 6/6 records
+2025-12-21 13:17:17,134 - __main__ - INFO - FLAG: HDFCAMC.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,134 - __main__ - WARNING - SKIP: HDFCBANK.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,134 - __main__ - WARNING - SKIP: HDFCBANK.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,134 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'ebitda' in 6/6 records
+2025-12-21 13:17:17,134 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'total_assets' in 1/6 records
+2025-12-21 13:17:17,134 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'total_debt' in 1/6 records
+2025-12-21 13:17:17,134 - __main__ - INFO - FLAG: HDFCBANK.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,135 - __main__ - WARNING - SKIP: HDFCLIFE.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,135 - __main__ - WARNING - SKIP: HDFCLIFE.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,135 - __main__ - INFO - FLAG: HDFCLIFE.NS - Missing important field 'ebitda' in 6/6 records
+2025-12-21 13:17:17,135 - __main__ - INFO - FLAG: HDFCLIFE.NS - Missing important field 'total_assets' in 1/6 records
+2025-12-21 13:17:17,135 - __main__ - INFO - FLAG: HDFCLIFE.NS - Missing important field 'total_debt' in 1/6 records
+2025-12-21 13:17:17,135 - __main__ - INFO - FLAG: HDFCLIFE.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,135 - __main__ - WARNING - SKIP: HEROMOTOCO.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,135 - __main__ - WARNING - SKIP: HEROMOTOCO.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,136 - __main__ - INFO - FLAG: HEROMOTOCO.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,136 - __main__ - INFO - FLAG: HEROMOTOCO.NS - Missing important field 'total_assets' in 3/7 records
+2025-12-21 13:17:17,136 - __main__ - INFO - FLAG: HEROMOTOCO.NS - Missing important field 'total_debt' in 3/7 records
+2025-12-21 13:17:17,136 - __main__ - INFO - FLAG: HEROMOTOCO.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,136 - __main__ - WARNING - SKIP: HINDALCO.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,136 - __main__ - WARNING - SKIP: HINDALCO.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,136 - __main__ - INFO - FLAG: HINDALCO.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,136 - __main__ - INFO - FLAG: HINDALCO.NS - Missing important field 'total_assets' in 3/7 records
+2025-12-21 13:17:17,138 - __main__ - INFO - FLAG: HINDALCO.NS - Missing important field 'total_debt' in 3/7 records
+2025-12-21 13:17:17,138 - __main__ - INFO - FLAG: HINDALCO.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,138 - __main__ - INFO - FLAG: HINDUNILVR.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,138 - __main__ - INFO - FLAG: HINDUNILVR.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,139 - __main__ - INFO - FLAG: HINDUNILVR.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,139 - __main__ - INFO - FLAG: HINDZINC.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,139 - __main__ - INFO - FLAG: HINDZINC.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,139 - __main__ - INFO - FLAG: HINDZINC.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,139 - __main__ - WARNING - SKIP: ICICIBANK.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,139 - __main__ - WARNING - SKIP: ICICIBANK.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,140 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'ebitda' in 7/7 records
+2025-12-21 13:17:17,140 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'total_assets' in 2/7 records
+2025-12-21 13:17:17,140 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'total_debt' in 2/7 records
+2025-12-21 13:17:17,140 - __main__ - INFO - FLAG: ICICIBANK.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,140 - __main__ - INFO - FLAG: ICICIPRULI.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,140 - __main__ - INFO - FLAG: ICICIPRULI.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INDUSINDBK.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INDUSINDBK.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INDUSINDBK.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INDUSINDBK.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,141 - __main__ - WARNING - SKIP: INFY.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,141 - __main__ - WARNING - SKIP: INFY.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'total_assets' in 2/7 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'total_debt' in 2/7 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: INFY.NS - Missing important field 'free_cash_flow' in 4/7 records
+2025-12-21 13:17:17,141 - __main__ - INFO - FLAG: IOC.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,142 - __main__ - INFO - FLAG: IOC.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,142 - __main__ - INFO - FLAG: IOC.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,143 - __main__ - WARNING - SKIP: ITC.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,144 - __main__ - WARNING - SKIP: ITC.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,144 - __main__ - INFO - FLAG: ITC.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,144 - __main__ - INFO - FLAG: ITC.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,145 - __main__ - INFO - FLAG: ITC.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,145 - __main__ - INFO - FLAG: ITC.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,145 - __main__ - WARNING - SKIP: JSWSTEEL.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,146 - __main__ - WARNING - SKIP: JSWSTEEL.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: JSWSTEEL.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: JSWSTEEL.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: JSWSTEEL.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: JSWSTEEL.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,146 - __main__ - WARNING - SKIP: KOTAKBANK.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,146 - __main__ - WARNING - SKIP: KOTAKBANK.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: KOTAKBANK.NS - Missing important field 'ebitda' in 6/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: KOTAKBANK.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,146 - __main__ - INFO - FLAG: KOTAKBANK.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,148 - __main__ - INFO - FLAG: KOTAKBANK.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,148 - __main__ - WARNING - SKIP: LT.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,148 - __main__ - WARNING - SKIP: LT.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,149 - __main__ - INFO - FLAG: LT.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,149 - __main__ - INFO - FLAG: LT.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,149 - __main__ - INFO - FLAG: LT.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,149 - __main__ - INFO - FLAG: LT.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,149 - __main__ - INFO - FLAG: LTIM.NS - Missing important field 'free_cash_flow' in 3/5 records
+2025-12-21 13:17:17,149 - __main__ - WARNING - SKIP: M&M.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,150 - __main__ - WARNING - SKIP: M&M.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,150 - __main__ - INFO - FLAG: M&M.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,150 - __main__ - INFO - FLAG: M&M.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,150 - __main__ - INFO - FLAG: M&M.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,150 - __main__ - INFO - FLAG: M&M.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,150 - __main__ - WARNING - SKIP: MARICO.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,150 - __main__ - WARNING - SKIP: MARICO.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,150 - __main__ - INFO - FLAG: MARICO.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: MARICO.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: MARICO.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: MARICO.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: MARUTI.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: MARUTI.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: MARUTI.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: NESTLEIND.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: NESTLEIND.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: NESTLEIND.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,151 - __main__ - INFO - FLAG: NTPC.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: NTPC.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: NTPC.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: ONGC.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: ONGC.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: ONGC.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: ONGC.NS - Missing important field 'total_assets' in 3/7 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: ONGC.NS - Missing important field 'total_debt' in 3/7 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: ONGC.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: PERSISTENT.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: PERSISTENT.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PERSISTENT.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PERSISTENT.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PERSISTENT.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PERSISTENT.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PIDILITIND.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PIDILITIND.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: PIDILITIND.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: POWERGRID.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: POWERGRID.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: POWERGRID.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: RELIANCE.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: RELIANCE.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: RELIANCE.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SBILIFE.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SBILIFE.NS - Missing important field 'total_debt' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SBILIFE.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SBIN.NS - Missing important field 'ebitda' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SBIN.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SHREECEM.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SHREECEM.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SHREECEM.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: SUNPHARMA.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: SUNPHARMA.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SUNPHARMA.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SUNPHARMA.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SUNPHARMA.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,152 - __main__ - INFO - FLAG: SUNPHARMA.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: SUNTV.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,152 - __main__ - WARNING - SKIP: SUNTV.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,159 - __main__ - INFO - FLAG: SUNTV.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,159 - __main__ - INFO - FLAG: SUNTV.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,159 - __main__ - INFO - FLAG: SUNTV.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,159 - __main__ - INFO - FLAG: SUNTV.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,159 - __main__ - WARNING - SKIP: TATAMOTORS.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,160 - __main__ - WARNING - SKIP: TATAMOTORS.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,160 - __main__ - INFO - FLAG: TATAMOTORS.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,161 - __main__ - INFO - FLAG: TATAMOTORS.NS - Missing important field 'total_assets' in 3/7 records
+2025-12-21 13:17:17,161 - __main__ - INFO - FLAG: TATAMOTORS.NS - Missing important field 'total_debt' in 3/7 records
+2025-12-21 13:17:17,161 - __main__ - INFO - FLAG: TATAMOTORS.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,161 - __main__ - WARNING - SKIP: TATASTEEL.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,163 - __main__ - WARNING - SKIP: TATASTEEL.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,163 - __main__ - INFO - FLAG: TATASTEEL.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,163 - __main__ - INFO - FLAG: TATASTEEL.NS - Missing important field 'total_assets' in 3/7 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TATASTEEL.NS - Missing important field 'total_debt' in 3/7 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TATASTEEL.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,164 - __main__ - WARNING - SKIP: TCS.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,164 - __main__ - WARNING - SKIP: TCS.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'total_assets' in 1/6 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'total_debt' in 1/6 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TCS.NS - Missing important field 'free_cash_flow' in 3/6 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TECHM.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TECHM.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TECHM.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,164 - __main__ - INFO - FLAG: TITAN.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,166 - __main__ - INFO - FLAG: TITAN.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,166 - __main__ - INFO - FLAG: TITAN.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,166 - __main__ - WARNING - SKIP: TRENT.NS - Missing mandatory field 'revenue' in 2/7 records
+2025-12-21 13:17:17,166 - __main__ - WARNING - SKIP: TRENT.NS - Missing mandatory field 'net_income' in 2/7 records
+2025-12-21 13:17:17,166 - __main__ - INFO - FLAG: TRENT.NS - Missing important field 'ebitda' in 2/7 records
+2025-12-21 13:17:17,166 - __main__ - INFO - FLAG: TRENT.NS - Missing important field 'total_assets' in 3/7 records
+2025-12-21 13:17:17,166 - __main__ - INFO - FLAG: TRENT.NS - Missing important field 'total_debt' in 3/7 records
+2025-12-21 13:17:17,166 - __main__ - INFO - FLAG: TRENT.NS - Missing important field 'free_cash_flow' in 7/7 records
+2025-12-21 13:17:17,167 - __main__ - INFO - FLAG: ULTRACEMCO.NS - Missing important field 'total_assets' in 3/5 records
+2025-12-21 13:17:17,167 - __main__ - INFO - FLAG: ULTRACEMCO.NS - Missing important field 'total_debt' in 3/5 records
+2025-12-21 13:17:17,167 - __main__ - INFO - FLAG: ULTRACEMCO.NS - Missing important field 'free_cash_flow' in 5/5 records
+2025-12-21 13:17:17,167 - __main__ - WARNING - SKIP: VEDL.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,167 - __main__ - WARNING - SKIP: VEDL.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,167 - __main__ - INFO - FLAG: VEDL.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,168 - __main__ - INFO - FLAG: VEDL.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,168 - __main__ - INFO - FLAG: VEDL.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,168 - __main__ - INFO - FLAG: VEDL.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,168 - __main__ - WARNING - SKIP: WIPRO.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,168 - __main__ - WARNING - SKIP: WIPRO.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,168 - __main__ - INFO - FLAG: WIPRO.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,168 - __main__ - INFO - FLAG: WIPRO.NS - Missing important field 'total_assets' in 1/6 records
+2025-12-21 13:17:17,169 - __main__ - INFO - FLAG: WIPRO.NS - Missing important field 'total_debt' in 1/6 records
+2025-12-21 13:17:17,169 - __main__ - INFO - FLAG: WIPRO.NS - Missing important field 'free_cash_flow' in 2/6 records
+2025-12-21 13:17:17,169 - __main__ - WARNING - SKIP: ZEEL.NS - Missing mandatory field 'revenue' in 1/6 records
+2025-12-21 13:17:17,169 - __main__ - WARNING - SKIP: ZEEL.NS - Missing mandatory field 'net_income' in 1/6 records
+2025-12-21 13:17:17,169 - __main__ - INFO - FLAG: ZEEL.NS - Missing important field 'ebitda' in 1/6 records
+2025-12-21 13:17:17,169 - __main__ - INFO - FLAG: ZEEL.NS - Missing important field 'total_assets' in 3/6 records
+2025-12-21 13:17:17,169 - __main__ - INFO - FLAG: ZEEL.NS - Missing important field 'total_debt' in 3/6 records
+2025-12-21 13:17:17,169 - __main__ - INFO - FLAG: ZEEL.NS - Missing important field 'free_cash_flow' in 6/6 records
+2025-12-21 13:17:17,170 - __main__ - WARNING - SKIP: ABFRL.NS - Found 1 negative values in revenue (should always be >= 0)
+2025-12-21 13:17:17,170 - __main__ - INFO - FLAG: ABFRL.NS - Net income changed by -1123.3%
+2025-12-21 13:17:17,170 - __main__ - INFO - FLAG: BIOCON.NS - Net income changed by 1272.5%
+2025-12-21 13:17:17,170 - __main__ - INFO - FLAG: IOC.NS - Net income changed by -1347.4%
+2025-12-21 13:17:17,170 - __main__ - INFO - FLAG: TATAMOTORS.NS - Net income changed by 1841.1%
+2025-12-21 13:17:17,171 - __main__ - INFO - Skipped 38 tickers: KOTAKBANK.NS, HDFCLIFE.NS, VEDL.NS, BIOCON.NS, PERSISTENT.NS, HEROMOTOCO.NS, JSWSTEEL.NS, SUNPHARMA.NS, TCS.NS, TATASTEEL.NS, AUROPHARMA.NS, ICICIBANK.NS, GODREJCP.NS, ASIANPAINT.NS, BAJFINANCE.NS, BAJAJ-AUTO.NS, INFY.NS, DRREDDY.NS, ZEEL.NS, DIVISLAB.NS, BAJAJFINSV.NS, HDFCAMC.NS, ONGC.NS, MARICO.NS, M&M.NS, EICHERMOT.NS, SUNTV.NS, AMBUJACEM.NS, CIPLA.NS, RELIANCE.NS, WIPRO.NS, TRENT.NS, ABFRL.NS, ITC.NS, HDFCBANK.NS, TATAMOTORS.NS, HINDALCO.NS, LT.NS
+2025-12-21 13:17:17,185 - __main__ - INFO - Validation report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_report_fundamentals_20251221_131717.json
+2025-12-21 13:17:17,187 - __main__ - INFO - Summary report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251221_131717.md
+2025-12-21 13:17:17,197 - __main__ - INFO - CSV report saved: C:\Projects\AI-Powered-Mobile-Stock-Screener-and-Advisory-Platform\backend\services\data_validation\reports\validation_summary_fundamentals_20251221_131717.csv
+2025-12-21 13:17:17,197 - __main__ - INFO - Validation complete. Found 319 issues.
+2025-12-21 13:17:17,197 - __main__ - INFO - Clean records: 150/387

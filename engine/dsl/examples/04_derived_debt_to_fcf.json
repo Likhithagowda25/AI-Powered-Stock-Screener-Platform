@@ -1,0 +1,32 @@
+{
+  "description": "Low debt stocks with healthy cash flow",
+  "natural_language": "Find stocks with low debt-to-FCF ratio and consistent free cash flow",
+  "category": "derived_metrics",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "debt_to_fcf",
+          "operator": "<",
+          "value": 3
+        },
+        {
+          "field": "free_cash_flow",
+          "operator": ">",
+          "value": 0,
+          "period": {
+            "type": "last_n_quarters",
+            "n": 8,
+            "aggregation": "all"
+          }
+        },
+        {
+          "field": "fcf_margin",
+          "operator": ">",
+          "value": 10
+        }
+      ]
+    },
+    "limit": 25
+  }
+}

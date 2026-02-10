@@ -1,0 +1,38 @@
+{
+  "description": "High growth stocks with increasing revenue",
+  "natural_language": "Find stocks with revenue growth > 20% for last 3 years and increasing revenue trend",
+  "category": "trend_analysis",
+  "dsl": {
+    "filter": {
+      "and": [
+        {
+          "field": "revenue_growth_yoy",
+          "operator": ">",
+          "value": 20
+        },
+        {
+          "field": "revenue",
+          "operator": "increasing",
+          "period": {
+            "type": "last_n_years",
+            "n": 3,
+            "aggregation": "trend"
+          },
+          "trend_config": {
+            "direction": "increasing",
+            "min_periods": 3,
+            "consecutive": true
+          }
+        }
+      ]
+    },
+    "meta": {
+      "exchange": "NSE"
+    },
+    "sort": {
+      "field": "revenue_growth_yoy",
+      "order": "desc"
+    },
+    "limit": 30
+  }
+}
