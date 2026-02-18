@@ -495,10 +495,14 @@ function MetricItem({ label, value, format, unit = '', theme, isDerived = false 
         return num.toFixed(2);
       case 'percent':
         return `${num.toFixed(2)}%`;
-      case 'currency':
-        if (num >= 10000) return `${(num / 1000).toFixed(1)}K`;
-        if (num >= 1000) return `${(num / 1000).toFixed(2)}K`;
-        return num.toFixed(2);
+      case 'currency': {
+        // Convert raw rupees to crores (1 Cr = 1e7)
+        const crores = num / 1e7;
+        if (crores >= 100000) return `${(crores / 100000).toFixed(2)} L`;
+        if (crores >= 1000) return crores.toLocaleString('en-IN', { maximumFractionDigits: 0 });
+        if (crores >= 1) return crores.toLocaleString('en-IN', { maximumFractionDigits: 2 });
+        return crores.toFixed(2);
+      }
       default:
         return num.toFixed(2);
     }

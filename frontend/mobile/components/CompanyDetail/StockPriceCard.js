@@ -34,9 +34,11 @@ export default function StockPriceCard({
   const formatLargeNumber = (val) => {
     if (val == null || isNaN(val)) return 'N/A';
     const num = Number(val);
-    if (num >= 1e9) return `₹${(num / 1e9).toFixed(2)}B`;
-    if (num >= 1e7) return `₹${(num / 1e7).toFixed(2)}Cr`;
-    if (num >= 1e5) return `₹${(num / 1e5).toFixed(2)}L`;
+    // Convert raw rupees to crores (1 Cr = 1e7)
+    const crores = num / 1e7;
+    if (crores >= 100000) return `₹${(crores / 100000).toFixed(2)} L Cr`;
+    if (crores >= 1000) return `₹${crores.toLocaleString('en-IN', { maximumFractionDigits: 0 })} Cr`;
+    if (crores >= 1) return `₹${crores.toLocaleString('en-IN', { maximumFractionDigits: 2 })} Cr`;
     return `₹${num.toLocaleString('en-IN')}`;
   };
 

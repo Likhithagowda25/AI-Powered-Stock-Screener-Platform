@@ -19,10 +19,14 @@ export default function MetricsSection({ title, metrics, type }) {
     const num = Number(value);
     
     switch (format) {
-      case 'currency':
-        if (Math.abs(num) >= 10000) return `₹${(num / 1000).toFixed(1)}K Cr`;
-        if (Math.abs(num) >= 1000) return `₹${(num / 1000).toFixed(2)}K Cr`;
-        return `₹${num.toFixed(2)} Cr`;
+      case 'currency': {
+        // Convert raw rupees to crores (1 crore = 1e7)
+        const crores = num / 1e7;
+        if (Math.abs(crores) >= 100000) return `₹${(crores / 100000).toFixed(2)} L Cr`;
+        if (Math.abs(crores) >= 1000) return `₹${crores.toLocaleString('en-IN', { maximumFractionDigits: 0 })} Cr`;
+        if (Math.abs(crores) >= 1) return `₹${crores.toLocaleString('en-IN', { maximumFractionDigits: 2 })} Cr`;
+        return `₹${crores.toFixed(2)} Cr`;
+      }
       case 'ratio':
         return num.toFixed(2);
       case 'percent':
