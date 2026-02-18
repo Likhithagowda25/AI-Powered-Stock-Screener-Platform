@@ -9,16 +9,16 @@ Users can ask questions like: <br>
 The backend interprets natural language using LLMs, translates it into validated screening logic, compiles it into optimized SQL, and returns actionable insights instantly.
 
 ## **Key Features**
-Natural Language Querying	Use LLM to interpret investor intent <br>
-AI Screener Engine	Converts rules → secure SQL for analytics <br>
-Portfolio & Watchlist Tracking	Track holdings, P/L, returns, insights <br>
-Custom Alerts & Notifications	Trigger alerts when screening conditions are met <br>
-Market Data & Sentiment Integration	Live financial data & news sentiment <br>
+- Natural Language Querying	Use LLM to interpret investor intent <br>
+- AI Screener Engine	Converts rules → secure SQL for analytics <br>
+- Portfolio & Watchlist Tracking	Track holdings, P/L, returns, insights <br>
+- Custom Alerts & Notifications	Trigger alerts when screening conditions are met <br>
+- Market Data & Sentiment Integration	Live financial data & news sentiment <br>
 
 ## **System Architecture Overview**
-Frontend- React Native <br>
-Backend- Node.js <br>
-Database- PostgreSQL 
+`Frontend:` React Native  
+`Backend:` Node.js  
+`Database:` PostgreSQL
 
 ## **UI Modules:**
 Natural Language Query interface
