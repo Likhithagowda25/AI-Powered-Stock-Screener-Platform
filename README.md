@@ -1,5 +1,5 @@
-AI-Powered Mobile Stock Screener and Advisory Platform
-**Project Overview**
+# AI-Powered Mobile Stock Screener and Advisory Platform
+## **Project Overview**
 
 AI-Powered Mobile Stock Screener and Advisory Platform is a mobile application that empowers retail & professional investors to make data-driven stock market decisions through natural language queries, real-time analytics, and AI-powered insights.
 
@@ -8,7 +8,7 @@ Users can ask questions like:
 
 The backend interprets natural language using LLMs, translates it into validated screening logic, compiles it into optimized SQL, and returns actionable insights instantly.
 
-**Key Features**
+## **Key Features**
 Feature	Description
 Natural Language Querying	Use LLM to interpret investor intent
 AI Screener Engine	Converts rules → secure SQL for analytics
@@ -16,12 +16,12 @@ Portfolio & Watchlist Tracking	Track holdings, P/L, returns, insights
 Custom Alerts & Notifications	Trigger alerts when screening conditions are met
 Market Data & Sentiment Integration	Live financial data & news sentiment
 
-**System Architecture Overview**
+## **System Architecture Overview**
 Frontend- React Native
 Backend- Node.js
 Database- PostgreSQL
 
-**UI Modules:**
+## **UI Modules:**
 Natural Language Query interface
 Screener result
 Portfolio & Watchlist
