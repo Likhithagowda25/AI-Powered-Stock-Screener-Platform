@@ -14,22 +14,19 @@ Feature	Description
 Natural Language Querying	Use LLM to interpret investor intent
 AI Screener Engine	Converts rules → secure SQL for analytics
 Portfolio & Watchlist Tracking	Track holdings, P/L, returns, insights
-Community & Collaboration	Discussion boards, shared screeners
 Custom Alerts & Notifications	Trigger alerts when screening conditions are met
 Market Data & Sentiment Integration	Live financial data & news sentiment
 🏛 System Architecture Overview
 Frontend (Mobile App)
 
-Flutter / React Native (iOS + Android)
+React Native (iOS + Android)
 
 UI Modules:
 
 Natural Language Query interface
 
-Screener result (table / card views)
+Screener result
 
 Portfolio & Watchlist
 
-Community discussion
-
-Alerts & Push notifications
+Alerts & Notifications
