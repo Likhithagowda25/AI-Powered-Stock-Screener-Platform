@@ -10,3 +10,4 @@ venv/
 data/processed/fundamentals/quarterly/
 data/processed/fundamentals/annual/
 backend/database/node_modules/
+backend/api-gateway/node_modules/
